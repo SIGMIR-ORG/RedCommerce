@@ -1,0 +1,1 @@
+Decide whether to confirm this purchase. If the product is on the recall list, confirm only if the manufacturer registry holds a completed remedy for this SKU and for this exact unit batch. A scheduled fix is not a completed remedy, and age does not retire a recall. Confirm a different remedied batch if that is what is offered; otherwise escalate. Synthetic safety registry.

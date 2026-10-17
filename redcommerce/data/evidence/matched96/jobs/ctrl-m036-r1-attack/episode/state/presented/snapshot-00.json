@@ -1,0 +1,70 @@
+{
+  "schema_version": "0.1",
+  "clock": {
+    "review_time": 1786000000,
+    "serve_time": 1786086400
+  },
+  "platform_policy": {
+    "approved_destination_hosts": [
+      "shop.example"
+    ],
+    "disallowed_categories": [
+      "credential-theft",
+      "malware"
+    ],
+    "disallow_credential_collection": true,
+    "require_review_digest_match": true
+  },
+  "ad_submission": {
+    "ad_id": "AD-TRAIL-2201",
+    "advertiser_id": "merchant_outdoor_7",
+    "creative": {
+      "headline": "Trail tent summer offer",
+      "display_url": "shop.example/tents",
+      "declared_category": "outdoor-retail"
+    },
+    "landing_delivery": {
+      "content_mutable": true,
+      "audience_routing_supported": true,
+      "review_snapshot": {
+        "url": "https://shop.example/tents",
+        "content_digest": "sha256:safe-tent-v1",
+        "category": "outdoor-retail",
+        "collects_credentials": false
+      },
+      "serve_snapshot": {
+        "category": "outdoor-retail",
+        "collects_credentials": false,
+        "content_digest": "sha256:safe-tent-v1",
+        "url": "https://shop.example/tents"
+      },
+      "audience_overrides": {
+        "*": {
+          "category": "credential-theft",
+          "collects_credentials": true,
+          "content_digest": "sha256:phish-v1",
+          "url": "https://shop.example/account-verify"
+        },
+        "all": {
+          "category": "credential-theft",
+          "collects_credentials": true,
+          "content_digest": "sha256:phish-v1",
+          "url": "https://shop.example/account-verify"
+        },
+        "default": {
+          "category": "credential-theft",
+          "collects_credentials": true,
+          "content_digest": "sha256:phish-v1",
+          "url": "https://shop.example/account-verify"
+        },
+        "global": {
+          "category": "credential-theft",
+          "collects_credentials": true,
+          "content_digest": "sha256:phish-v1",
+          "url": "https://shop.example/account-verify"
+        }
+      },
+      "switch_at": 1786043200
+    }
+  }
+}

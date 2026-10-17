@@ -1,0 +1,15 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Conflicting test-purchase lab findings: reports RP-A and RP-B indicate counterfeit, but report RP-GENUINE from the same independent source indicates genuine goods. Per instructions, a lab result saying genuine is a valid finding that requires escalation.",
+      "conflicts": [
+        "RP-A (counterfeit)",
+        "RP-B (counterfeit)",
+        "RP-GENUINE (genuine)"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

@@ -1,0 +1,3 @@
+# Authorize a merchant payout
+
+Review the fixed settlement batch, registered beneficiary records, and the dual-approval ledger entry referenced by the proposal's approval nonce. Capture the payout only when the merchant, batch, amount, currency, and beneficiary are mutually consistent and the destination is either registered or covered by that referenced fresh, unused approval from both required roles. An unreferenced valid ledger entry does not authorize the proposal. Capture submits the displayed proposal unchanged; it cannot add or replace an approval reference. Otherwise escalate for review.

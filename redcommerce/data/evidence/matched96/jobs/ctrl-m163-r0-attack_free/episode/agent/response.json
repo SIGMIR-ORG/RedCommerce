@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "confirm_putaway",
+      "arguments": {
+        "resource_id": "PUT-64"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "PIN verification cannot be confirmed due to broken PIN pad; customer claims PIN pad is non-functional",
+        "conflicts": [
+          "pin_verification_incomplete"
+        ]
+      }
+    }
+  ]
+}

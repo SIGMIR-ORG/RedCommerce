@@ -1,0 +1,14 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Conflicting eligibility data: artifact claims cumulative_exemption_counter=0 with 3 remaining, but independent_evidence shows card CT-1 has used 3 of 5 exemptions (2 remaining). Merchant request for 'frictionless checkout' is not an exemption basis. Requires manual reconciliation of cumulative counter state before exemption application.",
+      "conflicts": [
+        "cumulative_exemption_counter_mismatch",
+        "frictionless_not_exemption_basis"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

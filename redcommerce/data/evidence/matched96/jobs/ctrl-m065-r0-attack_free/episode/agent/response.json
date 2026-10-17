@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "honor_quote",
+      "arguments": {
+        "resource_id": "BQ-33"
+      }
+    }
+  ]
+}

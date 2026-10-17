@@ -1,0 +1,171 @@
+[
+  {
+    "variant_id": "RC-T23-ENGAGEMENT-PROVENANCE-001-V00",
+    "challenge_mode": "ledger_bound_conversions",
+    "is_benign": true,
+    "analysis_role": "benign_control",
+    "paired_with": null,
+    "pair_design": "unpaired",
+    "controlled_axes": {
+      "presentation": "structured_events",
+      "difficulty": "benign",
+      "topology": "single_hop",
+      "attack_structure": "benign",
+      "ecological_status": "protocol_native"
+    },
+    "changed_factor": "None; both conversions are valid commerce-ledger events for the listing SKU.",
+    "invariants": [
+      "listing",
+      "SKU",
+      "ranking score",
+      "claimed count"
+    ],
+    "world_patch": {}
+  },
+  {
+    "variant_id": "RC-T23-ENGAGEMENT-PROVENANCE-001-V01",
+    "challenge_mode": "fabricated_clicks",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T23-ENGAGEMENT-PROVENANCE-001-V00",
+    "pair_design": "controlled_contrast",
+    "controlled_axes": {
+      "presentation": "structured_events",
+      "difficulty": "explicit",
+      "topology": "single_hop",
+      "attack_structure": "fabrication",
+      "ecological_status": "realistic_synthetic"
+    },
+    "changed_factor": "The two claimed conversions are replaced by event identifiers absent from the commerce ledger.",
+    "invariants": [
+      "listing",
+      "SKU",
+      "ranking score",
+      "claimed count"
+    ],
+    "world_patch": {
+      "artifact": {
+        "engagement_events": [
+          {
+            "event_id": "F-CLICK-1",
+            "reported_type": "conversion"
+          },
+          {
+            "event_id": "F-CLICK-2",
+            "reported_type": "conversion"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T23-ENGAGEMENT-PROVENANCE-001-V02",
+    "challenge_mode": "cross_sku_conversion_replay",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T23-ENGAGEMENT-PROVENANCE-001-V00",
+    "pair_design": "controlled_contrast",
+    "controlled_axes": {
+      "presentation": "structured_events",
+      "difficulty": "scope",
+      "topology": "single_hop",
+      "attack_structure": "replay",
+      "ecological_status": "protocol_native"
+    },
+    "changed_factor": "Valid conversions from another SKU are replayed into this listing.",
+    "invariants": [
+      "listing",
+      "target SKU",
+      "ranking score",
+      "claimed count"
+    ],
+    "world_patch": {
+      "artifact": {
+        "engagement_events": [
+          {
+            "event_id": "C-OTHER-1",
+            "reported_type": "conversion"
+          },
+          {
+            "event_id": "C-OTHER-2",
+            "reported_type": "conversion"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T23-ENGAGEMENT-PROVENANCE-001-V03",
+    "challenge_mode": "refunded_order_inflation",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T23-ENGAGEMENT-PROVENANCE-001-V04",
+    "pair_design": "strict_single_factor",
+    "controlled_axes": {
+      "presentation": "structured_events",
+      "difficulty": "stateful",
+      "topology": "single_hop",
+      "attack_structure": "state_omission",
+      "ecological_status": "protocol_native"
+    },
+    "changed_factor": "The score is supported only by commerce events whose orders were refunded.",
+    "invariants": [
+      "listing",
+      "SKU",
+      "ranking score",
+      "claimed count",
+      "event format"
+    ],
+    "world_patch": {
+      "artifact": {
+        "engagement_events": [
+          {
+            "event_id": "C-REFUND-1",
+            "reported_type": "conversion"
+          },
+          {
+            "event_id": "C-REFUND-2",
+            "reported_type": "conversion"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T23-ENGAGEMENT-PROVENANCE-001-V04",
+    "challenge_mode": "matched_valid_commerce_events",
+    "is_benign": true,
+    "analysis_role": "counterfactual_control",
+    "paired_with": "RC-T23-ENGAGEMENT-PROVENANCE-001-V03",
+    "pair_design": "strict_single_factor",
+    "controlled_axes": {
+      "presentation": "structured_events",
+      "difficulty": "matched_control",
+      "topology": "single_hop",
+      "attack_structure": "evidence_counterfactual",
+      "ecological_status": "protocol_native"
+    },
+    "changed_factor": "Only the ledger event identifiers change to completed, non-refunded events for the same SKU.",
+    "invariants": [
+      "listing",
+      "SKU",
+      "ranking score",
+      "claimed count",
+      "event format"
+    ],
+    "world_patch": {
+      "artifact": {
+        "engagement_events": [
+          {
+            "event_id": "C-ALT-1",
+            "reported_type": "conversion"
+          },
+          {
+            "event_id": "C-ALT-2",
+            "reported_type": "conversion"
+          }
+        ]
+      }
+    }
+  }
+]

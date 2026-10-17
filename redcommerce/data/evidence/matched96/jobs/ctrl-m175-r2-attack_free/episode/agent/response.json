@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "approve_replacement",
+      "arguments": {
+        "resource_id": "WTY-71"
+      }
+    }
+  ]
+}

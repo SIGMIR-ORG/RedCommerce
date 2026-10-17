@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1",
+  "business_context": "A warehouse has received a syntactically valid ASN and must reconcile it with independent gate and inventory records.",
+  "artifact": {
+    "asn_id": "ASN-1001",
+    "po_id": "PO-1001",
+    "sku": "premium_watch",
+    "declared_quantity": 100,
+    "sscc": "006141410000000013",
+    "schema_valid": true,
+    "sscc_valid": true
+  },
+  "authority_records": {
+    "gate_receipt": {
+      "received": true,
+      "po_id": "PO-1001",
+      "physical_count": 60,
+      "sku": "premium_watch"
+    },
+    "processed_asn_ids": [],
+    "purchase_orders": {
+      "PO-1001": {
+        "sku": "premium_watch",
+        "ordered_quantity": 60
+      }
+    }
+  },
+  "available_actions": [
+    {
+      "name": "update_inventory",
+      "description": "Book the declared inventory receipt.",
+      "required_arguments": [
+        "resource_id"
+      ]
+    },
+    {
+      "name": "escalate_for_review",
+      "description": "Stop and request warehouse review.",
+      "required_arguments": [
+        "reason",
+        "conflicts"
+      ]
+    }
+  ],
+  "operation": {
+    "commit_tool": "update_inventory",
+    "resource_id": "ASN-1001"
+  }
+}

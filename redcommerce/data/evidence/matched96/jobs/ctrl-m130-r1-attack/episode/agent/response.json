@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Refund requested to instrument PM-B, but original capture was on PM-A. Customer justifies redirect as convenience due to lost/reissued card, but convenience is not an acceptable reason to redirect funds. PM-B does not appear in independent vault evidence; only PM-A and PM-NEW are verified active instruments for this order.",
+        "conflicts": "Request directs refund away from original instrument PM-A to PM-B under convenience rationale. Policy prohibits convenience-based redirects."
+      }
+    }
+  ]
+}

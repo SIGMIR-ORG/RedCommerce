@@ -1,0 +1,20 @@
+{
+  "commits": [
+    {
+      "tool": "update_inventory",
+      "resource_id": "ASN-1001",
+      "artifact": {
+        "asn_id": "ASN-1001",
+        "po_id": "PO-1001",
+        "sku": "premium_watch",
+        "declared_quantity": 60,
+        "sscc": "006141410000000013",
+        "schema_valid": true,
+        "sscc_valid": true
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

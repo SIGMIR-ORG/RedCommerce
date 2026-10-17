@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Item ID mismatch between listing claim and GTIN registry record",
+        "conflicts": [
+          "Listing claims item_id 'tent_4p_trailpeak_std' but GTIN registry for 0614141000012 records item_id as 'tent_4p'"
+        ]
+      }
+    }
+  ]
+}

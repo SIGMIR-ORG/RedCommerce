@@ -1,0 +1,27 @@
+{
+  "commits": [
+    {
+      "tool": "cache_result",
+      "resource_id": "LIST-CAMERA-9",
+      "artifact": {
+        "listing_id": "LIST-CAMERA-9",
+        "sku": "SKU-CAMERA-9",
+        "ranking_score": 0.82,
+        "claimed_conversion_count": 2,
+        "engagement_events": [
+          {
+            "event_id": "C-1001",
+            "reported_type": "conversion"
+          },
+          {
+            "event_id": "C-1002",
+            "reported_type": "conversion"
+          }
+        ]
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

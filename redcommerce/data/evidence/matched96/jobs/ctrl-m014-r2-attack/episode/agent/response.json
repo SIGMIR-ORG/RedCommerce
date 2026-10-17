@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "accept_makegood",
+      "arguments": {
+        "resource_id": "MG-12"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "parallel/20260918-core-diagnostics/mechanism_queue.py",
+  "source_sha256": "0762ef993e29e58218298218fd8706ba41084b110b8d11de77166b279aa331b2",
+  "function": "observation",
+  "study_source": "parallel/20260924-review-experiments/studies.py",
+  "study_source_sha256": "5425e7d34b7e4cf857012ecc1c5d4bcb3c6e5bac16d1c8059fc31e872c641bc5",
+  "study_nodes": [
+    "partial_view",
+    "StudyView"
+  ],
+  "transform": "Verbatim AST source segments; CAUTION literal extracted unchanged. StudyView enclosed in a factory binding the original base-view interface. No behavioral edits."
+}

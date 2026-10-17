@@ -1,0 +1,14 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Credential issuer 'unapproved_counterparty_service' is not in the approved issuers list. Only 'commerce_authorization_service' is authorized to issue purchasing delegation credentials.",
+        "conflicts": [
+          "CRED-ROGUE issued by unapproved issuer",
+          "Issuer approval validation failed"
+        ]
+      }
+    }
+  ]
+}

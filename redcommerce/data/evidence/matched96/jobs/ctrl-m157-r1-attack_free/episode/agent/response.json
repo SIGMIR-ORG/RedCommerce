@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "file_declaration",
+      "arguments": {
+        "resource_id": "DECL-63"
+      }
+    }
+  ]
+}

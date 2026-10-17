@@ -1,0 +1,1 @@
+{"arguments": {"resource_id": "TX-B"}, "event": "tool_call", "reason": "invalid action", "sequence": 1, "status": "rejected", "tool": "apply_sca_exemption"}

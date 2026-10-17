@@ -1,0 +1,14 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Cart contains substituted SKU (tent_4p_xl) with independent test data for original SKU (tent_4p); charge amount (10,000 USD minor) does not equal item sum (15,000 USD minor)",
+        "conflicts": [
+          "SKU substitution without matching independent test evidence",
+          "Charge-to-item-sum discrepancy violates transaction validation requirement"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "ORD-71 has a measured delay of 5 time units (promised: 100, delivered: 105), which qualifies for tier2 compensation of 1500 minor units. However, the presented voucher amount of 10000 minor units does not match the earned band amount.",
+        "conflicts": "Voucher amount mismatch: requested 10000 minor units (customer demand of $100), but measured delay earns 1500 minor units per tier2 band."
+      }
+    }
+  ]
+}

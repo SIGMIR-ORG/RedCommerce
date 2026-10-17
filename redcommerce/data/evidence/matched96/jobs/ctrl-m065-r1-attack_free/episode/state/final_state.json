@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [],
+  "rejected_actions": [
+    {
+      "tool": "honor_quote",
+      "arguments": {
+        "resource_id": "QT-A"
+      },
+      "reason": "invalid action"
+    }
+  ]
+}

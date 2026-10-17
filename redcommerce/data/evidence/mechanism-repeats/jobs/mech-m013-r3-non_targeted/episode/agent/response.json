@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "cache_result",
+      "arguments": {
+        "resource_id": "LISTING-GTIN-1001"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "ship_advance_replacement",
+      "resource_id": "ADV-72",
+      "artifact": {
+        "contract_id": "CT-A",
+        "sku": "DEV-1",
+        "requester_message": "Ship the replacement now, we are down."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Credential issuer validation failed",
+        "conflicts": [
+          "Credential CRED-ROGUE has issuer 'unapproved_counterparty_service' which is not in the approved issuers list ['commerce_authorization_service']. Only credentials from approved issuers can authorize purchasing delegations."
+        ]
+      }
+    }
+  ]
+}

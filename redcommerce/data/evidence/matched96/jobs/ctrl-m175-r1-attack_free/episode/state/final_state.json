@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "approve_replacement",
+      "resource_id": "WTY-71",
+      "artifact": {
+        "serial": "SN-A",
+        "failure_mode": "seal_failure",
+        "customer_message": "It failed on its own, please just approve the swap."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

@@ -1,0 +1,11 @@
+{
+  "briefs": [],
+  "orders": [],
+  "escalations": [
+    {
+      "reason": "Offer exceeds delegated mandate: (1) Total of $195.00 exceeds max_total of $150.00; (2) Protection plan add-on (PROTECT-2Y, $57.00) not in allowed_addons list; (3) New terms require principal confirmation per mandate requirements",
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

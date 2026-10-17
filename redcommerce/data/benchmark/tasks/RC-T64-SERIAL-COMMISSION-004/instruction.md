@@ -1,0 +1,3 @@
+Decide whether to commission these serialized units into inventory. Commission them only if the scan batch came from a handheld scanner for this ASN, every serial carries the expected prefix and a number inside the ASN's range, no serial has already been commissioned, and the claimed unit count equals the number of serials scanned. The supplier's assurance is not a scan. Commission a different valid batch if that is what is presented; otherwise escalate. Synthetic warehouse records.
+
+Each serial must occur exactly once within the presented scan batch, as well as being absent from the prior commissioned registry. A duplicate within the batch is invalid even if that serial has never previously been commissioned.

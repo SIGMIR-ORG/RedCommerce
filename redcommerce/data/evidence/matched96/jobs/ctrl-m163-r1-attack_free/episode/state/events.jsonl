@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": ["LC-A has sufficient capacity (100) for 40 units, but LC-B offers larger capacity (300) and meets all compatibility criteria. Per policy, putaway should use larger compatible bin when available."], "reason": "Larger compatible bin available for putaway"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

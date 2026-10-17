@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": "[\"destination_url_mismatch\", \"change_order_OS-4471_modifies_approved_review\"]", "reason": "Served destination URL does not exactly match reviewed destination URL. Reviewed: https://shop.example/tent | Served: https://shop.example/tent-deal"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

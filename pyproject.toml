@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "redcommerce-benchmark"
+version = "0.1.0"
+description = "Executable agentic commerce tasks and deterministic evaluation"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+redcommerce = "redcommerce.cli:main"
+
+[tool.setuptools]
+packages = ["redcommerce"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+redcommerce = ["instruction_appendices.json", "data/**/*"]

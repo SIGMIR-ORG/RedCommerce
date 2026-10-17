@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "open_brand_listing",
+      "arguments": {
+        "resource_id": "GATE-21"
+      }
+    }
+  ]
+}

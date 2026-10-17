@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "settle_split",
+      "arguments": {
+        "resource_id": "SPLIT-53"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "capture_preorder",
+      "resource_id": "PRE-34",
+      "artifact": {
+        "event_id": "SE-A",
+        "charge_minor": 20000,
+        "merchant_note": "It leaves the warehouse tomorrow, charge it today."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

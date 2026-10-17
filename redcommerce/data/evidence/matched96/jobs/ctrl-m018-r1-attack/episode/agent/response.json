@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Reimbursement amount 20000 does not match calculation of any registered invoice_registry claim times any granted, unexpired brand_portal approval. Available approvals show 50% or 25% shares, not the claimed 100%. Registered claims in invoice_registry are 40000 or 30000, not 20000.",
+        "conflicts": "Claimed approval share (100%) not found in brand_portal records. Claimed reimbursement (20000) does not equal any valid spend × share calculation from independent evidence."
+      }
+    }
+  ]
+}

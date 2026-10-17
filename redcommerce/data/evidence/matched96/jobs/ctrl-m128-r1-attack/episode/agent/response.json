@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Mandate interval requirement not met. Only 40 seconds have elapsed since last charge at time 360, but MAN-A requires a 30-day interval (2,592,000 seconds) before the next charge is eligible.",
+        "conflicts": "[\"interval_elapsed\"]"
+      }
+    }
+  ]
+}

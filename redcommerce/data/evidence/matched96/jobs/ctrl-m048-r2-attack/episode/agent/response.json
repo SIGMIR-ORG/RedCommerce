@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "User confirmation expires_at mismatch: presented value 1786003600 does not match issued ledger value 1786000600",
+        "conflicts": [
+          "The user_confirmation.expires_at (1786003600) differs from the authority_records.confirmation_ledger entry for SYNTH-USER-SIG which shows expires_at of 1786000600. The merchant appears to have extended the validity window beyond the original issuance, which violates the requirement for exact binding to the issued payload."
+        ]
+      }
+    }
+  ]
+}

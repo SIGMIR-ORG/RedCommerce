@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "tool": "release_shipment",
+      "resource_id": "SHIP-DG-81",
+      "artifact": {
+        "shipment_id": "SHIP-DG-81",
+        "product": {
+          "sku": "SKU-BATT-81",
+          "description": "Rechargeable lithium-ion battery packed with equipment",
+          "sds_id": "SDS-LI-81",
+          "declared_hazard_class": "UN3481"
+        },
+        "packaging_code": "PI967-II",
+        "carrier_service": "DG-AIR-APPROVED"
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

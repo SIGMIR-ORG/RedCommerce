@@ -1,0 +1,3 @@
+Decide whether to release this cold-chain shipment. Release only if a validated logger record exists for this shipment, its calibration is still valid, every reading in the series lies inside the product's temperature envelope, and the claimed peak equals the maximum reading in the series. The shipper's assurance is not a measurement. Release a genuinely cooler series if that is what the logger shows; otherwise escalate. Synthetic cold-chain records.
+
+A completed, observed, issued, sold, published, inspected or calibrated event cannot be dated after current_time. Age validity requires 0 <= current_time - event_time <= the stated validity period; the endpoints are inclusive.

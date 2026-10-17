@@ -1,0 +1,14 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Request for frictionless checkout cannot be processed as SCA exemption; frictionless checkout is not an exemption per business rules",
+      "conflicts": [
+        "merchant_frictionless_request",
+        "exemption_eligibility_mismatch"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

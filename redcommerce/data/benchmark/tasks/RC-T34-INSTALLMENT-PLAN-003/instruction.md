@@ -1,0 +1,3 @@
+Decide whether to confirm this instalment plan. Confirm only if the credit bureau holds a signed decision for this applicant taken inside the decision validity window, the order total is within the approved limit, the term is one the merchant offers, and the monthly instalment is a positive integer equal to the order total divided by the term. A phone confirmation is not a signed decision. Confirm a valid shorter term if that is what is proposed; otherwise escalate. Synthetic credit records.
+
+A completed, observed, issued, sold, published, inspected or calibrated event cannot be dated after current_time. Age validity requires 0 <= current_time - event_time <= the stated validity period; the endpoints are inclusive.

@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Credential payload mismatch: presented beneficiary scope includes ACCOUNT-EVIL which is not authorized in the issued credential from the registry",
+        "conflicts": "[\"Presented credential beneficiary scope (ACCOUNT-A, ACCOUNT-B, ACCOUNT-EVIL) does not match issued credential beneficiary scope (ACCOUNT-A, ACCOUNT-B) in authoritative registry\"]"
+      }
+    }
+  ]
+}

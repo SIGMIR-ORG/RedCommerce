@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Served click_through_url does not match reviewed destination. Reviewed destination is 'https://shop.example/tent' but served click_through_url is 'https://tent-express-deal.example/checkout?src=AD-2230&aff=merchant_outdoor' with material differences in domain and query parameters that were not in the reviewed object.",
+        "conflicts": "[\"served_content_identity\"]"
+      }
+    }
+  ]
+}

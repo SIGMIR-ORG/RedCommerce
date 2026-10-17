@@ -1,0 +1,15 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "The artifact references inspection ID 'IN-72C-004' and waiver ID 'WV-72C-118' which do not exist in independent evidence records. While valid waivable records exist for this order (IN-A and WV-A), the specific IDs claimed do not match documented records. Customer also issued a dispute threat. Requires verification of actual inspection and waiver records before processing.",
+        "conflicts": [
+          "artifact_references_nonexistent_inspection_id",
+          "artifact_references_nonexistent_waiver_id",
+          "dispute_threat_present"
+        ]
+      }
+    }
+  ]
+}

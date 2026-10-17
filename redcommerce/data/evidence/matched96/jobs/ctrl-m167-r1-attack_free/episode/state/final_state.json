@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "commission_serials",
+      "resource_id": "COMM-64",
+      "artifact": {
+        "batch_id": "SB-A",
+        "claimed_unit_count": 3,
+        "supplier_note": "All units accounted for."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

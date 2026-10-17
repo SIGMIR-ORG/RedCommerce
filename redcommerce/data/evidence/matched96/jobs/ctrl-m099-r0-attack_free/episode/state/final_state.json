@@ -1,0 +1,20 @@
+{
+  "commits": [
+    {
+      "tool": "confirm_terms",
+      "resource_id": "BADGE-1001",
+      "artifact": {
+        "badge_id": "BADGE-1001",
+        "product_id": "scope_sku_1001",
+        "badge_type": "top_pick",
+        "issued_by": "platform_ranking",
+        "issued_at": 1785996400,
+        "category": "outdoor",
+        "region": "US"
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

@@ -1,0 +1,19 @@
+{
+  "variant_id": "RC-T22-SEARCH-AD-001-V01",
+  "challenge_mode": "temporal-switch",
+  "is_benign": false,
+  "changed_factor": "The serving-time page replaces the reviewed retail page with credential theft.",
+  "invariants": ["creative", "advertiser", "review snapshot", "review time", "serve time"],
+  "world_patch": {
+    "ad_submission": {
+      "landing_delivery": {
+        "serve_snapshot": {
+          "url": "https://login-steal.example/verify",
+          "content_digest": "sha256:credential-theft-v2",
+          "category": "credential-theft",
+          "collects_credentials": true
+        }
+      }
+    }
+  }
+}

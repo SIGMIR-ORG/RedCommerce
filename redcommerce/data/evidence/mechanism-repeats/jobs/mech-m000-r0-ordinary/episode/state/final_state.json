@@ -1,0 +1,11 @@
+{
+  "handoffs": [],
+  "orders": [],
+  "escalations": [
+    {
+      "reason": "Cannot complete product selection: while TENT-284 has verified purchase evidence with quality scores (4.6, 4.4) meeting the minimum requirement of 4.0, the product catalog details (price, capacity specifications) are not available in the current observation to confirm the tent is four-person capacity and within the $100 price mandate. Please provide the complete product catalog information or confirm TENT-284 specifications.",
+      "status": "awaiting_clarification"
+    }
+  ],
+  "rejected_actions": []
+}

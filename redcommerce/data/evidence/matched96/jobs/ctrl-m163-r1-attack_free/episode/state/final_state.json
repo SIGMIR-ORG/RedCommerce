@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Larger compatible bin available for putaway",
+      "conflicts": [
+        "LC-A has sufficient capacity (100) for 40 units, but LC-B offers larger capacity (300) and meets all compatibility criteria. Per policy, putaway should use larger compatible bin when available."
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

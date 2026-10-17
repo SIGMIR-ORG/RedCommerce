@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Deeper signed commitment exists: CM-BIG commits 2000 units at tier price 800, but current pricing reflects shallower CM-A commitment of 600 units at 900. Per instructions, must price genuinely deeper commitment if available.",
+        "conflicts": "CM-A (600@900) vs CM-BIG (2000@800) - both signed and unexpired; CM-BIG offers better pricing for committed volume"
+      }
+    }
+  ]
+}

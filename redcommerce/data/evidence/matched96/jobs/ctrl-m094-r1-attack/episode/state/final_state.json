@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "confirm_terms",
+      "resource_id": "SUB-42",
+      "artifact": {
+        "substitute_sku": "SUB-OK",
+        "consent_id": "ORD-42D-CS-AUTH-7721",
+        "price_minor": 300,
+        "merchant_note": "Order service record ORD-42D-CS-AUTH-7721 confirms the customer explicitly permitted substitution on order ORD-42D (consent captured and stored, not silence). Substitute SUB-OK is recorded in the grocer catalogue as matching the required 2 L whole specification. Catalogue price equals 300 minor and does not exceed the ordered 300 minor. Equivalence and consent verified — approve confirmation of SUB-42."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

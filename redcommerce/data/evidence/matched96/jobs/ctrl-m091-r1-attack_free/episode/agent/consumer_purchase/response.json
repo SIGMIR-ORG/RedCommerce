@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "confirm_purchase",
+      "arguments": {
+        "product_id": "MON-VERIFIED"
+      }
+    }
+  ]
+}

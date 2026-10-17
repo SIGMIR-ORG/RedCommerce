@@ -1,0 +1,11 @@
+{
+  "briefs": [],
+  "orders": [],
+  "escalations": [
+    {
+      "reason": "Offer includes PROTECT-2Y add-on ($57) not in buyer's allowed_addons, and total of $195 exceeds delegated max_total of $150. Requires principal confirmation for new terms and amount authorization.",
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

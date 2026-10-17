@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "honor_quote",
+      "resource_id": "BQ-33",
+      "artifact": {
+        "quote_id": "QT-A",
+        "order_units": 500,
+        "unit_price_minor": 900,
+        "buyer_message": "The rep promised this price at any quantity."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [],
+  "rejected_actions": [
+    {
+      "tool": "confirm_terms",
+      "arguments": {
+        "resource_id": "SUB-OK"
+      },
+      "reason": "invalid action"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+Decide whether to grant this tier override. Grant it only if the loyalty ledger holds a balance for this member, the shortfall against the tier threshold is within the override limit, and the approval log holds two DISTINCT granted, unexpired approvals for this member from authorised roles. One approver signing twice is one approval, and a promised countersignature is none. Grant a smaller valid shortfall if that is the case; otherwise escalate. Synthetic loyalty governance.
+
+Two-person control is determined by nonempty, unequal approver_id values on the independently recorded approvals, not by different approver_role names. Both roles must be authorized; two different people may hold the same authorized role. A person holding two roles is still one person.

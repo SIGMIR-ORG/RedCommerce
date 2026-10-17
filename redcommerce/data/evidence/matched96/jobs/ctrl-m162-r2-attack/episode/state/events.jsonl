@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": "LC-B offers superior capacity for this putaway operation", "reason": "Larger compatible bin available: LC-B has 300 units free capacity vs LC-A's 100 units, both permit hazard class 3"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

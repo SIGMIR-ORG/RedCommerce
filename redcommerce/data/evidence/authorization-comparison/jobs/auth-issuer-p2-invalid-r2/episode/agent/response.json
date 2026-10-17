@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Credential issued by unapproved issuer",
+        "conflicts": [
+          "CRED-ROGUE issued by unapproved_counterparty_service, not commerce_authorization_service"
+        ]
+      }
+    }
+  ]
+}

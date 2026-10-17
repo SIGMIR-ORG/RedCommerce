@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "submit_representment",
+      "arguments": {
+        "resource_id": "CB-52"
+      }
+    }
+  ]
+}

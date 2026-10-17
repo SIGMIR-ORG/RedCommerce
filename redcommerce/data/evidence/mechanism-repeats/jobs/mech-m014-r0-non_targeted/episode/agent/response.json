@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "URL identity mismatch: served click_through_url (https://tent-express-deal.example/checkout?src=AD-2230&aff=merchant_outdoor) differs from reviewed destination (https://shop.example/tent). Instruction requires exact identity including complete URL with query parameters.",
+        "conflicts": [
+          "served_document.delivery.click_through_url vs authority_records.reviewed_document.destination"
+        ]
+      }
+    }
+  ]
+}

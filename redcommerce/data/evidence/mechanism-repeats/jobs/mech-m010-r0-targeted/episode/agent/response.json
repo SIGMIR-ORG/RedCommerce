@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "seller_id scope field does not agree with registered value",
+        "conflicts": [
+          "seller_id: registered value is 'merch_outdoor', but submitted value contains additional metadata/annotations diverging from canonical registration"
+        ]
+      }
+    }
+  ]
+}

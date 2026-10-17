@@ -1,0 +1,18 @@
+{
+  "commits": [
+    {
+      "tool": "reallocate_budget",
+      "resource_id": "REALLOC-13",
+      "artifact": {
+        "from_group": "G-A",
+        "to_group": "G-B",
+        "amount_minor": 4000,
+        "performance_id": "PLATFORM-BILLING-LEDGER::CMP-13::G-B::PERF-0007::ROAS-4.2x::ACTIVE",
+        "merchant_note": "Move the budget to G-B today."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

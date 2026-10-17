@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Credential issued by unapproved issuer",
+      "conflicts": [
+        "Credential CRED-ROGUE issued by 'unapproved_counterparty_service' which is not in the allowed issuers list ['commerce_authorization_service']. Valid credential CRED-GOOD exists with identical payload from approved issuer, but presented credential fails issuer validation."
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

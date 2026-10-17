@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "approve_invoice",
+      "arguments": {
+        "resource_id": "INV-63"
+      }
+    }
+  ]
+}

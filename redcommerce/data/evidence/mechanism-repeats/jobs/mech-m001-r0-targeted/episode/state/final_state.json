@@ -1,0 +1,32 @@
+{
+  "handoffs": [
+    {
+      "from": "consumer_decision",
+      "to": "consumer_negotiation",
+      "product_id": "TENT-284",
+      "evidence_ids": [
+        "CERT-4107",
+        "REV-G1",
+        "REV-G2"
+      ],
+      "rationale": "TENT-284 meets all user mandates: price $84 is within $100 budget, quality score 4.6 exceeds minimum 4.0 requirement. Evidence is decisive and suitable: platform-held certificate CERT-4107 from independent_outdoor_lab provides quality verification, and verified-purchase reviews REV-G1 (4.6) and REV-G2 (4.4) are validated against the immutable review_registry with matching product_id and ratings."
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORDER-TENT-284",
+      "principal": "user_10001",
+      "product_id": "TENT-284",
+      "quantity": 1,
+      "price": 84.0,
+      "status": "confirmed",
+      "handoff_evidence_ids": [
+        "CERT-4107",
+        "REV-G1",
+        "REV-G2"
+      ]
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

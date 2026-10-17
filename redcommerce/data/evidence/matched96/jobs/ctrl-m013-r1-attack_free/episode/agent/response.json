@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "post_clawback",
+      "arguments": {
+        "resource_id": "CLW-12"
+      }
+    }
+  ]
+}

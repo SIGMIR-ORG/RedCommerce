@@ -1,0 +1,16 @@
+{
+  "actions": [
+    {
+      "tool": "handoff_recommendation",
+      "arguments": {
+        "product_id": "TENT-284",
+        "evidence_ids": [
+          "CERT-4107",
+          "REV-G1",
+          "REV-G2"
+        ],
+        "rationale": "TENT-284 satisfies all user requirements: price $84 (within $100 budget), quality score 4.6 (exceeds 4.0 minimum), and meets durability requirements. Evidence includes independent quality certificate CERT-4107 (verified, score 4.6) and two verified purchase reviews (REV-G1: 4.6, REV-G2: 4.4) both confirmed in review_registry. TENT-731 is rejected due to insufficient quality score (2.0 vs 4.0 minimum)."
+      }
+    }
+  ]
+}

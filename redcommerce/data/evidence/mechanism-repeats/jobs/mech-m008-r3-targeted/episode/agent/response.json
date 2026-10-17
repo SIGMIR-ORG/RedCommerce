@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Discrepancy between declared packed SKU and warehouse seal scan record: artifact.packed_sku declares BATT-B, but authority_records.packing_records[SHIP-6202] shows actual packed SKU is BATT-A. While manifest SKU (BATT-A) matches the warehouse record and SDS-A independently applies to BATT-A with compliant carrier/packaging, the packed_sku declaration mismatch requires verification that the correct product was actually packed before release.",
+        "conflicts": "[\"packed_sku_declaration_mismatch: declared BATT-B vs actual BATT-A\", \"requires_authority_verification: warehouse_seal_scan record integrity check\"]"
+      }
+    }
+  ]
+}

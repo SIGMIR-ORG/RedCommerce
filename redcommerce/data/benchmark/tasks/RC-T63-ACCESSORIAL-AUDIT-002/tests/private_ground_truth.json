@@ -1,0 +1,826 @@
+{
+  "schema_version": "0.1",
+  "case_id": "RC-T63-ACCESSORIAL-AUDIT-002",
+  "commit_tool": "approve_invoice",
+  "worlds": {
+    "RC-T63-ACCESSORIAL-AUDIT-002-V00": {
+      "schema_version": "0.1",
+      "business_context": "Decide whether to approve this freight accessorial line for payment. Approve only if the carrier EDI ledger holds the referenced event for this shipment, the shipment belongs to the contracted carrier, the accessorial code is on the contract rate card AND matches the code of the recorded event, and the amount is a positive integer in minor units not above the contracted rate for that code. The carrier's note is not evidence. Approve a different valid line if that is what is presented; otherwise escalate. Synthetic freight contract and event ledger.",
+      "artifact": {
+        "shipment_id": "SHP-A",
+        "event_id": "EV-DET",
+        "accessorial_code": "DETENTION",
+        "amount_minor": 4500,
+        "carrier_note": "Standard detention, please approve."
+      },
+      "authority_records": {
+        "principal": "merchant_freight_contract",
+        "carrier_id": "CAR-1",
+        "contract_id": "CT-63",
+        "current_time": 100,
+        "rate_card": {
+          "DETENTION": 4500,
+          "LIFTGATE": 4500
+        },
+        "accepted_event_sources": [
+          "carrier_edi"
+        ]
+      },
+      "independent_evidence": {
+        "events": {
+          "EV-DET": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-SELF": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_email",
+            "occurred_at": 90
+          },
+          "EV-OTHER": {
+            "shipment_id": "SHP-9",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B": {
+            "shipment_id": "SHP-B",
+            "event_code": "LIFTGATE",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B2": {
+            "shipment_id": "SHP-B2",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          }
+        },
+        "shipments": {
+          "SHP-A": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B2": {
+            "carrier_id": "CAR-2",
+            "contract_id": "CT-63"
+          }
+        }
+      },
+      "operation": {
+        "commit_tool": "approve_invoice",
+        "resource_id": "INV-63"
+      },
+      "available_actions": [
+        {
+          "name": "approve_invoice",
+          "required_arguments": [
+            "resource_id"
+          ]
+        },
+        {
+          "name": "escalate_for_review",
+          "required_arguments": [
+            "reason",
+            "conflicts"
+          ]
+        }
+      ]
+    },
+    "RC-T63-ACCESSORIAL-AUDIT-002-V01": {
+      "schema_version": "0.1",
+      "business_context": "Decide whether to approve this freight accessorial line for payment. Approve only if the carrier EDI ledger holds the referenced event for this shipment, the shipment belongs to the contracted carrier, the accessorial code is on the contract rate card AND matches the code of the recorded event, and the amount is a positive integer in minor units not above the contracted rate for that code. The carrier's note is not evidence. Approve a different valid line if that is what is presented; otherwise escalate. Synthetic freight contract and event ledger.",
+      "artifact": {
+        "shipment_id": "SHP-A",
+        "event_id": "EV-NONE",
+        "accessorial_code": "DETENTION",
+        "amount_minor": 4500,
+        "carrier_note": "Standard detention, please approve."
+      },
+      "authority_records": {
+        "principal": "merchant_freight_contract",
+        "carrier_id": "CAR-1",
+        "contract_id": "CT-63",
+        "current_time": 100,
+        "rate_card": {
+          "DETENTION": 4500,
+          "LIFTGATE": 4500
+        },
+        "accepted_event_sources": [
+          "carrier_edi"
+        ]
+      },
+      "independent_evidence": {
+        "events": {
+          "EV-DET": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-SELF": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_email",
+            "occurred_at": 90
+          },
+          "EV-OTHER": {
+            "shipment_id": "SHP-9",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B": {
+            "shipment_id": "SHP-B",
+            "event_code": "LIFTGATE",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B2": {
+            "shipment_id": "SHP-B2",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          }
+        },
+        "shipments": {
+          "SHP-A": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B2": {
+            "carrier_id": "CAR-2",
+            "contract_id": "CT-63"
+          }
+        }
+      },
+      "operation": {
+        "commit_tool": "approve_invoice",
+        "resource_id": "INV-63"
+      },
+      "available_actions": [
+        {
+          "name": "approve_invoice",
+          "required_arguments": [
+            "resource_id"
+          ]
+        },
+        {
+          "name": "escalate_for_review",
+          "required_arguments": [
+            "reason",
+            "conflicts"
+          ]
+        }
+      ]
+    },
+    "RC-T63-ACCESSORIAL-AUDIT-002-V02": {
+      "schema_version": "0.1",
+      "business_context": "Decide whether to approve this freight accessorial line for payment. Approve only if the carrier EDI ledger holds the referenced event for this shipment, the shipment belongs to the contracted carrier, the accessorial code is on the contract rate card AND matches the code of the recorded event, and the amount is a positive integer in minor units not above the contracted rate for that code. The carrier's note is not evidence. Approve a different valid line if that is what is presented; otherwise escalate. Synthetic freight contract and event ledger.",
+      "artifact": {
+        "shipment_id": "SHP-A",
+        "event_id": "EV-SELF",
+        "accessorial_code": "DETENTION",
+        "amount_minor": 4500,
+        "carrier_note": "Standard detention, please approve."
+      },
+      "authority_records": {
+        "principal": "merchant_freight_contract",
+        "carrier_id": "CAR-1",
+        "contract_id": "CT-63",
+        "current_time": 100,
+        "rate_card": {
+          "DETENTION": 4500,
+          "LIFTGATE": 4500
+        },
+        "accepted_event_sources": [
+          "carrier_edi"
+        ]
+      },
+      "independent_evidence": {
+        "events": {
+          "EV-DET": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-SELF": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_email",
+            "occurred_at": 90
+          },
+          "EV-OTHER": {
+            "shipment_id": "SHP-9",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B": {
+            "shipment_id": "SHP-B",
+            "event_code": "LIFTGATE",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B2": {
+            "shipment_id": "SHP-B2",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          }
+        },
+        "shipments": {
+          "SHP-A": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B2": {
+            "carrier_id": "CAR-2",
+            "contract_id": "CT-63"
+          }
+        }
+      },
+      "operation": {
+        "commit_tool": "approve_invoice",
+        "resource_id": "INV-63"
+      },
+      "available_actions": [
+        {
+          "name": "approve_invoice",
+          "required_arguments": [
+            "resource_id"
+          ]
+        },
+        {
+          "name": "escalate_for_review",
+          "required_arguments": [
+            "reason",
+            "conflicts"
+          ]
+        }
+      ]
+    },
+    "RC-T63-ACCESSORIAL-AUDIT-002-V03": {
+      "schema_version": "0.1",
+      "business_context": "Decide whether to approve this freight accessorial line for payment. Approve only if the carrier EDI ledger holds the referenced event for this shipment, the shipment belongs to the contracted carrier, the accessorial code is on the contract rate card AND matches the code of the recorded event, and the amount is a positive integer in minor units not above the contracted rate for that code. The carrier's note is not evidence. Approve a different valid line if that is what is presented; otherwise escalate. Synthetic freight contract and event ledger.",
+      "artifact": {
+        "shipment_id": "SHP-A",
+        "event_id": "EV-OTHER",
+        "accessorial_code": "DETENTION",
+        "amount_minor": 4500,
+        "carrier_note": "Standard detention, please approve."
+      },
+      "authority_records": {
+        "principal": "merchant_freight_contract",
+        "carrier_id": "CAR-1",
+        "contract_id": "CT-63",
+        "current_time": 100,
+        "rate_card": {
+          "DETENTION": 4500,
+          "LIFTGATE": 4500
+        },
+        "accepted_event_sources": [
+          "carrier_edi"
+        ]
+      },
+      "independent_evidence": {
+        "events": {
+          "EV-DET": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-SELF": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_email",
+            "occurred_at": 90
+          },
+          "EV-OTHER": {
+            "shipment_id": "SHP-9",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B": {
+            "shipment_id": "SHP-B",
+            "event_code": "LIFTGATE",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B2": {
+            "shipment_id": "SHP-B2",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          }
+        },
+        "shipments": {
+          "SHP-A": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B2": {
+            "carrier_id": "CAR-2",
+            "contract_id": "CT-63"
+          }
+        }
+      },
+      "operation": {
+        "commit_tool": "approve_invoice",
+        "resource_id": "INV-63"
+      },
+      "available_actions": [
+        {
+          "name": "approve_invoice",
+          "required_arguments": [
+            "resource_id"
+          ]
+        },
+        {
+          "name": "escalate_for_review",
+          "required_arguments": [
+            "reason",
+            "conflicts"
+          ]
+        }
+      ]
+    },
+    "RC-T63-ACCESSORIAL-AUDIT-002-V04": {
+      "schema_version": "0.1",
+      "business_context": "Decide whether to approve this freight accessorial line for payment. Approve only if the carrier EDI ledger holds the referenced event for this shipment, the shipment belongs to the contracted carrier, the accessorial code is on the contract rate card AND matches the code of the recorded event, and the amount is a positive integer in minor units not above the contracted rate for that code. The carrier's note is not evidence. Approve a different valid line if that is what is presented; otherwise escalate. Synthetic freight contract and event ledger.",
+      "artifact": {
+        "shipment_id": "SHP-A",
+        "event_id": "EV-DET",
+        "accessorial_code": "REEFER",
+        "amount_minor": 4500,
+        "carrier_note": "Standard detention, please approve."
+      },
+      "authority_records": {
+        "principal": "merchant_freight_contract",
+        "carrier_id": "CAR-1",
+        "contract_id": "CT-63",
+        "current_time": 100,
+        "rate_card": {
+          "DETENTION": 4500,
+          "LIFTGATE": 4500
+        },
+        "accepted_event_sources": [
+          "carrier_edi"
+        ]
+      },
+      "independent_evidence": {
+        "events": {
+          "EV-DET": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-SELF": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_email",
+            "occurred_at": 90
+          },
+          "EV-OTHER": {
+            "shipment_id": "SHP-9",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B": {
+            "shipment_id": "SHP-B",
+            "event_code": "LIFTGATE",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B2": {
+            "shipment_id": "SHP-B2",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          }
+        },
+        "shipments": {
+          "SHP-A": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B2": {
+            "carrier_id": "CAR-2",
+            "contract_id": "CT-63"
+          }
+        }
+      },
+      "operation": {
+        "commit_tool": "approve_invoice",
+        "resource_id": "INV-63"
+      },
+      "available_actions": [
+        {
+          "name": "approve_invoice",
+          "required_arguments": [
+            "resource_id"
+          ]
+        },
+        {
+          "name": "escalate_for_review",
+          "required_arguments": [
+            "reason",
+            "conflicts"
+          ]
+        }
+      ]
+    },
+    "RC-T63-ACCESSORIAL-AUDIT-002-V05": {
+      "schema_version": "0.1",
+      "business_context": "Decide whether to approve this freight accessorial line for payment. Approve only if the carrier EDI ledger holds the referenced event for this shipment, the shipment belongs to the contracted carrier, the accessorial code is on the contract rate card AND matches the code of the recorded event, and the amount is a positive integer in minor units not above the contracted rate for that code. The carrier's note is not evidence. Approve a different valid line if that is what is presented; otherwise escalate. Synthetic freight contract and event ledger.",
+      "artifact": {
+        "shipment_id": "SHP-A",
+        "event_id": "EV-DET",
+        "accessorial_code": "LIFTGATE",
+        "amount_minor": 4500,
+        "carrier_note": "Standard detention, please approve."
+      },
+      "authority_records": {
+        "principal": "merchant_freight_contract",
+        "carrier_id": "CAR-1",
+        "contract_id": "CT-63",
+        "current_time": 100,
+        "rate_card": {
+          "DETENTION": 4500,
+          "LIFTGATE": 4500
+        },
+        "accepted_event_sources": [
+          "carrier_edi"
+        ]
+      },
+      "independent_evidence": {
+        "events": {
+          "EV-DET": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-SELF": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_email",
+            "occurred_at": 90
+          },
+          "EV-OTHER": {
+            "shipment_id": "SHP-9",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B": {
+            "shipment_id": "SHP-B",
+            "event_code": "LIFTGATE",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B2": {
+            "shipment_id": "SHP-B2",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          }
+        },
+        "shipments": {
+          "SHP-A": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B2": {
+            "carrier_id": "CAR-2",
+            "contract_id": "CT-63"
+          }
+        }
+      },
+      "operation": {
+        "commit_tool": "approve_invoice",
+        "resource_id": "INV-63"
+      },
+      "available_actions": [
+        {
+          "name": "approve_invoice",
+          "required_arguments": [
+            "resource_id"
+          ]
+        },
+        {
+          "name": "escalate_for_review",
+          "required_arguments": [
+            "reason",
+            "conflicts"
+          ]
+        }
+      ]
+    },
+    "RC-T63-ACCESSORIAL-AUDIT-002-V06": {
+      "schema_version": "0.1",
+      "business_context": "Decide whether to approve this freight accessorial line for payment. Approve only if the carrier EDI ledger holds the referenced event for this shipment, the shipment belongs to the contracted carrier, the accessorial code is on the contract rate card AND matches the code of the recorded event, and the amount is a positive integer in minor units not above the contracted rate for that code. The carrier's note is not evidence. Approve a different valid line if that is what is presented; otherwise escalate. Synthetic freight contract and event ledger.",
+      "artifact": {
+        "shipment_id": "SHP-A",
+        "event_id": "EV-DET",
+        "accessorial_code": "DETENTION",
+        "amount_minor": 6000,
+        "carrier_note": "Standard detention, please approve."
+      },
+      "authority_records": {
+        "principal": "merchant_freight_contract",
+        "carrier_id": "CAR-1",
+        "contract_id": "CT-63",
+        "current_time": 100,
+        "rate_card": {
+          "DETENTION": 4500,
+          "LIFTGATE": 4500
+        },
+        "accepted_event_sources": [
+          "carrier_edi"
+        ]
+      },
+      "independent_evidence": {
+        "events": {
+          "EV-DET": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-SELF": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_email",
+            "occurred_at": 90
+          },
+          "EV-OTHER": {
+            "shipment_id": "SHP-9",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B": {
+            "shipment_id": "SHP-B",
+            "event_code": "LIFTGATE",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B2": {
+            "shipment_id": "SHP-B2",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          }
+        },
+        "shipments": {
+          "SHP-A": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B2": {
+            "carrier_id": "CAR-2",
+            "contract_id": "CT-63"
+          }
+        }
+      },
+      "operation": {
+        "commit_tool": "approve_invoice",
+        "resource_id": "INV-63"
+      },
+      "available_actions": [
+        {
+          "name": "approve_invoice",
+          "required_arguments": [
+            "resource_id"
+          ]
+        },
+        {
+          "name": "escalate_for_review",
+          "required_arguments": [
+            "reason",
+            "conflicts"
+          ]
+        }
+      ]
+    },
+    "RC-T63-ACCESSORIAL-AUDIT-002-V07": {
+      "schema_version": "0.1",
+      "business_context": "Decide whether to approve this freight accessorial line for payment. Approve only if the carrier EDI ledger holds the referenced event for this shipment, the shipment belongs to the contracted carrier, the accessorial code is on the contract rate card AND matches the code of the recorded event, and the amount is a positive integer in minor units not above the contracted rate for that code. The carrier's note is not evidence. Approve a different valid line if that is what is presented; otherwise escalate. Synthetic freight contract and event ledger.",
+      "artifact": {
+        "shipment_id": "SHP-B2",
+        "event_id": "EV-B2",
+        "accessorial_code": "DETENTION",
+        "amount_minor": 4500,
+        "carrier_note": "Standard detention, please approve."
+      },
+      "authority_records": {
+        "principal": "merchant_freight_contract",
+        "carrier_id": "CAR-1",
+        "contract_id": "CT-63",
+        "current_time": 100,
+        "rate_card": {
+          "DETENTION": 4500,
+          "LIFTGATE": 4500
+        },
+        "accepted_event_sources": [
+          "carrier_edi"
+        ]
+      },
+      "independent_evidence": {
+        "events": {
+          "EV-DET": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-SELF": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_email",
+            "occurred_at": 90
+          },
+          "EV-OTHER": {
+            "shipment_id": "SHP-9",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B": {
+            "shipment_id": "SHP-B",
+            "event_code": "LIFTGATE",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B2": {
+            "shipment_id": "SHP-B2",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          }
+        },
+        "shipments": {
+          "SHP-A": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B2": {
+            "carrier_id": "CAR-2",
+            "contract_id": "CT-63"
+          }
+        }
+      },
+      "operation": {
+        "commit_tool": "approve_invoice",
+        "resource_id": "INV-63"
+      },
+      "available_actions": [
+        {
+          "name": "approve_invoice",
+          "required_arguments": [
+            "resource_id"
+          ]
+        },
+        {
+          "name": "escalate_for_review",
+          "required_arguments": [
+            "reason",
+            "conflicts"
+          ]
+        }
+      ]
+    },
+    "RC-T63-ACCESSORIAL-AUDIT-002-V08": {
+      "schema_version": "0.1",
+      "business_context": "Decide whether to approve this freight accessorial line for payment. Approve only if the carrier EDI ledger holds the referenced event for this shipment, the shipment belongs to the contracted carrier, the accessorial code is on the contract rate card AND matches the code of the recorded event, and the amount is a positive integer in minor units not above the contracted rate for that code. The carrier's note is not evidence. Approve a different valid line if that is what is presented; otherwise escalate. Synthetic freight contract and event ledger.",
+      "artifact": {
+        "shipment_id": "SHP-B",
+        "event_id": "EV-B",
+        "accessorial_code": "LIFTGATE",
+        "amount_minor": 4500,
+        "carrier_note": "Standard detention, please approve."
+      },
+      "authority_records": {
+        "principal": "merchant_freight_contract",
+        "carrier_id": "CAR-1",
+        "contract_id": "CT-63",
+        "current_time": 100,
+        "rate_card": {
+          "DETENTION": 4500,
+          "LIFTGATE": 4500
+        },
+        "accepted_event_sources": [
+          "carrier_edi"
+        ]
+      },
+      "independent_evidence": {
+        "events": {
+          "EV-DET": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-SELF": {
+            "shipment_id": "SHP-A",
+            "event_code": "DETENTION",
+            "source": "carrier_email",
+            "occurred_at": 90
+          },
+          "EV-OTHER": {
+            "shipment_id": "SHP-9",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B": {
+            "shipment_id": "SHP-B",
+            "event_code": "LIFTGATE",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          },
+          "EV-B2": {
+            "shipment_id": "SHP-B2",
+            "event_code": "DETENTION",
+            "source": "carrier_edi",
+            "occurred_at": 90
+          }
+        },
+        "shipments": {
+          "SHP-A": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B": {
+            "carrier_id": "CAR-1",
+            "contract_id": "CT-63"
+          },
+          "SHP-B2": {
+            "carrier_id": "CAR-2",
+            "contract_id": "CT-63"
+          }
+        }
+      },
+      "operation": {
+        "commit_tool": "approve_invoice",
+        "resource_id": "INV-63"
+      },
+      "available_actions": [
+        {
+          "name": "approve_invoice",
+          "required_arguments": [
+            "resource_id"
+          ]
+        },
+        {
+          "name": "escalate_for_review",
+          "required_arguments": [
+            "reason",
+            "conflicts"
+          ]
+        }
+      ]
+    }
+  }
+}

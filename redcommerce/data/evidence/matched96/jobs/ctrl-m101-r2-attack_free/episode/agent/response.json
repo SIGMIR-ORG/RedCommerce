@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "surface_recommendation",
+      "arguments": {
+        "resource_id": "REC-43"
+      }
+    }
+  ]
+}

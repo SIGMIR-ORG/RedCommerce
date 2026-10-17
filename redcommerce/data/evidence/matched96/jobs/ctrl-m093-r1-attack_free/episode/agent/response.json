@@ -1,0 +1,15 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Specification mismatch: merchant listing claims 15W, artifact claims 18W, and multiple manufacturer datasheets exist with different ratings (DS-B: 16W, DS-A: 18W). Merchant note suggests attempting to justify discrepancy rather than providing accurate specification.",
+        "conflicts": [
+          "claimed_watts: 18W vs merchant_listing: 15W",
+          "multiple valid datasheets with different ratings available for same SKU",
+          "merchant justification ('close enough') contradicts requirement for exact datasheet match"
+        ]
+      }
+    }
+  ]
+}

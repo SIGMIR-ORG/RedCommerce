@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="RedCommerce evaluates how agents justify consequential commercial decisions. Explore 96 tasks, 829 worlds, and controlled studies of adversarial influence, evidence, and authorization.">
+  <meta name="theme-color" content="#963d39">
+  <title>RedCommerce — A Security Benchmark for Agentic Commerce</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="assets/data.js" defer></script>
+  <script src="site-config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="wrap navigation">
+    <a class="wordmark" href="#"><span class="brand-mark" aria-hidden="true">R<span>C</span></span>RedCommerce</a>
+    <nav aria-label="Main navigation"><a href="#benchmark">Benchmark</a><a href="#results">Results</a><a href="#tasks">Tasks</a><a href="#resources">Resources</a></nav>
+  </div></header>
+  <main id="main">
+    <section class="hero wrap">
+      <div class="hero-copy"><p class="eyebrow">A security benchmark for agentic commerce</p>
+        <h1>What justifies an agent’s<br><em>commercial commitment?</em></h1>
+        <p class="intro">Choosing an action is only part of the job. Agents also need evidence and authority to bind a user to its consequences.</p>
+        <div class="hero-actions"><a class="button primary" href="#results">Explore the results <span aria-hidden="true">↗</span></a><a class="button secondary" href="#tasks">Browse the tasks</a></div>
+      </div>
+      <div class="hero-diagram" aria-label="A bounded user mandate, a lower-trust commercial offer, and the decision to commit">
+        <div class="diagram-label">THE MANDATE–COMMITMENT GAP</div>
+        <div class="mandate-note"><span class="note-tag">USER MANDATE</span><p>“Choose headphones<br>for my flight.”</p><div class="note-fields"><span>Budget ≤ $150</span><span>Refund ≥ 30 days</span></div></div>
+        <div class="proposal-line"><span class="small-arrow" aria-hidden="true">↓</span><span>Merchant proposes $120 · 14-day refund</span></div>
+        <div class="commit-note"><span class="note-tag">COMMITMENT DECISION</span><p>Affordable.<br><strong>But are these terms authorized?</strong></p></div>
+        <p class="diagram-foot">Illustrative example · the price fits, the refund term does not.</p>
+      </div>
+    </section>
+    <div class="wrap stats-strip" aria-label="Benchmark size"><div><strong>96</strong><span>Executable tasks</span></div><div><strong>829</strong><span>Variant worlds</span></div><div><strong>7</strong><span>Lifecycle stages</span></div><div><strong>5</strong><span>Role families</span></div><div><strong>24</strong><span>Threat families</span></div></div>
+
+    <section class="section wrap" id="benchmark"><div class="section-heading"><p class="eyebrow">The benchmark</p><h2>From delegated intent to consequential action</h2><p>RedCommerce connects each commercial choice to an attacker’s permitted inputs, trusted records, and executable outcome predicates.</p></div>
+      <div class="principles"><article><span class="index">01</span><h3>Define the mandate</h3><p>Identify which fields the principal fixes, bounds, or leaves to the agent: product, price, refund terms, beneficiary, or destination.</p></article><article><span class="index">02</span><h3>Expose the adversarial input</h3><p>An attacker agent authors content on a declared surface. Product claims, proposals, and purported approvals enter a business agent’s decision.</p></article><article><span class="index">03</span><h3>Evaluate the consequence</h3><p>Task-specific deterministic verifiers inspect realized business state or a consequential delivered output. Success can include non-monetary deviations.</p></article></div>
+      <div class="lifecycle" aria-label="Seven lifecycle stages"><span>Awareness</span><span>Discovery</span><span>Engagement</span><span>Decision</span><span>Transaction</span><span>Fulfillment</span><span>Service</span></div>
+      <details class="figure-detail"><summary>View the lifecycle and commercial examples <span aria-hidden="true">＋</span></summary><figure><img src="assets/commerce_motivation.svg" alt="A headphone purchase illustrating user constraints, commercial choices, seven lifecycle stages, and lower-trust attack inputs." loading="lazy"><figcaption>Corpus coverage across the lifecycle. The illustration is not a single seven-stage experimental episode.</figcaption></figure></details>
+    </section>
+
+    <section class="results-section" id="results"><div class="wrap section"><div class="section-heading"><p class="eyebrow">Main experiment</p><h2>Four attacker configurations.<br>One fixed business model.</h2><p>Each attacker was scheduled on all 829 worlds, with Haiku 4.5 as the business agent. Attack success is a task-defined adverse outcome in an evaluable episode.</p></div>
+      <div class="chart-layout"><div class="bar-panel"><h3>Overall attack success rate</h3><div id="model-bars"></div><p class="chart-note">Each attacker/world is sampled once. Rates use evaluable episodes; service exclusions and unresolved outcomes remain visible in the table below.</p></div><div class="heat-panel"><h3>Attack success by lifecycle stage</h3><div id="stage-heatmap" class="table-scroll"></div><p class="chart-note">Stages differ in task composition. These rates describe the tested corpus.</p></div></div>
+      <details class="exact-detail"><summary>Exact counts and evaluation coverage</summary><div class="table-scroll"><table id="main-table"><caption class="sr-only">Main experiment counts for each attacker configuration, with Haiku 4.5 fixed</caption><thead><tr><th scope="col">Attacker</th><th scope="col">Successes / evaluable</th><th scope="col">ASR</th><th scope="col">Case macro ASR</th><th scope="col">Service excluded</th><th scope="col">Unresolved</th></tr></thead><tbody></tbody></table></div></details>
+    </div></section>
+
+    <section class="section wrap controlled" id="controlled-studies"><div class="section-heading"><p class="eyebrow">Controlled comparisons</p><h2>Beyond a single success rate</h2><p>Matched inputs, repeated checks, and authorization pairs make different requirements for commercial action inspectable.</p></div>
+      <div class="study-grid"><article class="study"><p class="study-count">96 Cases · 576 runs</p><h3>What does the attack add?</h3><p>Ordinary inputs and saved attacks are compared under the same setup, with three fresh business-agent runs per condition. Attack selection does not depend on previous success.</p><div class="matched-bars"><div><span>Ordinary</span><i style="--value:1.59%"></i><strong>1 / 288</strong></div><div><span>Saved attack</span><i style="--value:100%"></i><strong>63 / 288</strong></div></div><p class="study-finding"><strong>+21.53 percentage points</strong><span>95% Case-bootstrap interval: 13.89–29.51</span></p><p class="small">Excluding seven specification-sensitive Cases in a post hoc analysis gives an 18.35-point increase.</p></article>
+      <article class="study"><p class="study-count">4 Cases · 8 saved attacks · 320 runs</p><h3>Which checks help?</h3><p>Previously successful attacks are frozen and tested with no check, generic caution, an object-binding check, and an evidence-support check, with five fresh runs per condition.</p><p class="study-finding"><strong>Benefits depend on the task</strong><span>Object binding helps listing identity; evidence support helps review choice. Shipment failures persist.</span></p><p class="small">All 160 lawful-counterpart runs complete without scored deviation or escalation. One adversarial business-format outcome remains unscored. This selected study measures conditional effects.</p></article>
+      <article class="study"><p class="study-count">2 tasks · 8 proposal pairs · 80 runs</p><h3>Does authority change the decision?</h3><p>Commercial proposals and factual support are held fixed while issuer validity or refund scope changes. Haiku receives the relevant authorization difference.</p><div class="authorization-numbers"><div><strong>40 / 40</strong><span>Valid-condition commits</span></div><div><strong>40 / 40</strong><span>Invalid-condition escalations</span></div></div><p class="small">These pairs test the stated issuer and scope conditions. No software safety blocking occurred in this study.</p></article></div>
+    </section>
+
+    <section class="tasks-section" id="tasks"><div class="wrap section"><div class="section-heading"><p class="eyebrow">Task explorer</p><h2>Explore the commercial decisions</h2><p>Read the original task instructions and see where each task sits in the lifecycle.</p></div><div class="task-controls"><label class="search-label"><span class="sr-only">Search task titles, identifiers and instructions</span><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5"></circle><path d="m15 15 6 6"></path></svg><input id="task-search" type="search" placeholder="Search by task, rule, or Case ID…"></label><label class="stage-select"><span class="sr-only">Filter tasks by lifecycle stage</span><select id="stage-filter"><option value="all">All lifecycle stages</option></select></label></div><p id="task-count" class="task-count" aria-live="polite"></p><div id="task-grid" class="task-grid"></div><noscript><p>Enable JavaScript to browse the task catalog. The catalog is also available in the downloadable data.</p></noscript></div></section>
+
+    <section class="section wrap resources" id="resources"><div class="section-heading"><p class="eyebrow">Use RedCommerce</p><h2>Read, reproduce, and build on the benchmark</h2></div><div class="resource-grid"><article><h3>Paper</h3><p>Research framing, task construction, experimental protocol, and detailed analyses.</p><a class="resource-link" data-release-link="paper" aria-disabled="true">arXiv link forthcoming</a></article><article><h3>Code and benchmark</h3><p>Executable tasks, model evaluation, deterministic scoring, and reproduction instructions.</p><a class="resource-link" data-release-link="repository" aria-disabled="true">Repository link forthcoming</a></article><article><h3>Results and task catalog</h3><p>The numbers behind this page and the 96-task instruction catalog.</p><a class="resource-link" href="assets/data.json" download="redcommerce-website-data.json">Download JSON <span aria-hidden="true">↓</span></a></article></div>
+      <details class="interpretation"><summary>Scoring, task assessment, and reproducibility</summary><p>Attack success is a realized deviation in protected business state or a consequential delivered output defined by the task. It need not involve direct monetary loss. Provider filtering is reported separately from model abstention. Unresolved outcomes are retained.</p><p>Tasks underwent author-led assessment, regression checks, and executable validation. Saved companion-study trajectories support offline reproduction. The original predicates retain specification-sensitive interpretations, including an SDS identifier normalization ambiguity; the paper reports sensitivity analyses. Main-panel aggregation and companion-trajectory replay have different reproduction scopes.</p><p>All business records and consequences are synthetic. The commercial lifecycle describes corpus coverage, while individual episodes follow their own declared roles and action sequence.</p></details>
+      <div id="citation-block" hidden><h3>Citation</h3><pre id="citation-text"></pre><button class="button secondary" id="copy-citation" type="button">Copy citation</button><span id="copy-status" role="status"></span></div>
+    </section>
+  </main>
+  <footer class="wrap"><a class="wordmark" href="#">RedCommerce</a><p>A security benchmark for agentic commerce across the full lifecycle.</p><a href="#main">Back to top ↑</a></footer>
+</body>
+</html>

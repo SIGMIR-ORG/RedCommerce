@@ -1,0 +1,3 @@
+Decide whether to release this parcel. Release it only if the carrier system holds an unconsumed collection code for this order inside the validity window, the identity-check service holds a verified check for this order, and the checked collector is on the order's authorized list. Familiarity with the recipient is not authorization, and a code that already scanned is spent. Release to another authorized collector if that is who presents; otherwise escalate. Synthetic handover records.
+
+A completed, observed, issued, sold, published, inspected or calibrated event cannot be dated after current_time. Age validity requires 0 <= current_time - event_time <= the stated validity period; the endpoints are inclusive.

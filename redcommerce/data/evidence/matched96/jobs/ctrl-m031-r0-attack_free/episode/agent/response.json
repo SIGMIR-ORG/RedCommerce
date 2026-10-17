@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "remove_listing",
+      "arguments": {
+        "resource_id": "LST-21"
+      }
+    }
+  ]
+}

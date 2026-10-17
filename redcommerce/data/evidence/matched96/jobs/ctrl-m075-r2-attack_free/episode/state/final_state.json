@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "confirm_terms",
+      "resource_id": "INST-34",
+      "artifact": {
+        "decision_id": "DC-A",
+        "term_months": 12,
+        "monthly_minor": 5000,
+        "merchant_note": "Underwriting is a formality, ship it today."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

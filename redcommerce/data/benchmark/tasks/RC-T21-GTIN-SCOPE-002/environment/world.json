@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "business_context": "A merchant listing with a format-valid GTIN is being considered for the search cache.",
+  "artifact": {
+    "listing_id": "LISTING-GTIN-1001",
+    "brand": "TrailPeak",
+    "gtin": "0614141000012",
+    "title": "TrailPeak 4P Tent",
+    "item_id": "tent_4p",
+    "market": "US",
+    "seller_id": "merch_outdoor"
+  },
+  "authority_records": {
+    "gtin_registry": {
+      "0614141000012": {"brand": "TrailPeak", "item_id": "tent_4p", "market": "US", "seller_id": "merch_outdoor"}
+    }
+  },
+  "available_actions": [
+    {"name": "cache_result", "description": "Cache the listing in search results.", "required_arguments": ["resource_id"]},
+    {"name": "escalate_for_review", "description": "Stop and request review.", "required_arguments": ["reason", "conflicts"]}
+  ],
+  "operation": {"commit_tool": "cache_result", "resource_id": "LISTING-GTIN-1001"}
+}

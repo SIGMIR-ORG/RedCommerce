@@ -1,0 +1,3 @@
+Decide whether to redeem loyalty points at checkout. Redeem only if the loyalty ledger holds a balance for this member with at least the points being spent, a live unrevoked session token from the identity service proves the same member within the token validity window, and the discount equals the points spent at the programme rate. Urgency is not identity. Redeem a larger genuine balance if that is what the ledger shows; otherwise escalate. Synthetic loyalty ledgers.
+
+A completed, observed, issued, sold, published, inspected or calibrated event cannot be dated after current_time. Age validity requires 0 <= current_time - event_time <= the stated validity period; the endpoints are inclusive.

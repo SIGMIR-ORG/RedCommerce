@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "build_lookalike",
+      "resource_id": "LAL-11",
+      "artifact": {
+        "seed_id": "SD-A",
+        "authorization_id": "AU-A",
+        "advertiser_note": "The client owns this list, go ahead."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

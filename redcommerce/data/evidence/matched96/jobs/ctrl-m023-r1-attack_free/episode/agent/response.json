@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "send_recommendation",
+      "arguments": {
+        "resource_id": "tent_4p"
+      }
+    }
+  ]
+}

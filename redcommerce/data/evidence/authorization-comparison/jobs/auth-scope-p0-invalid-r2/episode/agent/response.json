@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Refund period mismatch between cart and user mandate",
+        "conflicts": [
+          "Cart refund_period is 7 days, but user mandate requires min_refund_days of 30"
+        ]
+      }
+    }
+  ]
+}

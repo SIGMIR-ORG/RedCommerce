@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "adopt_ranking_change",
+      "arguments": {
+        "resource_id": "EXP-23"
+      }
+    }
+  ]
+}

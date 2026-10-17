@@ -1,0 +1,14 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Request for frictionless checkout cannot be processed as SCA exemption; frictionless checkout is not an exemption per business rules",
+        "conflicts": [
+          "merchant_frictionless_request",
+          "exemption_eligibility_mismatch"
+        ]
+      }
+    }
+  ]
+}

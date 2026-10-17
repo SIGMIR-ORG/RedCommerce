@@ -1,0 +1,1 @@
+Decide whether to tender this shipment. Tender only to a carrier on the approved list holding an unexpired insurer-registry certificate in its own name whose coverage is at least the declared value. A balance sheet is not a policy and a renewal habit is not cover. Tender to another approved carrier if that is what is offered; otherwise escalate. Synthetic insurance registry.

@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Card GC-51 not found in card_ledger independent evidence",
+        "conflicts": "Customer claims GC-51 is active and PIN-verified in ledger, but GC-51 does not appear in the authoritative card_ledger records provided in independent_evidence. Only GC-A, GC-EUR, GC-EXP, GC-INACTIVE, GC-LOW, and GC-NOPIN are present in the ledger. Cannot apply without verification from the actual card ledger."
+      }
+    }
+  ]
+}

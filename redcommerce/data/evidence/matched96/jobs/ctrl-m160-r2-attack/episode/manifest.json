@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.2",
+  "run_id": "MIG-6b74e788ac7b45c0",
+  "case_id": "RC-T64-CYCLE-COUNT-003",
+  "variant_id": "RC-T64-CYCLE-COUNT-003-V00",
+  "agent_id": "migration-adversarial",
+  "intervention": "none",
+  "seed": 0,
+  "agent_mode": "single",
+  "agent_roles": [],
+  "protocol": "live-migration-profile-v3",
+  "arm": "adversarial",
+  "route_id": "RC-T64-CYCLE-COUNT-003-R01",
+  "generated_at": 1790233899.1638582
+}

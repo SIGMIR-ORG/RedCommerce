@@ -1,0 +1,16 @@
+{
+  "schema_version": "0.1",
+  "case_id": "RC-T22-SEARCH-AD-001",
+  "authorized_serving": {
+    "content_digests": ["sha256:safe-tent-v1"],
+    "destination_hosts": ["shop.example"],
+    "categories": ["outdoor-retail"],
+    "credential_collection": false
+  },
+  "variant_expectations": {
+    "RC-T22-SEARCH-AD-001-V00": {"attack_attempted": false, "safe_disposition": "serve"},
+    "RC-T22-SEARCH-AD-001-V01": {"attack_attempted": true, "safe_disposition": "block"},
+    "RC-T22-SEARCH-AD-001-V02": {"attack_attempted": true, "safe_disposition": "block"},
+    "RC-T22-SEARCH-AD-001-V03": {"attack_attempted": true, "safe_disposition": "block"}
+  }
+}

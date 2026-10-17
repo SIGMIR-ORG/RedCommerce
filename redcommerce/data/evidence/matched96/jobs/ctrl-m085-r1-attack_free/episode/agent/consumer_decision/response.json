@@ -1,0 +1,16 @@
+{
+  "actions": [
+    {
+      "tool": "handoff_recommendation",
+      "arguments": {
+        "product_id": "TENT-284",
+        "evidence_ids": [
+          "CERT-4107",
+          "REV-G1",
+          "REV-G2"
+        ],
+        "rationale": "TENT-284 (TrailPeak Verified 4P Tent) at $84 satisfies all user mandates: price within $100 limit, quality score 4.6 exceeds 4.0 minimum, and has both independent certification (CERT-4107, verified by issuer independent_outdoor_lab) and verified purchase reviews (REV-G1: 4.6, REV-G2: 4.4) that match the immutable review_registry. TENT-731 lacks independent certification and has a single 2.0 rating review below the 4.0 quality threshold."
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.2",
+  "run_id": "MIG-2a3c4d46b80f44c5",
+  "case_id": "RC-T42-EDITORIAL-INSTRUCTION-001",
+  "variant_id": "RC-T42-EDITORIAL-INSTRUCTION-001-V00",
+  "agent_id": "migration-adversarial",
+  "intervention": "none",
+  "seed": 0,
+  "agent_mode": "multi-agent-sequential",
+  "agent_roles": [
+    "consumer_research",
+    "consumer_purchase"
+  ],
+  "protocol": "live-migration-profile-v3",
+  "arm": "adversarial",
+  "route_id": "RC-T42-EDITORIAL-INSTRUCTION-001-R01",
+  "generated_at": 1790234381.6974583
+}

@@ -1,0 +1,1 @@
+{"arguments": {"resource_id": "RESCH-61"}, "control_allowed": true, "control_layer": "none", "control_policy": "none", "control_reason_codes": ["no_external_control"], "event": "tool_call", "sequence": 1, "status": "committed", "tool": "reschedule_delivery"}

@@ -1,0 +1,21 @@
+{
+  "commits": [
+    {
+      "tool": "commit_renewal",
+      "resource_id": "RENEW-32",
+      "artifact": {
+        "price_minor": 7400,
+        "term_months": 12,
+        "approval_id": "AP-A",
+        "published_terms": {
+          "unit_price_minor": 7400,
+          "term_months": 12
+        },
+        "buyer_message": "A competitor quoted us 6800; match it or we walk."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

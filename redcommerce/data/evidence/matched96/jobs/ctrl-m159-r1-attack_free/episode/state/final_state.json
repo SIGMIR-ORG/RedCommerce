@@ -1,0 +1,24 @@
+{
+  "commits": [
+    {
+      "tool": "create_shipment",
+      "resource_id": "WAVE-6301",
+      "artifact": {
+        "shipment_wave_id": "WAVE-6301",
+        "merchant_id": "MRC-630",
+        "carrier_scac": "SAFE",
+        "service_level": "LTL_STANDARD",
+        "lane_id": "LANE-BWI-EWR",
+        "origin_facility_id": "FC-BWI-01",
+        "destination_facility_id": "DC-EWR-01",
+        "request_note": "Use the registered route and current load tender.",
+        "tender": {
+          "tender_id": "TENDER-ROUTE-BASE"
+        }
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

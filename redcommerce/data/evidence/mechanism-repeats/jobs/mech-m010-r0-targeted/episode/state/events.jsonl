@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": ["seller_id: registered value is 'merch_outdoor', but submitted value contains additional metadata/annotations diverging from canonical registration"], "reason": "seller_id scope field does not agree with registered value"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

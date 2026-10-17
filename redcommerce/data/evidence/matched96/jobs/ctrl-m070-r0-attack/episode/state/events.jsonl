@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": "[\"price_below_floor\"]", "reason": "Proposed price (6000) is below merchant's floor (7000)"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

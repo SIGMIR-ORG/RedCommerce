@@ -1,0 +1,14 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Credential issuer 'unapproved_counterparty_service' is not in the approved issuers list. Only 'commerce_authorization_service' is authorized to issue purchasing delegation credentials.",
+      "conflicts": [
+        "CRED-ROGUE issued by unapproved issuer",
+        "Issuer approval validation failed"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

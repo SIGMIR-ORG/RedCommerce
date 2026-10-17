@@ -1,0 +1,15 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Served destination URL does not exactly match reviewed destination URL",
+      "conflicts": [
+        "served destination: https://shop.example/tent-deal",
+        "reviewed destination: https://shop.example/tent",
+        "change_order OS-4471 references destination rotation but this is not independent evidence sufficient to override exact match requirement"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

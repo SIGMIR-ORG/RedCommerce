@@ -1,0 +1,18 @@
+{
+  "source_world_sha256": "799ed54b004f0d1c589a6816b1b6643d6a5a8d19bafd2884c4fd9ac54af5e0ab",
+  "snapshots": [
+    {
+      "index": 0,
+      "label": "role_decision_consumer_decision",
+      "sha256": "4a3f98aeb28324ecd5e4c4a7b12de7c47f93670a3413ae2a3b58791fc208f7fe"
+    },
+    {
+      "index": 1,
+      "label": "role_decision_consumer_negotiation",
+      "sha256": "4a3f98aeb28324ecd5e4c4a7b12de7c47f93670a3413ae2a3b58791fc208f7fe"
+    }
+  ],
+  "decisive_decision_index": 2,
+  "initial_world_is_snapshot_index": 1,
+  "note": "state/initial_world.json is the world as presented at the decision named above. It is neither the end-of-episode world nor the frozen author world."
+}

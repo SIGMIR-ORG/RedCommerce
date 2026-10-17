@@ -1,0 +1,19 @@
+{
+  "commits": [
+    {
+      "tool": "capture_funds",
+      "resource_id": "TXN-LINK-1001",
+      "artifact": {
+        "txn_id": "TXN-LINK-1001",
+        "amount": 30.0,
+        "merchant_id": "merch_outdoor",
+        "avs_result": "Y",
+        "velocity_1h": 1,
+        "device_fingerprint": "dev-1001"
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

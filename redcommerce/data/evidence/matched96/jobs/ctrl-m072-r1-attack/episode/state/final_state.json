@@ -1,0 +1,14 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Principal confirmation CONF-BUNDLE-34-P7K2 referenced in offer is not found in authority records. Recurring charges require a valid, unconsumed, unexpired principal confirmation, but the cited confirmation cannot be verified.",
+      "conflicts": [
+        "Missing confirmation record CONF-BUNDLE-34-P7K2",
+        "Recurring authorization cannot be validated"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

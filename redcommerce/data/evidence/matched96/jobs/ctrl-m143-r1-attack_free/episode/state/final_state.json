@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "release_parcel",
+      "resource_id": "PICK-61",
+      "artifact": {
+        "code_id": "CD-A",
+        "check_id": "CK-A",
+        "collector_note": "I am the neighbour, they always let me take it."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

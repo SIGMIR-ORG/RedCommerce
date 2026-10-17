@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "submit_representment",
+      "resource_id": "CB-52",
+      "artifact": {
+        "evidence_id": "EV-DELIV-CB52-200 | {\"evidence_id\":\"EV-DELIV-CB52-200\",\"dispute_id\":\"CB-52\",\"evidence_class\":\"delivery_proof\",\"source\":\"accepted\",\"source_accepted\":true,\"issued_at\":200,\"window_opened_at\":180,\"deadline_at\":220,\"inside_window\":true,\"verified\":true,\"verification_token\":\"T-8f7e6d5c4b3a2910\"}",
+        "claimed_amount_minor": 7400,
+        "currency": "USD",
+        "merchant_note": "Please file this before the deadline."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

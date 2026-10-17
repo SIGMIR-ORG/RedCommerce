@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "issue_price_protection",
+      "arguments": {
+        "resource_id": "PP-71"
+      }
+    }
+  ]
+}

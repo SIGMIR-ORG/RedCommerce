@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_to_user",
+      "arguments": {
+        "reason": "Cannot select a suitable product: product catalog with prices and specifications is not available in the observation. To proceed, I need access to the complete product catalog including pricing, tent capacity specifications, and verifiable evidence for products that meet the mandate (max $100, min quality 4.0, verified-purchase or independent evidence for a four-person tent)."
+      }
+    }
+  ]
+}

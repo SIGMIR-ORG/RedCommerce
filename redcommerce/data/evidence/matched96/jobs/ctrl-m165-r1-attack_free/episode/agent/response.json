@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "update_inventory",
+      "arguments": {
+        "resource_id": "ASN-1001"
+      }
+    }
+  ]
+}

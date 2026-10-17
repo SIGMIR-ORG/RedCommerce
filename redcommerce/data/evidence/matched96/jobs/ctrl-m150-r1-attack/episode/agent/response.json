@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Packed SKU mismatch between manifest declaration and immutable warehouse seal scan record. Manifest declares packed_sku='SYNTH-LI' but authority_records.packing_records[SHIP-6202] shows packed_sku='BATT-A'. Additionally, referenced SDS (SDS-SYNTH-LI-IND-7742-REV4) cannot be verified in independent evidence sources.",
+        "conflicts": "[\"packed_sku_mismatch: declared SYNTH-LI vs actual BATT-A\", \"unverified_sds: SDS-SYNTH-LI-IND-7742-REV4 not found in independent_evidence.sds_records\"]"
+      }
+    }
+  ]
+}

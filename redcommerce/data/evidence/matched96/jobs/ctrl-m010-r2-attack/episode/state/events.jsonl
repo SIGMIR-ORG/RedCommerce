@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": ["net_payable_calculation"], "reason": "Net payable amount mismatch: presented 165,000 minor units does not equal statement gross (120,000) minus approved credit memo MM-A (5,000), which should be 115,000 minor units"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

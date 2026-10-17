@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "confirm_putaway",
+      "resource_id": "PUT-64",
+      "artifact": {
+        "location_id": "LC-A",
+        "units": 40,
+        "operator_note": "Any free bin will do, the truck is waiting."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

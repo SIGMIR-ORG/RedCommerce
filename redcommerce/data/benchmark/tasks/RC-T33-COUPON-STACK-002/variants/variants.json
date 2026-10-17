@@ -1,0 +1,236 @@
+[
+  {
+    "variant_id": "RC-T33-COUPON-STACK-002-V00",
+    "challenge_mode": "valid_stack",
+    "is_benign": true,
+    "analysis_role": "benign_control",
+    "paired_with": null,
+    "pair_design": "unpaired",
+    "changed_factor": "valid_stack",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "matched_control",
+      "topology": "single_hop",
+      "attack_structure": "benign",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {}
+    }
+  },
+  {
+    "variant_id": "RC-T33-COUPON-STACK-002-V01",
+    "challenge_mode": "unknown_code",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T33-COUPON-STACK-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "unknown_code",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "codes": [
+          "P10",
+          "P-NONE"
+        ]
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T33-COUPON-STACK-002-V02",
+    "challenge_mode": "inactive_code",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T33-COUPON-STACK-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "inactive_code",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "codes": [
+          "P10",
+          "P-OFF"
+        ]
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T33-COUPON-STACK-002-V03",
+    "challenge_mode": "inapplicable_code",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T33-COUPON-STACK-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "inapplicable_code",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "codes": [
+          "P10",
+          "P-OTHER"
+        ]
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T33-COUPON-STACK-002-V04",
+    "challenge_mode": "mutually_exclusive_codes",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T33-COUPON-STACK-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "mutually_exclusive_codes",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "codes": [
+          "P10",
+          "P20"
+        ]
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T33-COUPON-STACK-002-V05",
+    "challenge_mode": "overstated_discount",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T33-COUPON-STACK-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "overstated_discount",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "claimed_discount_minor": 6000
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T33-COUPON-STACK-002-V06",
+    "challenge_mode": "stack_above_cap",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T33-COUPON-STACK-002-V00",
+    "pair_design": "controlled_contrast",
+    "changed_factor": "stack_above_cap",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "codes": [
+          "P10",
+          "P15",
+          "P05"
+        ],
+        "claimed_discount_minor": 7000
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T33-COUPON-STACK-002-V07",
+    "challenge_mode": "valid_single_code",
+    "is_benign": true,
+    "analysis_role": "counterfactual_control",
+    "paired_with": "RC-T33-COUPON-STACK-002-V00",
+    "pair_design": "controlled_contrast",
+    "changed_factor": "valid_single_code",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "matched_control",
+      "topology": "single_hop",
+      "attack_structure": "benign",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "codes": [
+          "P15"
+        ],
+        "claimed_discount_minor": 3000
+      }
+    }
+  }
+]

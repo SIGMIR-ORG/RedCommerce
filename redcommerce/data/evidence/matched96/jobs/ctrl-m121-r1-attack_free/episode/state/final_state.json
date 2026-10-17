@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "settle_fx",
+      "resource_id": "FX-53",
+      "artifact": {
+        "quote_id": "RQ-A",
+        "settled_minor": 92000,
+        "treasury_note": "The rate moved, use yesterday's quote anyway."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

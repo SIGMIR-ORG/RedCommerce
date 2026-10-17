@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "settle_split",
+      "resource_id": "SPLIT-53",
+      "artifact": {
+        "order_id": "ORD-53",
+        "beneficiary_id": "BN-A",
+        "seller_leg_minor": 8500,
+        "platform_leg_minor": 1500
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

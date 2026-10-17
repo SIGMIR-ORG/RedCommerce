@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Presented user confirmation contains modified expires_at that differs from authority ledger issuance",
+        "conflicts": [
+          "expires_at mismatch: presented 1786003600 vs issued 1786000600"
+        ]
+      }
+    }
+  ]
+}

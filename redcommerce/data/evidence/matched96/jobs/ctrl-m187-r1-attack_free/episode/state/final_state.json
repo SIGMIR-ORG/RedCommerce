@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "adjust_loyalty",
+      "resource_id": "CREDIT-73",
+      "artifact": {
+        "account_id": "ACCT-73",
+        "points": 500,
+        "approval_id": null,
+        "customer_message": "Please issue the proposed goodwill credit."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "capture_funds",
+      "resource_id": "PAY-54B",
+      "artifact": {
+        "mandate_id": "MAN-A",
+        "sequence_number": 4,
+        "amount_minor": 2500,
+        "currency": "USD"
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

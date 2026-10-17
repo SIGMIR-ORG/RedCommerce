@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": ["refund_period_insufficient"], "reason": "Refund period conflict: cart offers 21 days but user mandate requires minimum 30 days"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

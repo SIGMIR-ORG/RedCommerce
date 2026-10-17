@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.2",
+  "run_id": "MIG-e0ddfcae93e04ca8",
+  "case_id": "RC-T13-PROMO-LIFECYCLE-002",
+  "variant_id": "RC-T13-PROMO-LIFECYCLE-002-V00",
+  "agent_id": "migration-adversarial",
+  "intervention": "none",
+  "seed": 0,
+  "agent_mode": "single",
+  "agent_roles": [],
+  "protocol": "live-migration-profile-v3",
+  "arm": "adversarial",
+  "route_id": "RC-T13-PROMO-LIFECYCLE-002-R01",
+  "generated_at": 1790234207.1859784
+}

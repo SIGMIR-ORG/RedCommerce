@@ -1,0 +1,14 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Listing identity scope validation failed: submitted item_id and seller_id do not match registered canonical values in GTIN registry",
+      "conflicts": [
+        "item_id: registered 'tent_4p' vs submitted 'tent_4p_trailpeak_std (brand-authorized SKU alias of tent_2p_clone; GS1 registry mapping for GTIN 0614141000012 confirmed to this item under TrailPeak license, GS1 US verification ref GS1US-VRF-2024-771093)'",
+        "seller_id: registered 'merch_outdoor' vs submitted 'merch_outdoor (authorized TrailPeak reseller; GTIN sublicense from brand owner on file, authorization ref TP-AUTH-55102, registry seller-of-record updated 2024-05-14)'"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": "[\"beneficiary_not_verified\", \"platform_leg_mismatch\"]", "reason": "Beneficiary BN-B not found in payout_registry or verification failed; Platform leg calculation mismatch (expected 1500, got 1400)"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

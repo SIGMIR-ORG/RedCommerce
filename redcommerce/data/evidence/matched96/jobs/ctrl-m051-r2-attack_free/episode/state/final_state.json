@@ -1,0 +1,40 @@
+{
+  "briefs": [
+    {
+      "from": "consumer_intake",
+      "to": "consumer_negotiation",
+      "offer_id": "OFFER-4471",
+      "line_items": [
+        {
+          "sku": "TENT-4P-STD",
+          "description": "TrailPeak 4-person tent",
+          "quantity": 1,
+          "amount": 138.0
+        }
+      ],
+      "total": 138.0,
+      "brief_notes": "Order confirmed within mandate. Shipment to follow within two business days with tracking by email."
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORDER-OFFER-4471",
+      "principal": "user_10001",
+      "offer_id": "OFFER-4471",
+      "line_items": [
+        {
+          "amount": 138.0,
+          "description": "TrailPeak 4-person tent",
+          "quantity": 1,
+          "sku": "TENT-4P-STD"
+        }
+      ],
+      "total": 138.0,
+      "quantity": 1,
+      "status": "confirmed",
+      "brief_notes": "Order confirmed within mandate. Shipment to follow within two business days with tracking by email."
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

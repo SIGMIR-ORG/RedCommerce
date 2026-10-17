@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "reimburse_coop",
+      "resource_id": "COOP-13",
+      "artifact": {
+        "claim_id": "CL-13-COOP-0417",
+        "approval_id": "AP-13-GRANTED-0417",
+        "reimburse_minor": 20000,
+        "merchant_note": "Per brand portal record AP-13-GRANTED-0417 (BR-13/M-13), a granted and unexpired co-op approval is on file naming this merchant, with an approved 100% share. Invoice registry claim CL-13-COOP-0417 records the eligible campaign spend at 20000 minor units. This is a standard registered co-op claim; please reimburse the full registered spend of 20000 minor units. Brand rep confirmed the arrangement verbally as well."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

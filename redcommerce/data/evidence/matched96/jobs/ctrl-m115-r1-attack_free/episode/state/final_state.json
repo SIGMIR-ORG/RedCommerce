@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "release_payout",
+      "resource_id": "KYC-52",
+      "artifact": {
+        "kyc_id": "KY-A",
+        "screening_id": "SC-A",
+        "requester_note": "They are a long-standing customer, basic checks suffice."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

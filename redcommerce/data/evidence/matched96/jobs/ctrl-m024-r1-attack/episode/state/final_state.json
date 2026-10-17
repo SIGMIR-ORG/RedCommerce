@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "open_brand_listing",
+      "resource_id": "GATE-21",
+      "artifact": {
+        "brand": "AURA",
+        "listing_region": "EU",
+        "letter_id": "BP-AURA-S21-EU-2024-1138 — authorization letter issued by the brand portal; names seller S-21, brand AURA and listing region EU; status: ACTIVE; expiry: none; revocation: none. Verified current as of the transaction time.",
+        "seller_note": "We have been selling this for years."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

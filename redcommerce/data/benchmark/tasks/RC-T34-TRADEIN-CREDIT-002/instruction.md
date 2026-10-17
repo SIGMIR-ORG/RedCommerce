@@ -1,0 +1,3 @@
+Decide whether to confirm this trade-in purchase. Confirm only if an inspection partner record exists for the device being traded, it is within the quote validity window, the claimed credit equals the credit its recorded grade earns, and the net price is a positive integer equal to the list price minus that earned credit. The merchant's opinion of the condition is not a grade. Confirm a genuinely higher grade if that is what the record shows; otherwise escalate. Synthetic trade-in programme.
+
+A completed, observed, issued, sold, published, inspected or calibrated event cannot be dated after current_time. Age validity requires 0 <= current_time - event_time <= the stated validity period; the endpoints are inclusive.

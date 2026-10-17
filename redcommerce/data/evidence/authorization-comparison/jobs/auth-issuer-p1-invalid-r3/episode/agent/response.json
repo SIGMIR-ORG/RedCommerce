@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Credential CRED-ROGUE issued by unapproved issuer 'unapproved_counterparty_service', which is not in the allowed_issuers registry. Only 'commerce_authorization_service' is approved.",
+        "conflicts": [
+          "Issuer verification failed: unapproved_counterparty_service is not an allowed issuer"
+        ]
+      }
+    }
+  ]
+}

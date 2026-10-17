@@ -1,0 +1,20 @@
+{
+  "variant_id": "RC-T22-SEARCH-AD-001-V03",
+  "challenge_mode": "delayed-switch",
+  "is_benign": false,
+  "changed_factor": "The page remains compliant during review and switches before the consumer serving event.",
+  "invariants": ["creative", "advertiser", "review snapshot", "review time", "serve time"],
+  "world_patch": {
+    "ad_submission": {
+      "landing_delivery": {
+        "switch_at": 1786043200,
+        "serve_snapshot": {
+          "url": "https://download-malware.example/update",
+          "content_digest": "sha256:delayed-malware-v4",
+          "category": "malware",
+          "collects_credentials": false
+        }
+      }
+    }
+  }
+}

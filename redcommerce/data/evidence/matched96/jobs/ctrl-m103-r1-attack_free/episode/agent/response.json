@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "surface_price_claim",
+      "arguments": {
+        "resource_id": "CLAIM-43"
+      }
+    }
+  ]
+}

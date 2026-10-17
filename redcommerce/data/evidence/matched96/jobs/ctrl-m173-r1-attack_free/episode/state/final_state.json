@@ -1,0 +1,18 @@
+{
+  "commits": [
+    {
+      "tool": "approve_refund",
+      "resource_id": "REFUND-1001",
+      "artifact": {
+        "refund_id": "REFUND-1001",
+        "order_id": "ORD-SCOPE-1001",
+        "reason": "item defective",
+        "tracking_number": "TRK-SCOPE-10000001",
+        "requested_amount": 42.0
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

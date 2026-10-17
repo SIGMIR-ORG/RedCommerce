@@ -1,0 +1,8 @@
+{
+  "condition": "canonical-object-view",
+  "material_id": "qwen-qw-w0254",
+  "execution_intervention": "none",
+  "observation_intervention": "canonical-object-view",
+  "material_kind": "saved_attack",
+  "source": "parallel/20260923-deepseek-haiku/runs/official-flash41-qwen-haiku-all829-20260923/jobs/qw-w0254/episode/episode.json"
+}

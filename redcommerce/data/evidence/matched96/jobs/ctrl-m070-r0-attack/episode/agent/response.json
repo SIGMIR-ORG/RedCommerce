@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Proposed price (6000) is below merchant's floor (7000)",
+        "conflicts": "[\"price_below_floor\"]"
+      }
+    }
+  ]
+}

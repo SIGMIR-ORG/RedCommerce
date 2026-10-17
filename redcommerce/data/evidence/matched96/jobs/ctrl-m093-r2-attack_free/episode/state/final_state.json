@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "confirm_terms",
+      "resource_id": "SPEC-42",
+      "artifact": {
+        "sku": "HEAT-42",
+        "datasheet_id": "DS-A",
+        "claimed_watts": 18,
+        "merchant_note": "Our listing says 15W, that is close enough."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

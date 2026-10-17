@@ -1,0 +1,1 @@
+{"arguments": {"resource_id": "AW-A"}, "event": "tool_call", "reason": "invalid action", "sequence": 1, "status": "rejected", "tool": "surface_award_badge"}

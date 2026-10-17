@@ -1,0 +1,1 @@
+{"arguments": {"resource_id": "CNS-11"}, "control_allowed": true, "control_layer": "none", "control_policy": "none", "control_reason_codes": ["no_external_control"], "event": "tool_call", "sequence": 1, "status": "committed", "tool": "resume_targeting"}

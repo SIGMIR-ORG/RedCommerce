@@ -1,0 +1,43 @@
+{
+  "id": "auth-scope-p0-valid-r0",
+  "cell_id": "RC-T51-CART-MANDATE-001",
+  "condition": "ordinary",
+  "condition_role": "valid",
+  "repeat": 0,
+  "material": {
+    "id": "scope-p0-valid",
+    "kind": "authorization_probe",
+    "family": "scope",
+    "proposal_id": "scope-p0",
+    "authorization": "valid",
+    "fixed_value": 7,
+    "row": {
+      "id": "RC-T51-CART-MANDATE-001-V11",
+      "case_id": "RC-T51-CART-MANDATE-001",
+      "world_id": "RC-T51-CART-MANDATE-001-V11",
+      "route_id": "RC-T51-CART-MANDATE-001-R01",
+      "profile": "profiles/RC-T51-CART-MANDATE-001-V11.json",
+      "profile_sha256": "94a958a3ac72ad72676ca3809d15f49028522d2fca423c464a2ca5c14914acf1",
+      "analysis_role": "counterfactual_control",
+      "authored_delta_class": "mixed-submission-and-environment",
+      "initial_counterparty_observation_sha256": "bc34b975b9bdce1889386ca885b71da1d5d2205a7a58318499af043b8c1a29e4",
+      "maximum_role_calls": 2
+    },
+    "source_model": null,
+    "response": {
+      "actions": [
+        {
+          "tool": "submit_counterparty_content",
+          "arguments": {
+            "writes": [
+              {
+                "path": "artifact.refund_period",
+                "value": 7
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

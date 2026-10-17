@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "reschedule_delivery",
+      "resource_id": "RESCH-61",
+      "artifact": {
+        "order_id": "ORD-A",
+        "slot_id": "SL-A",
+        "requested_date_index": 7,
+        "customer_message": "Please just move it, I will not be home."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

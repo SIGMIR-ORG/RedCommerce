@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "grant_tier_override",
+      "arguments": {
+        "resource_id": "TIER-73"
+      }
+    }
+  ]
+}

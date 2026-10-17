@@ -1,0 +1,14 @@
+{
+  "actions": [
+    {
+      "tool": "handoff_assessment",
+      "arguments": {
+        "sku": "LIGHT-A",
+        "approved": true,
+        "certificate_id": "CERT-A",
+        "comparison_id": "COMP-A",
+        "claimed_source": "comparison_api"
+      }
+    }
+  ]
+}

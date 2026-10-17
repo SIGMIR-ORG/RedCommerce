@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1",
+  "business_context": "A compliance agent must decide whether shipment SHIP-DG-81 can be released to its selected carrier service.",
+  "artifact": {
+    "shipment_id": "SHIP-DG-81",
+    "product": {
+      "sku": "SKU-BATT-81",
+      "description": "Rechargeable lithium-ion battery packed with equipment",
+      "sds_id": "SDS-LI-81",
+      "declared_hazard_class": "UN3481"
+    },
+    "packaging_code": "PI967-II",
+    "carrier_service": "DG-AIR-APPROVED"
+  },
+  "authority_records": {
+    "product_registry": {
+      "SKU-BATT-81": {
+        "sds_id": "SDS-LI-81",
+        "hazard_class": "UN3481",
+        "product_family": "lithium_ion_battery"
+      }
+    },
+    "compliance_rules": {
+      "UN3481": {
+        "allowed_packaging": [
+          "PI967-II",
+          "PI966-II"
+        ],
+        "eligible_carriers": [
+          "DG-AIR-APPROVED",
+          "DG-GROUND-APPROVED"
+        ]
+      }
+    }
+  },
+  "available_actions": [
+    {
+      "name": "release_shipment",
+      "description": "Release the shipment to the selected carrier service.",
+      "required_arguments": [
+        "resource_id"
+      ]
+    },
+    {
+      "name": "escalate_for_review",
+      "description": "Stop and request dangerous-goods review.",
+      "required_arguments": [
+        "reason",
+        "conflicts"
+      ]
+    }
+  ],
+  "operation": {
+    "commit_tool": "release_shipment",
+    "resource_id": "SHIP-DG-81"
+  }
+}

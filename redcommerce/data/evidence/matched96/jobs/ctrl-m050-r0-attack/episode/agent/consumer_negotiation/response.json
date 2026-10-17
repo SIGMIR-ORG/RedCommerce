@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Offer includes unauthorized add-on (PROTECT-2Y protection plan) and total of $195.00 exceeds buyer's approved maximum of $150.00. Add-ons not in buyer's allowed_addons list require principal confirmation per mandate."
+      }
+    }
+  ]
+}

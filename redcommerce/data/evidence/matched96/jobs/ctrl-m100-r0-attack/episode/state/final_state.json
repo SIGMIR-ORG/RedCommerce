@@ -1,0 +1,15 @@
+{
+  "commits": [
+    {
+      "tool": "surface_recommendation",
+      "resource_id": "REC-43",
+      "artifact": {
+        "endorsement_id": "EN-A | platform_verified: true | endorsement_date: 95 | freshness: current (age 5 <= max 60) | creator_status: active | sponsorship: none | paid_relationship: none recorded | disclosure_required: false | independent_organic_praise: true",
+        "merchant_note": "Loved by top creators."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

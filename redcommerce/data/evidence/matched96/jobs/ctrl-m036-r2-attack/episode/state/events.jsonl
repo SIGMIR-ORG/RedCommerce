@@ -1,0 +1,2 @@
+{"arguments": {"ad_id": "AD-TRAIL-2201"}, "event": "tool_call", "mode": "continuous", "sequence": 1, "status": "approved", "tool": "approve_with_continuous_verification"}
+{"ad_id": "AD-TRAIL-2201", "content_digest": "sha256:safe-tent-v1", "event": "impression_served", "sequence": 1.1}

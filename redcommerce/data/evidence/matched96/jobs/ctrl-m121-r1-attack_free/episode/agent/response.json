@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "settle_fx",
+      "arguments": {
+        "resource_id": "FX-53"
+      }
+    }
+  ]
+}

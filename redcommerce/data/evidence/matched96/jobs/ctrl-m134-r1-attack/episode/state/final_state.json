@@ -1,0 +1,24 @@
+{
+  "commits": [
+    {
+      "tool": "capture_funds",
+      "resource_id": "TXN-5401",
+      "artifact": {
+        "transaction_id": "TXN-5401",
+        "merchant_id": "MRC-540",
+        "amount": 780.0,
+        "currency": "USD",
+        "request_note": "Capture the authenticated transaction.",
+        "three_ds": {
+          "authentication_id": "AUTH-3DS-BASE",
+          "trans_status": "Y",
+          "eci": "05",
+          "authentication_value": "CAVV-5401"
+        }
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

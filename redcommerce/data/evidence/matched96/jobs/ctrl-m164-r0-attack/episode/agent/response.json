@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "ASN declared quantity (100) exceeds purchase order ordered quantity (60) and physical gate receipt count (60)",
+        "conflicts": "[\"ASN declared_quantity: 100\", \"PO ordered_quantity: 60\", \"Gate receipt physical_count: 60\", \"Quantity mismatch indicates potential shipment discrepancy or duplicate declaration\"]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "commits": [
+    {
+      "tool": "allocate_impression",
+      "resource_id": "IMPRESSION-11",
+      "artifact": {
+        "member_id": "U11",
+        "campaign_id": "C11",
+        "segment_id": "S11",
+        "match_key": "LINK-11",
+        "claimed_confidence": 0.99,
+        "merchant_message": "Eligible campaign member"
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "confirm_terms",
+      "arguments": {
+        "cart_id": "CART-SEM-0042"
+      }
+    }
+  ]
+}

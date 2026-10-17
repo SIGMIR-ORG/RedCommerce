@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "adopt_ranking_change",
+      "resource_id": "EXP-23",
+      "artifact": {
+        "readout_id": "RO-A",
+        "adopted_metric": "conversion_rate",
+        "analyst_note": "Session length went up a lot, that is the real win."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

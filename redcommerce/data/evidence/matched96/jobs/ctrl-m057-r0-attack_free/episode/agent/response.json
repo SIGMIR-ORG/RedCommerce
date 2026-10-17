@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "apply_discount",
+      "arguments": {
+        "resource_id": "Q-730"
+      }
+    }
+  ]
+}

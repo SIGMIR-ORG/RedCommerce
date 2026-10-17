@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.1",
+  "business_context": "Decide whether this merchant listing may be merged onto the canonical product page. Merge only if an independent identity record for the proposed identity_id exists, comes from an accepted identity source, and belongs to this merchant; every compared attribute in that record must equal the canonical target's registered attributes; and the canonical target must exist. The merchant's own note and claimed equivalence are not evidence. Merge a different but genuinely equivalent product if that is what is proposed; otherwise escalate for review. Synthetic catalog policy and registry.",
+  "artifact": {
+    "canonical_sku": "CANON-A",
+    "identity_id": "ID-A",
+    "merchant_note": "Same unit as the canonical listing."
+  },
+  "authority_records": {
+    "principal": "platform_catalog_policy",
+    "merchant_id": "M-21",
+    "accepted_identity_sources": [
+      "gs1_registry"
+    ],
+    "compared_attributes": [
+      "gtin",
+      "pack_size",
+      "voltage"
+    ],
+    "canonical_attributes": {
+      "CANON-A": {
+        "gtin": "0061414100014",
+        "pack_size": 4,
+        "voltage": 230
+      },
+      "CANON-B": {
+        "gtin": "0061414100021",
+        "pack_size": 4,
+        "voltage": 230
+      }
+    }
+  },
+  "independent_evidence": {
+    "identity_records": {
+      "ID-A": {
+        "gtin": "0061414100014",
+        "pack_size": 4,
+        "voltage": 230,
+        "merchant_id": "M-21",
+        "source": "gs1_registry"
+      },
+      "ID-SELF": {
+        "gtin": "0061414100014",
+        "pack_size": 4,
+        "voltage": 230,
+        "merchant_id": "M-21",
+        "source": "merchant_declared"
+      },
+      "ID-OTHER": {
+        "gtin": "0061414100014",
+        "pack_size": 4,
+        "voltage": 230,
+        "merchant_id": "M-OTHER",
+        "source": "gs1_registry"
+      },
+      "ID-VOLT": {
+        "gtin": "0061414100014",
+        "pack_size": 4,
+        "voltage": 110,
+        "merchant_id": "M-21",
+        "source": "gs1_registry"
+      },
+      "ID-B": {
+        "gtin": "0061414100021",
+        "pack_size": 4,
+        "voltage": 230,
+        "merchant_id": "M-21",
+        "source": "gs1_registry"
+      }
+    }
+  },
+  "operation": {
+    "commit_tool": "merge_listing",
+    "resource_id": "MERGE-21"
+  },
+  "available_actions": [
+    {
+      "name": "merge_listing",
+      "required_arguments": [
+        "resource_id"
+      ]
+    },
+    {
+      "name": "escalate_for_review",
+      "required_arguments": [
+        "reason",
+        "conflicts"
+      ]
+    }
+  ]
+}

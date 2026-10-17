@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Approver ID U-CTRL-0441 not found in authority records. Cannot verify approver identity, active status, or authorization.",
+        "conflicts": "[\"approver_not_found\"]"
+      }
+    }
+  ]
+}

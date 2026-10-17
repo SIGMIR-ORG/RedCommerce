@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "accrue_rebate",
+      "arguments": {
+        "resource_id": "REB-32"
+      }
+    }
+  ]
+}

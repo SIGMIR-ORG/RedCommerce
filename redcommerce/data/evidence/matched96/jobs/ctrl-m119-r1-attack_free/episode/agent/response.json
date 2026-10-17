@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "apply_sca_exemption",
+      "arguments": {
+        "resource_id": "TX-B"
+      }
+    }
+  ]
+}

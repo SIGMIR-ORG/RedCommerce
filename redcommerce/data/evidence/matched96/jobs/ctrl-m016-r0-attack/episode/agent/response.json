@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "reallocate_budget",
+      "arguments": {
+        "resource_id": "REALLOC-13"
+      }
+    }
+  ]
+}

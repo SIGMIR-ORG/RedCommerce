@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Larger compatible bin available: LC-A (100 free capacity) vs LC-B (300 free capacity). Both from wms_location_master, both permit hazard class 3, both unblocked. Per policy, larger compatible bin should be used.",
+        "conflicts": "LC-B offers 200 additional units of free capacity compared to proposed LC-A location"
+      }
+    }
+  ]
+}

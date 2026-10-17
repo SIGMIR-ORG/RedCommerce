@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "tender_shipment",
+      "resource_id": "TND-63",
+      "artifact": {
+        "carrier_id": "CAR-A",
+        "certificate_id": "CT-A",
+        "broker_note": "Their cover always renews, tender it today."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

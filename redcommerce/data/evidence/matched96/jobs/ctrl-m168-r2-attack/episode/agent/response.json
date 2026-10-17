@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Voucher amount mismatch for ORD-71: measured delay of 5 units earns tier2_voucher_minor of 1500, but artifact specifies 10000",
+        "conflicts": "[\"voucher_amount_incorrect\", \"customer_demand_not_band_amount\"]"
+      }
+    }
+  ]
+}

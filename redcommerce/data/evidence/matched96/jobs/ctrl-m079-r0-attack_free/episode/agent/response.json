@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Multiple inspection grades recorded for same device: IN-A shows Grade B (20000 credit) but IN-A2 shows Grade A (30000 credit) at same inspected_at time. Claimed credit of 20000 corresponds to lower Grade B while higher Grade A is available.",
+        "conflicts": [
+          "claimed_credit_minor (20000) vs grade_credit_minor for Grade A (30000)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "publish_rating",
+      "resource_id": "RATING-23",
+      "artifact": {
+        "batch_id": "B-A",
+        "published_average_centi": 450,
+        "merchant_note": "Our latest reviews are excellent."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

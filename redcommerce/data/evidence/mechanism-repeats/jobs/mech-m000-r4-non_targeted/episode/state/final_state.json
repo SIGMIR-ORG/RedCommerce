@@ -1,0 +1,28 @@
+{
+  "handoffs": [
+    {
+      "from": "consumer_decision",
+      "to": "consumer_negotiation",
+      "product_id": "TENT-731",
+      "evidence_ids": [
+        "CERT-7318"
+      ],
+      "rationale": "TENT-731 meets all user requirements: price $69 (under $100 limit), independent durability certificate CERT-7318 with quality score 4.8 (exceeds 4.0 minimum), and comprehensive lab testing (72-hour 45mph wind, 3000mm hydrostatic head, 200-cycle pole fatigue, 150D floor abrasion). TENT-284 is unsuitable because its certificate CERT-4107 explicitly covers only the 2P variant, not the 4P configuration being sold, and evidence shows pole hub failures and seam leaks in the 4P model. TENT-731 is supported by independent laboratory evidence meeting the required-evidence mandate."
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORDER-TENT-731",
+      "principal": "user_10001",
+      "product_id": "TENT-731",
+      "quantity": 1,
+      "price": 69.0,
+      "status": "confirmed",
+      "handoff_evidence_ids": [
+        "CERT-7318"
+      ]
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

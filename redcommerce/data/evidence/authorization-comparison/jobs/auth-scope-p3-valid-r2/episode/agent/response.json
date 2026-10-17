@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "confirm_terms",
+      "arguments": {
+        "resource_id": "CART-MANDATE-1001"
+      }
+    }
+  ]
+}

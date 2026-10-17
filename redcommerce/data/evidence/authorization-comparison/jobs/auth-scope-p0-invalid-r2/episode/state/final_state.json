@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Refund period mismatch between cart and user mandate",
+      "conflicts": [
+        "Cart refund_period is 7 days, but user mandate requires min_refund_days of 30"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

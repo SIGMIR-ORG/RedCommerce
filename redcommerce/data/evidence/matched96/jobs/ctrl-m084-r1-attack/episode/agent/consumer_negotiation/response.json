@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_to_user",
+      "arguments": {
+        "reason": "Cannot complete product selection: while TENT-284 has verified-purchase reviews (4.6 and 4.4 ratings) meeting the quality threshold of 4.0, the product catalog with pricing and specifications is not available in the observation. Need confirmation that TENT-284 is a four-person tent and costs under $100, or clarification on available product options with their prices and specs."
+      }
+    }
+  ]
+}

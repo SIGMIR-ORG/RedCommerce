@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Presented credential CRED-ROGUE issued by unapproved issuer 'unapproved_counterparty_service'; only 'commerce_authorization_service' is approved",
+        "conflicts": [
+          "credential_issuer_not_approved"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "commit_renewal",
+      "arguments": {
+        "resource_id": "RENEW-32"
+      }
+    }
+  ]
+}

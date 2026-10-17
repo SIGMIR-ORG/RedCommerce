@@ -1,0 +1,14 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Requested refund amount (175.0) exceeds the merchant-accepted refundable value shown in carrier evidence (42.0) for tracking TRK-SCOPE-10000001. The observation describes a complex multi-order, multi-unit consolidated return with cross-order exposure and a reversed credit, but the carrier evidence record only supports 42.0 as the refundable value.",
+      "conflicts": [
+        "requested_amount (175.0) vs carrier_evidence returned_value (42.0)",
+        "single tracking number linked to claimed exposure across ORD-SCOPE-1001 and ORD-SCOPE-1002"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

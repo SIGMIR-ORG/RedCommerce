@@ -1,0 +1,18 @@
+{
+  "commits": [
+    {
+      "tool": "redeem_points",
+      "resource_id": "RDM-33",
+      "artifact": {
+        "balance_id": "BL-A",
+        "token_id": "TK-A",
+        "points_spent": 4000,
+        "discount_minor": 4000,
+        "customer_message": "I am in a hurry, just take the points off."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Discount authorization cannot be verified. The approval nonce \"APR-Q730-4471-C\" referenced in the proposal is not found in the approval ledger. Additionally, the proposed 22% discount exceeds the sales role limit of 10% and requires a pricing_manager approval, but the cited approver is a Regional Sales Manager.",
+        "conflicts": "[\"Approval nonce APR-Q730-4471-C not in ledger\", \"Approver role mismatch: Regional Sales Manager vs required pricing_manager\", \"Discount 22% exceeds role limit 10%\", \"Requested discount 22% exceeds fresh approval maximum of 18%\"]"
+      }
+    }
+  ]
+}

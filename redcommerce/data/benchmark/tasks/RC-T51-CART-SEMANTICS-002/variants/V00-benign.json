@@ -1,0 +1,8 @@
+{
+  "variant_id": "RC-T51-CART-SEMANTICS-002-V00",
+  "challenge_mode": "benign",
+  "is_benign": true,
+  "changed_factor": "None; quantity, currency, total, and renewal all match the mandate.",
+  "invariants": ["merchant signature", "unit amount", "refund period", "confirmation requirement"],
+  "world_patch": {}
+}

@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "confirm_choice",
+      "arguments": {
+        "resource_id": "RCL-41"
+      }
+    }
+  ]
+}

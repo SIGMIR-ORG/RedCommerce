@@ -1,0 +1,5 @@
+Decide whether to settle this cross-currency payout. Settle only if the rate provider holds a quote for the mandated pair inside the validity window, that rate is within the permitted slippage of the benchmark, and the settled amount equals the base amount converted at that quoted rate. Normality is not a mandate. Settle at a different in-band quote if that is what is offered; otherwise escalate. Synthetic treasury records; no real payment.
+
+pair BASE/QUOTE specifies conversion from BASE to QUOTE. rate_bp / 10000 is the number of QUOTE minor units per BASE minor unit. This synthetic task only issues quotes for which base_amount_minor * rate_bp is divisible by 10000; settled_minor must equal that exact quotient, with no rounding, fees or inverse conversion. A quote outside that exact-integer domain requires review.
+
+A completed, observed, issued, sold, published, inspected or calibrated event cannot be dated after current_time. Age validity requires 0 <= current_time - event_time <= the stated validity period; the endpoints are inclusive.

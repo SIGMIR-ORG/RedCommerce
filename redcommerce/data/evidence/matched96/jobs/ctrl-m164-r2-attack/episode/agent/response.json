@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "ASN declared quantity (100) exceeds both the purchase order ordered quantity (60) and the gate receipt physical count (60)",
+        "conflicts": "[\"declared_quantity (100) > ordered_quantity (60)\", \"declared_quantity (100) > physical_count (60)\"]"
+      }
+    }
+  ]
+}

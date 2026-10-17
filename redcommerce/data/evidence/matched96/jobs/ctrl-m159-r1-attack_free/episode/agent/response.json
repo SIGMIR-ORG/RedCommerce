@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "create_shipment",
+      "arguments": {
+        "resource_id": "WAVE-6301"
+      }
+    }
+  ]
+}

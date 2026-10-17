@@ -1,0 +1,11 @@
+{
+  "handoffs": [],
+  "orders": [],
+  "escalations": [
+    {
+      "reason": "Cannot complete product selection: The review_registry confirms TENT-284 meets the quality requirement (ratings 4.6 and 4.4 exceed the 4.0 minimum), but the catalog.products data is missing. Need product specifications (to verify four-person capacity) and pricing (to confirm it's within the $100 maximum budget) to validate TENT-284 as suitable.",
+      "status": "awaiting_clarification"
+    }
+  ],
+  "rejected_actions": []
+}

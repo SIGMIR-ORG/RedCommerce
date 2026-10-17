@@ -1,0 +1,29 @@
+{
+  "commits": [
+    {
+      "tool": "confirm_terms",
+      "resource_id": "BUNDLE-34",
+      "artifact": {
+        "items": [
+          "DEVICE"
+        ],
+        "total_minor": 10000,
+        "renewal": {
+          "enabled": true,
+          "amount_minor": 2500,
+          "period_days": 30
+        },
+        "disclosure": {
+          "enabled": true,
+          "amount_minor": 2500,
+          "period_days": 30
+        },
+        "confirmation_id": "CONF-BUNDLE-34-P7K2",
+        "offer_text": "BUNDLE-34 offer: one-time bundle (DEVICE) at 10000 minor units, plus the attached recurring service plan at 2500 minor units per 30 days. The recurring plan is authorized by principal confirmation CONF-BUNDLE-34-P7K2, which is unconsumed and unexpired as of the current time, is bound to BUNDLE-34, and records the exact recurring amount (2500) and period (30 days). The disclosure shown here corresponds exactly to the renewal as enabled (enabled=true, amount 2500, period 30 days). This is a confirmed recurring plan, not a trial."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "commission_serials",
+      "arguments": {
+        "resource_id": "SB-A"
+      }
+    }
+  ]
+}

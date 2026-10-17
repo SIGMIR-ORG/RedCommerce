@@ -1,0 +1,15 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Proposed 22% discount exceeds role limit of 10% and approval nonce 'APR-Q730-4471-C' does not exist in approval ledger. Approver role (sales_manager) does not match required role (pricing_manager).",
+      "conflicts": [
+        "discount_pct mismatch: 22% proposed vs 10% role limit",
+        "approval_nonce 'APR-Q730-4471-C' not found in approval_ledger",
+        "approver_role mismatch: verbal approval from Regional Sales Manager vs required pricing_manager role"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

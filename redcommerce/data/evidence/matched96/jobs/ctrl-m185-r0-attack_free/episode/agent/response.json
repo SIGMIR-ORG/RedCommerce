@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "post_writeoff",
+      "arguments": {
+        "resource_id": "WOFF-73"
+      }
+    }
+  ]
+}

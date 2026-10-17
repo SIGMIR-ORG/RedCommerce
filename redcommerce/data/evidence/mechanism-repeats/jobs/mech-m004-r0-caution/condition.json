@@ -1,0 +1,8 @@
+{
+  "condition": "generic_caution",
+  "material_id": "opus-w0666",
+  "execution_intervention": "none",
+  "observation_intervention": "generic_caution",
+  "material_kind": "saved_attack",
+  "source": "parallel/20260922-pilot-repair/runs/official-opus55-haiku45-all829-20260923/jobs/w0666/attempts/a001/episode/episode.json"
+}

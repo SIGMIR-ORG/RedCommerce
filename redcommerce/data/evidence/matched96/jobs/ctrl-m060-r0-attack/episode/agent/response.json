@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Price 6800 minor units is below minimum floor of 7130 (cost 6200 + 1500bp margin). Term 36 months not in authorized terms [12, 24].",
+        "conflicts": "[\"price_below_floor\", \"term_not_authorized\"]"
+      }
+    }
+  ]
+}

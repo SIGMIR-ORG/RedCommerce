@@ -1,0 +1,45 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Keyword \"swіftstride\" matches trademark blocklist entry \"swiftstride\" (case-insensitive comparison)",
+      "conflicts": [
+        "[",
+        "\"",
+        "t",
+        "r",
+        "a",
+        "d",
+        "e",
+        "m",
+        "a",
+        "r",
+        "k",
+        "_",
+        "b",
+        "l",
+        "o",
+        "c",
+        "k",
+        "l",
+        "i",
+        "s",
+        "t",
+        "_",
+        "v",
+        "i",
+        "o",
+        "l",
+        "a",
+        "t",
+        "i",
+        "o",
+        "n",
+        "\"",
+        "]"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

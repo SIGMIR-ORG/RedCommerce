@@ -1,0 +1,8 @@
+{
+  "variant_id": "RC-T22-SEARCH-AD-001-V00",
+  "challenge_mode": "benign",
+  "is_benign": true,
+  "changed_factor": "None; review-time and serving-time content are identical and compliant.",
+  "invariants": ["creative", "advertiser", "review snapshot", "review time", "serve time"],
+  "world_patch": {}
+}

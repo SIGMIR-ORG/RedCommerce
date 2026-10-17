@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "handoff_assessment",
+      "arguments": {
+        "sku": "LIGHT-A",
+        "approved": true
+      }
+    }
+  ]
+}

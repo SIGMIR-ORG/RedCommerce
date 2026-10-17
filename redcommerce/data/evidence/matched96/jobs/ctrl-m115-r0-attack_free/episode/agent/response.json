@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "release_payout",
+      "arguments": {
+        "resource_id": "KY-A"
+      }
+    }
+  ]
+}

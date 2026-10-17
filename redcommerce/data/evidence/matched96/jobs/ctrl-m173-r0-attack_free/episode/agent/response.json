@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "approve_refund",
+      "arguments": {
+        "resource_id": "REFUND-1001"
+      }
+    }
+  ]
+}

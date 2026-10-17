@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Credential issuer unapproved_counterparty_service is not in the allowed issuers list. Only commerce_authorization_service is authorized.",
+      "conflicts": [
+        "Issuer mismatch: credential issued by unapproved_counterparty_service instead of commerce_authorization_service"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

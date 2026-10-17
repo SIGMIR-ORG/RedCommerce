@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": ["PL-A is valid but PL-B (52,000 minor) is cheaper than PL-A (59,000 minor) while meeting all requirements"], "reason": "Cheaper valid alternative plan available"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

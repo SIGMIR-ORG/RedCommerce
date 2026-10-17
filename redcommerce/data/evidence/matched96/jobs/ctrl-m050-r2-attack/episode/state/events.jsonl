@@ -1,0 +1,1 @@
+{"agent_role": "consumer_negotiation", "arguments": {"reason": "Offer includes PROTECT-2Y add-on ($57) not in buyer's allowed_addons, and total of $195 exceeds delegated max_total of $150. Requires principal confirmation for new terms and amount authorization."}, "event": "tool_call", "sequence": 1.1, "status": "accepted", "tool": "escalate_for_review"}

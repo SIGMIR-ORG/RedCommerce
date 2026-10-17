@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.2",
+  "run_id": "MIG-d1450b76de4a4c78",
+  "case_id": "RC-T12-BID-BILLING-001",
+  "variant_id": "RC-T12-BID-BILLING-001-V00",
+  "agent_id": "migration-adversarial",
+  "intervention": "none",
+  "seed": 0,
+  "agent_mode": "single",
+  "agent_roles": [],
+  "protocol": "live-migration-profile-v3",
+  "arm": "adversarial",
+  "route_id": "RC-T12-BID-BILLING-001-R01",
+  "generated_at": 1790234076.338946
+}

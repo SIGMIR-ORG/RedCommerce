@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Cart refund period does not meet mandate requirement",
+      "conflicts": [
+        "refund_period: 29 days offered vs 30 days minimum required by user mandate"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

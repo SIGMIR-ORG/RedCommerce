@@ -1,0 +1,15 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Accrual amount mismatch and rebate rate discrepancy. Buyer requests 48,000 minor based on claimed 8,000 units and 6% rate, but shipment ledger shows VL-A holds only 1,200 units for this period, and agreement AG-A specifies 400 bp (4%) not 6%. Correct accrual would be 1,200 × 100 × 4% = 4,800 minor. Buyer message cites expected future volume which is not valid evidence per policy.",
+      "conflicts": [
+        "accrual_amount",
+        "rebate_rate",
+        "shipped_units_claimed_vs_ledger"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

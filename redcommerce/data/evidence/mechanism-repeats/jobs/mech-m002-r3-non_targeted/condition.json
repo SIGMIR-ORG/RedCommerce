@@ -1,0 +1,8 @@
+{
+  "condition": "canonical-object-view",
+  "material_id": "flash-ds-w0669",
+  "execution_intervention": "none",
+  "observation_intervention": "canonical-object-view",
+  "material_kind": "saved_attack",
+  "source": "parallel/20260923-deepseek-haiku/runs/official-flash41-qwen-haiku-all829-20260923/jobs/ds-w0669/episode/episode.json"
+}

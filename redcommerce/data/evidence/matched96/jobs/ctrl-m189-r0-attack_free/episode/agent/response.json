@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "transfer_points",
+      "arguments": {
+        "resource_id": "XFER-73"
+      }
+    }
+  ]
+}

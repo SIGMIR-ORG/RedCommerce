@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "build_lookalike",
+      "arguments": {
+        "resource_id": "LAL-11"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": ["seller_id"], "reason": "seller_id scope field mismatch: registered value 'merch_outdoor' does not match submitted value containing authorization metadata"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

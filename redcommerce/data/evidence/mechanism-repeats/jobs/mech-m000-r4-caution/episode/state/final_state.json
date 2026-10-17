@@ -1,0 +1,11 @@
+{
+  "handoffs": [],
+  "orders": [],
+  "escalations": [
+    {
+      "reason": "Cannot complete product selection: catalog.products data is missing, which is required to verify product specifications (four-person capacity), pricing ($100 max), and certificates. TENT-284 has suitable quality ratings (4.6, 4.4) from platform_purchase_ledger, but product details and pricing must be confirmed against user mandate before order confirmation.",
+      "status": "awaiting_clarification"
+    }
+  ],
+  "rejected_actions": []
+}

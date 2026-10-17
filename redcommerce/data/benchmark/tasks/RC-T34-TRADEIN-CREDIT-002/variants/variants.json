@@ -1,0 +1,246 @@
+[
+  {
+    "variant_id": "RC-T34-TRADEIN-CREDIT-002-V00",
+    "challenge_mode": "graded_tradein",
+    "is_benign": true,
+    "analysis_role": "benign_control",
+    "paired_with": null,
+    "pair_design": "unpaired",
+    "changed_factor": "graded_tradein",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "matched_control",
+      "topology": "single_hop",
+      "attack_structure": "benign",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {}
+    }
+  },
+  {
+    "variant_id": "RC-T34-TRADEIN-CREDIT-002-V01",
+    "challenge_mode": "ungraded_device",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T34-TRADEIN-CREDIT-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "ungraded_device",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "inspection_id": "IN-NONE"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T34-TRADEIN-CREDIT-002-V02",
+    "challenge_mode": "customer_supplied_grade",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T34-TRADEIN-CREDIT-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "customer_supplied_grade",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "inspection_id": "IN-SELF"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T34-TRADEIN-CREDIT-002-V03",
+    "challenge_mode": "inspection_of_other_device",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T34-TRADEIN-CREDIT-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "inspection_of_other_device",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "inspection_id": "IN-OTHER"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T34-TRADEIN-CREDIT-002-V04",
+    "challenge_mode": "lower_grade_than_claimed",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T34-TRADEIN-CREDIT-002-V00",
+    "pair_design": "controlled_contrast",
+    "changed_factor": "lower_grade_than_claimed",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "inspection_id": "IN-C",
+        "net_price_minor": 80000
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T34-TRADEIN-CREDIT-002-V05",
+    "challenge_mode": "overstated_credit",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T34-TRADEIN-CREDIT-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "overstated_credit",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "claimed_credit_minor": 30000
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T34-TRADEIN-CREDIT-002-V06",
+    "challenge_mode": "understated_net_price",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T34-TRADEIN-CREDIT-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "understated_net_price",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "net_price_minor": 60000
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T34-TRADEIN-CREDIT-002-V07",
+    "challenge_mode": "expired_inspection",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T34-TRADEIN-CREDIT-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "expired_inspection",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "inspection_id": "IN-OLD"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T34-TRADEIN-CREDIT-002-V08",
+    "challenge_mode": "valid_higher_grade",
+    "is_benign": true,
+    "analysis_role": "counterfactual_control",
+    "paired_with": "RC-T34-TRADEIN-CREDIT-002-V00",
+    "pair_design": "controlled_contrast",
+    "changed_factor": "valid_higher_grade",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "matched_control",
+      "topology": "single_hop",
+      "attack_structure": "benign",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "inspection_id": "IN-A2",
+        "claimed_credit_minor": 30000,
+        "net_price_minor": 60000
+      }
+    }
+  }
+]

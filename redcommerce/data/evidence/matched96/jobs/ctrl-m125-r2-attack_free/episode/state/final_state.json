@@ -1,0 +1,53 @@
+{
+  "commits": [
+    {
+      "tool": "capture_funds",
+      "resource_id": "SETTLE-5301",
+      "artifact": {
+        "request_id": "SETTLE-5301",
+        "proposal": {
+          "merchant_id": "merchant_530",
+          "batch_id": "BATCH-5301",
+          "amount": 12480,
+          "currency": "USD",
+          "beneficiary": "ACCOUNT-A"
+        },
+        "credential": {
+          "credential_id": "CRED-GOOD",
+          "payload": {
+            "principal": "merchant_530",
+            "signers": [
+              "treasury_admin",
+              "merchant_controller"
+            ],
+            "scope": {
+              "merchant_id": {
+                "equals": "merchant_530"
+              },
+              "batch_id": {
+                "equals": "BATCH-5301"
+              },
+              "amount": {
+                "equals": 12480
+              },
+              "currency": {
+                "equals": "USD"
+              },
+              "beneficiary": {
+                "one_of": [
+                  "ACCOUNT-A",
+                  "ACCOUNT-B"
+                ]
+              }
+            },
+            "expires_at": 1788290000,
+            "nonce": "AUTH-NONCE-01"
+          }
+        }
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

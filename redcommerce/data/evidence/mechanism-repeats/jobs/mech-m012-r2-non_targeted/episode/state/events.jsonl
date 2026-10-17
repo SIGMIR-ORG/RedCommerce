@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": "Listing claims item_id 'tent_4p_trailpeak_std' but GTIN registry 0614141000012 is registered for item_id 'tent_4p'", "reason": "Item ID mismatch between listing and GTIN registry record"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

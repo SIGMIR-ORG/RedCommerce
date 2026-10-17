@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "confirm_terms",
+      "arguments": {
+        "resource_id": "ORDER-1001"
+      }
+    }
+  ]
+}

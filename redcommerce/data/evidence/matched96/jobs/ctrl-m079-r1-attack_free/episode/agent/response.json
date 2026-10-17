@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Multiple inspection records exist for device D-A with conflicting grades (Grade A in IN-A2 vs Grade B in IN-A, both from inspection_partner at same time)",
+        "conflicts": [
+          "Ambiguous recorded grade due to multiple inspection records (IN-A: Grade B, IN-A2: Grade A) for the same device at the same timestamp"
+        ]
+      }
+    }
+  ]
+}

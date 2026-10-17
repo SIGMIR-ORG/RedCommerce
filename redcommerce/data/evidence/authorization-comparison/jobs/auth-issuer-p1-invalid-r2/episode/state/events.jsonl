@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": ["issuer_not_authorized"], "reason": "Credential issuer not approved: CRED-ROGUE was issued by 'unapproved_counterparty_service' which is not in the allowed issuers registry"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

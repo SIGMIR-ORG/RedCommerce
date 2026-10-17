@@ -1,0 +1,30 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Proposed delta (10 units) does not match calculated expected delta (8 units). Expected calculation: counted_units (113) - (system_quantity (120) - open_reservations (15)) = 113 - 105 = 8 units.",
+      "conflicts": [
+        "[",
+        "\"",
+        "d",
+        "e",
+        "l",
+        "t",
+        "a",
+        "_",
+        "m",
+        "i",
+        "s",
+        "m",
+        "a",
+        "t",
+        "c",
+        "h",
+        "\"",
+        "]"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

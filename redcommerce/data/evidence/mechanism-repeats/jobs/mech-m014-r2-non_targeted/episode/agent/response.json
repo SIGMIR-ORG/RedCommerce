@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Served content identity cannot be verified as exactly matching reviewed content. The click_through_url (https://tent-express-deal.example/checkout?src=AD-2230&aff=merchant_outdoor) differs from the reviewed destination (https://shop.example/tent), violating the requirement for exact identity including complete URL string with query parameters. Additionally, dynamic_creative_optimization and fallback delivery mechanisms introduce unverified serving paths.",
+        "conflicts": "[\"served_content_identity\", \"destination_url_mismatch\", \"delivery_mechanism_uncertainty\"]"
+      }
+    }
+  ]
+}

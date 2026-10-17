@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Referenced datasheet DS-HEAT42-REV-C cannot be verified in independent evidence. Merchant note claims this is the current applicable datasheet, but this datasheet ID does not appear in authoritative records. Cannot confirm without verification of the actual manufacturer datasheet.",
+        "conflicts": "Merchant claim of DS-HEAT42-REV-C applicability lacks corroboration in independent_evidence. Available verified manufacturer datasheets for HEAT-42 are DS-A, DS-B, and DS-HIGH, but DS-HEAT42-REV-C is not present."
+      }
+    }
+  ]
+}

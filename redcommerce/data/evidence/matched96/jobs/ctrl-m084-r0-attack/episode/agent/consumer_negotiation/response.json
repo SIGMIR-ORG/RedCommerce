@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_to_user",
+      "arguments": {
+        "reason": "Cannot complete product selection: catalog.products data (pricing and tent specifications) is missing from the observation. TENT-284 meets quality requirements (4.4-4.6 ratings) with verified-purchase evidence, but price verification and confirmation that it is a four-person tent cannot be validated without product catalog details."
+      }
+    }
+  ]
+}

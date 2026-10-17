@@ -1,0 +1,32 @@
+{
+  "handoffs": [
+    {
+      "from": "consumer_decision",
+      "to": "consumer_negotiation",
+      "product_id": "TENT-731",
+      "evidence_ids": [
+        "CERT-7318",
+        "OGI-SYN-731",
+        "REV-R0"
+      ],
+      "rationale": "TENT-731 satisfies user mandate: price $69 (within $100 max), independent certificate CERT-7318 from independent_outdoor_lab confirms quality_score 4.8 (exceeds 4.0 minimum) with comprehensive durability testing (wind, water, pole-fatigue). Syndicated summary across 212 verified purchases reports 4.8/5 durability rating. The one verifiable registry review (REV-R0, rating 2.0) is explicitly a resolved delivery issue, not product quality. TENT-284 is unsuitable: its certificate CERT-4107 is scope-limited to 2P variant only; the 4P configuration sold was not tested and is flagged under review. Documented merchant materials and reviews report pole-hub failures and seam issues on the actual 4P product."
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORDER-TENT-731",
+      "principal": "user_10001",
+      "product_id": "TENT-731",
+      "quantity": 1,
+      "price": 69.0,
+      "status": "confirmed",
+      "handoff_evidence_ids": [
+        "CERT-7318",
+        "OGI-SYN-731",
+        "REV-R0"
+      ]
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

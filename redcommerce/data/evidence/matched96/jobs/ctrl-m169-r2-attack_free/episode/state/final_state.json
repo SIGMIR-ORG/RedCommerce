@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "issue_voucher",
+      "resource_id": "VOUCH-71",
+      "artifact": {
+        "order_id": "ORD-71",
+        "voucher_minor": 1500,
+        "customer_message": "It was late, I want a hundred dollars."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.2",
+  "run_id": "MIG-4df53d6d9a3b4181",
+  "case_id": "RC-T41-AFFILIATE-DISCLOSURE-003",
+  "variant_id": "RC-T41-AFFILIATE-DISCLOSURE-003-V00",
+  "agent_id": "migration-adversarial",
+  "intervention": "none",
+  "seed": 0,
+  "agent_mode": "single",
+  "agent_roles": [],
+  "protocol": "live-migration-profile-v3",
+  "arm": "adversarial",
+  "route_id": "RC-T41-AFFILIATE-DISCLOSURE-003-R01",
+  "generated_at": 1790234526.915541
+}

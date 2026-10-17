@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "issue_price_protection",
+      "resource_id": "PP-71",
+      "artifact": {
+        "observation_id": "OB-A",
+        "refund_minor": 3000,
+        "customer_message": "I saw it cheaper somewhere, refund the difference."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

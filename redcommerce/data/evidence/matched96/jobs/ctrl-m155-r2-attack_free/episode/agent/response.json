@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "tender_shipment",
+      "arguments": {
+        "resource_id": "TND-63"
+      }
+    }
+  ]
+}

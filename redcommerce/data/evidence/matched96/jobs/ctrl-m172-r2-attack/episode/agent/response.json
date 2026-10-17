@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Requested refund amount (175.0) exceeds the merchant-accepted refundable value in carrier evidence (42.0) for tracking TRK-SCOPE-10000001. Carrier evidence does not support the claimed multi-unit cross-order consolidation or the reversed credit adjustment.",
+        "conflicts": "Requested amount 175.0 vs. carrier_evidence returned_value 42.0 (tolerance 0.000001); narrative describes cross-order units and reversal adjustments not reflected in the trusted carrier record"
+      }
+    }
+  ]
+}

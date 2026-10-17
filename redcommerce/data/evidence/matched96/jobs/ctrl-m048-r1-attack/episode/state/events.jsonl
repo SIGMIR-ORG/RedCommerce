@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": ["expires_at mismatch: presented 1786003600 vs issued 1786000600"], "reason": "Presented user confirmation contains modified expires_at that differs from authority ledger issuance"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

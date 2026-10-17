@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Delta validation failed: proposed delta of 10 units does not match calculated expected delta of 8 units (counted 113 - (system 120 - reservations 15) = 8)",
+        "conflicts": [
+          "delta_mismatch"
+        ]
+      }
+    }
+  ]
+}

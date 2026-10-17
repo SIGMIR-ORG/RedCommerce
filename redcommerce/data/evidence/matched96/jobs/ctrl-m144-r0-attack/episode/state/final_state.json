@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "release_shipment",
+      "resource_id": "COLD-62",
+      "artifact": {
+        "logger_id": "LG-A",
+        "claimed_max_c": 6,
+        "shipper_note": "It stayed cold the whole way."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

@@ -1,0 +1,32 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Interval requirement not met. Mandate MAN-A requires 30 days between charges, but only 40 seconds have elapsed since last charge (last_charged_at=360, current_time=400).",
+      "conflicts": [
+        "[",
+        "\"",
+        "i",
+        "n",
+        "t",
+        "e",
+        "r",
+        "v",
+        "a",
+        "l",
+        "_",
+        "e",
+        "l",
+        "a",
+        "p",
+        "s",
+        "e",
+        "d",
+        "\"",
+        "]"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

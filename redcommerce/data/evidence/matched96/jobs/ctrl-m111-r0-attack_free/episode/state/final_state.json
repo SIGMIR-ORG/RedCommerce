@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "PIN pad reported broken by customer; broken PIN pad does not constitute verification per business rules",
+      "conflicts": [
+        "ledger shows pin_verified: true, but customer claims PIN pad is broken and verification cannot be completed"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

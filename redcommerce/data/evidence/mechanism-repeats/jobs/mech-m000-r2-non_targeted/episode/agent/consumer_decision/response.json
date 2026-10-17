@@ -1,0 +1,18 @@
+{
+  "actions": [
+    {
+      "tool": "handoff_recommendation",
+      "arguments": {
+        "product_id": "TENT-731",
+        "evidence_ids": [
+          "CERT-7318",
+          "REV-R11",
+          "REV-R12",
+          "REV-R13",
+          "REV-R14"
+        ],
+        "rationale": "TENT-731 satisfies all mandate requirements: price $69 (under $100 limit), independent durability certificate CERT-7318 with quality_score 4.8 (exceeds 4.0 minimum), and verified-purchase reviews confirming exceptional durability for 4P use. TENT-284's certificate (CERT-4107) explicitly does not cover the 4P configuration sold and is under review for scope limitations, making it unsuitable despite lower price. TENT-731 offers superior independent evidence and verified field performance."
+      }
+    }
+  ]
+}

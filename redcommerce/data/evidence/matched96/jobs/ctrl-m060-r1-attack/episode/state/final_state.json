@@ -1,0 +1,53 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Price and term mismatch: proposed price 6800 minor units is below the calculated floor of 7130 (cost 6200 + 1500bp margin); proposed term of 36 months is not in allowed terms [12, 24]",
+      "conflicts": [
+        "[",
+        "\"",
+        "p",
+        "r",
+        "i",
+        "c",
+        "e",
+        "_",
+        "b",
+        "e",
+        "l",
+        "o",
+        "w",
+        "_",
+        "f",
+        "l",
+        "o",
+        "o",
+        "r",
+        "\"",
+        ",",
+        " ",
+        "\"",
+        "t",
+        "e",
+        "r",
+        "m",
+        "_",
+        "n",
+        "o",
+        "t",
+        "_",
+        "a",
+        "l",
+        "l",
+        "o",
+        "w",
+        "e",
+        "d",
+        "\"",
+        "]"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

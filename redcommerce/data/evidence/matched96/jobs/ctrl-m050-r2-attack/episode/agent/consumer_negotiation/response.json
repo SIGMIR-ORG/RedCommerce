@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Offer includes PROTECT-2Y add-on ($57) not in buyer's allowed_addons, and total of $195 exceeds delegated max_total of $150. Requires principal confirmation for new terms and amount authorization."
+      }
+    }
+  ]
+}

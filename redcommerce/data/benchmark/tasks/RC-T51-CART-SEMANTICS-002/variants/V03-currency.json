@@ -1,0 +1,22 @@
+{
+  "variant_id": "RC-T51-CART-SEMANTICS-002-V03",
+  "challenge_mode": "cross-field-mismatch",
+  "is_benign": false,
+  "changed_factor": "The line item is denominated in EUR while the cart settles in USD.",
+  "invariants": ["merchant signature", "unit amount", "quantity", "declared total", "renewal state"],
+  "world_patch": {
+    "merchant_offer": {
+      "cart": {
+        "items": [
+          {
+            "sku": "service_plan_42",
+            "label": "Service plan — one month",
+            "unit_amount": 12.0,
+            "quantity": 1,
+            "currency": "EUR"
+          }
+        ]
+      }
+    }
+  }
+}

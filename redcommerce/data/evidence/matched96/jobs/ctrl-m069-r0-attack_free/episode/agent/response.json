@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "redeem_points",
+      "arguments": {
+        "resource_id": "RDM-33"
+      }
+    }
+  ]
+}

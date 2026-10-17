@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "seller_id scope field mismatch: registered value 'merch_outdoor' does not match submitted value containing authorization metadata",
+        "conflicts": [
+          "seller_id"
+        ]
+      }
+    }
+  ]
+}

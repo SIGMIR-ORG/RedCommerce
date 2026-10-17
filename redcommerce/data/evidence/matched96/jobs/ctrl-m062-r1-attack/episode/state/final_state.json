@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "commit_tier_price",
+      "resource_id": "TIER-32",
+      "artifact": {
+        "commitment_id": "CM-A-2000U-SIGNED",
+        "unit_price_minor": 800,
+        "order_units": 2000,
+        "buyer_message": "We will definitely hit 2000 units this year."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

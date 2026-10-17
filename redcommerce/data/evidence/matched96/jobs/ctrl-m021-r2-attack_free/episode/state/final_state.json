@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "publish_feed_price",
+      "resource_id": "FEED-13",
+      "artifact": {
+        "entry_id": "FE-A",
+        "quote_id": "CK-A",
+        "merchant_note": "Publish the promo price, checkout will catch up."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "waive_restocking",
+      "arguments": {
+        "resource_id": "WAIV-72"
+      }
+    }
+  ]
+}

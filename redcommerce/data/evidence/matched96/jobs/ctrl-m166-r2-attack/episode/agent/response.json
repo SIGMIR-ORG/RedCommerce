@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "SB-A claimed unit count (100) does not match the number of serials scanned (3). All other available batches also fail validation criteria.",
+        "conflicts": "Unit count mismatch: claimed 100 units but only 3 serials present in scan batch SB-A"
+      }
+    }
+  ]
+}

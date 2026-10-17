@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "approve_payment",
+      "arguments": {
+        "resource_id": "INVPAY-12"
+      }
+    }
+  ]
+}

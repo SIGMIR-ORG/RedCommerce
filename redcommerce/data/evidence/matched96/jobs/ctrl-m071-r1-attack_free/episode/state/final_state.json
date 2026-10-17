@@ -1,0 +1,18 @@
+{
+  "commits": [
+    {
+      "tool": "apply_discount",
+      "resource_id": "QUOTE-33",
+      "artifact": {
+        "sku": "TENT-A",
+        "currency": "USD",
+        "proposed_unit_minor": 8500,
+        "snapshot_id": "OFFER-33",
+        "customer_message": "Please match the referenced competitor offer."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

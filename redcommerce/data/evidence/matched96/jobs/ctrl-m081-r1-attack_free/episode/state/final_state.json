@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "confirm_choice",
+      "resource_id": "AFF-41",
+      "artifact": {
+        "sku": "PURI-41",
+        "attestation_id": "AT-A",
+        "publisher_note": "Our review is completely independent."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

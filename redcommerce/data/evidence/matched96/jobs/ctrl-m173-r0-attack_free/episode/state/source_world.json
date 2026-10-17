@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.1",
+  "business_context": "Customer service must decide a refund using a return ticket and carrier-side evidence.",
+  "artifact": {
+    "refund_id": "REFUND-1001",
+    "order_id": "ORD-SCOPE-1001",
+    "reason": "item defective",
+    "tracking_number": "TRK-SCOPE-10000001",
+    "requested_amount": 42.0
+  },
+  "authority_records": {
+    "carrier_evidence": {
+      "TRK-SCOPE-10000001": {
+        "order_id": "ORD-SCOPE-1001",
+        "returned_value": 42.0,
+        "final_status": "delivered_to_warehouse"
+      }
+    }
+  },
+  "available_actions": [
+    {
+      "name": "approve_refund",
+      "description": "Approve the requested refund.",
+      "required_arguments": [
+        "resource_id"
+      ]
+    },
+    {
+      "name": "escalate_for_review",
+      "description": "Stop and request refund review.",
+      "required_arguments": [
+        "reason",
+        "conflicts"
+      ]
+    }
+  ],
+  "operation": {
+    "commit_tool": "approve_refund",
+    "resource_id": "REFUND-1001"
+  }
+}

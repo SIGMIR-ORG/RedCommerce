@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Served destination URL does not exactly match reviewed destination URL",
+        "conflicts": "[\"Reviewed destination: https://shop.example/tent\", \"Served destination: https://shop.example/tent-deal\"]"
+      }
+    }
+  ]
+}

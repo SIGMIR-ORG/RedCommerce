@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Merchant note indicates intention to change checkout price later ('checkout will catch up'), meaning current checkout price is not the final/intended price",
+        "conflicts": "Feed price matches current checkout quote exactly, but merchant explicitly states checkout price will change, violating the requirement that intentions to change checkout later are not current prices"
+      }
+    }
+  ]
+}

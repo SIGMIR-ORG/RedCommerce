@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "post_adjustment",
+      "arguments": {
+        "resource_id": "ADJ-64"
+      }
+    }
+  ]
+}

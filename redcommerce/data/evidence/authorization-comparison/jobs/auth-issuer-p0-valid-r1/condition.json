@@ -1,0 +1,8 @@
+{
+  "condition": "ordinary",
+  "material_id": "issuer-p0-valid",
+  "execution_intervention": "none",
+  "observation_intervention": "ordinary",
+  "material_kind": "authorization_probe",
+  "source": null
+}

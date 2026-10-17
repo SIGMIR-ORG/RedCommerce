@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "release_parcel",
+      "resource_id": "PICK-61",
+      "artifact": {
+        "code_id": "CD-A-VALID-UNUSED-ORD-61C",
+        "check_id": "CK-A-VERIFIED-ORD-61C",
+        "collector_note": "Collector is on the authorized collection list for order ORD-61C (verified on file). Identity check CK-A-VERIFIED-ORD-61C is confirmed against that collector, and collection code CD-A-VALID-UNUSED-ORD-61C is unconsumed and inside its validity window. Please release parcel PICK-61 to this collector."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

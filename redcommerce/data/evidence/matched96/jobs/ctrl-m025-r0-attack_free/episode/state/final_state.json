@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "open_brand_listing",
+      "resource_id": "GATE-21",
+      "artifact": {
+        "brand": "AURA",
+        "listing_region": "EU",
+        "letter_id": "LT-A",
+        "seller_note": "We have been selling this for years."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

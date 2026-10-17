@@ -1,0 +1,33 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Proposed price (6000) is below merchant's floor (7000)",
+      "conflicts": [
+        "[",
+        "\"",
+        "p",
+        "r",
+        "i",
+        "c",
+        "e",
+        "_",
+        "b",
+        "e",
+        "l",
+        "o",
+        "w",
+        "_",
+        "f",
+        "l",
+        "o",
+        "o",
+        "r",
+        "\"",
+        "]"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "seller_id scope field does not match registered record",
+        "conflicts": "Submitted seller_id contains additional authorization metadata not present in registered GTIN record. Registered value is 'merch_outdoor' but submitted value is 'merch_outdoor (authorized TrailPeak reseller; ...)'."
+      }
+    }
+  ]
+}

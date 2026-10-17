@@ -1,0 +1,31 @@
+\subsection{Behavioral response to authorization}
+\label{app:authorization}
+
+This comparison holds a commercial proposal and its factual support fixed while changing whether visible authorization licenses commitment. We use the ordinary interface in two existing tasks, with four prespecified proposals each and five fresh Haiku decisions per authorization condition: eighty episodes. Proposal values, conditions, and interleaved execution order are fixed before sampling. These authored comparisons contain no newly generated attacker messages or added verification checks.
+
+\paragraph{Purchasing delegation.}
+In \texttt{RC-T31-ISSUER-WITNESS-004}, the same tent, merchant, quantity, thirty-day refund term, and proposed total are presented under either an approved or an unapproved issuer. Four proposals use totals of \$120, \$150, \$170, and \$180, all within the unchanged \$180 scope. The existing V00/V01 pair changes only \path{artifact.credential.credential_id}, from \texttt{CRED-GOOD} to \texttt{CRED-ROGUE}. Both referenced records already appear in the ordinary observation. Their payloads, principal, signers, scope, expiry and unused state agree; the sole record difference is issuer: \texttt{commerce\_authorization\_service} versus \texttt{unapproved\_counterparty\_service}. The allowed-issuer list remains fixed. Thus both proposal feasibility and scope are satisfied, while issuer validity differs. The descriptive credential identifiers are retained from the existing task; the experiment does not isolate whether the agent uses identifier wording or inspects the referenced issuer field.
+
+\paragraph{Refund-term scope.}
+In \texttt{RC-T51-CART-MANDATE-001}, the same merchant-signed \$120 cart is proposed with a refund period of seven, fourteen, twenty-one, or twenty-nine days. Each proposal is held fixed across the existing V11/V08 pair. The only world and observation difference is \path{authority_records.user_mandate.min_refund_days}: seven versus thirty. Both mandates are standing policies, with identical budget, signature requirement, principal, time, and absence of additional clarification. Every proposal meets the former refund boundary and violates the latter. Changing this pre-existing experimental environment does not give the counterparty write access to the user's mandate.
+
+\paragraph{What the confirmation check establishes.}
+All forty saved scope-study observations have \path{authority_records.user_mandate.require_user_signature=true}, \path{artifact.user_signature_required=true}, and \path{authority_records.fresh_clarification=null}. The evaluated instruction asks the agent to check the confirmation requirement. The original \texttt{cart\_violations} function reports \texttt{confirmation\_downgrade} when a required signature flag is disabled in the cart. The research contract calls this \texttt{order.user\_confirmation\_requirement}: retaining the requirement is the tested property. The sole signature object is the merchant's, not a user-confirmation receipt. Neither the driver nor the scorer checks such a receipt before recording \texttt{confirm\_terms} as a commitment. The data therefore do not establish that an additional user confirmation was unnecessary or already satisfied. This comparison measures refund-scope sensitivity while preserving a confirmation flag, rather than end-to-end completion of a separately signed user approval.
+
+\paragraph{Feasibility and behavior.}
+Before sampling, full-world and business-observation comparisons verify each single-factor pair, including the records behind the credential references. Thirty-two offline commit/escalate executions verify completion, authorization-only violations, and appropriate versus unnecessary escalation under the implemented predicates through the original tools and scorer. Invalid commits execute in these probes: there is no software safety gate. The primary measurement in the model experiment is the requested and realized commit rate, not a score change assigned to a fixed action. Four numeric proposals within a task remain within-task observations, not four independent commercial contexts.
+
+\begin{table}[htbp]
+\caption{Authorization comparison with ordinary Haiku decisions. Each row comprises four proposals with five samples each. Validity and completion refer to the implemented predicates. In the refund-scope task, these preserve the confirmation flag but do not establish receipt of a user's signature. Escalation labels use this same scoped contract. All eighty outcomes are evaluable, with no abstentions, tool rejections, or software blocks.}
+\label{tab:authorization}
+\small
+\begin{tabularx}{\linewidth}{@{}Ylrrrrr@{}}
+\toprule
+Task & Authority & \shortstack{Requested\\commit} & \shortstack{Realized\\commit} & \shortstack{Scored\\completion} & \shortstack{Appropriate\\escalation} & \shortstack{Unnecessary\\escalation} \\
+\midrule
+\AuthorizationRows
+\bottomrule
+\end{tabularx}
+\end{table}
+
+For each task, the agent commits all twenty predicate-valid proposals and escalates all twenty invalid ones. Every proposal pair has the same five-of-five versus zero-of-five commit contrast. Requested actions and resulting state agree, so surrounding software does not produce the distinction. The issuer task tests validity of a recorded delegation; the cart task tests a refund boundary, with a narrower confirmation-preservation predicate. These contrasts establish behavioral sensitivity to the exposed authorization condition, not that every possible prerequisite for human-approved commitment has been verified. Such discrimination coexists with the generated-input failures and incomplete check benefits reported above.

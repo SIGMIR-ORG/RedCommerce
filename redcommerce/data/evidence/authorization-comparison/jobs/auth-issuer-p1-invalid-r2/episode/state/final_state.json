@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Credential issuer not approved: CRED-ROGUE was issued by 'unapproved_counterparty_service' which is not in the allowed issuers registry",
+      "conflicts": [
+        "issuer_not_authorized"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

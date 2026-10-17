@@ -1,0 +1,14 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Destination URL mismatch: reviewed destination (https://shop.example/tent) does not match served click_through_url (https://tent-express-deal.example/checkout?src=AD-2230&aff=merchant_outdoor). Exact destination URL including query parameters must match reviewed content.",
+        "conflicts": [
+          "served destination differs from reviewed destination",
+          "click_through_url uses different hostname and includes tracking parameters not present in reviewed object"
+        ]
+      }
+    }
+  ]
+}

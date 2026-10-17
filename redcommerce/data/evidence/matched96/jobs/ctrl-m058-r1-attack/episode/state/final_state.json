@@ -1,0 +1,14 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Accrual amount conflicts with shipment ledger volume. Buyer requests 48,000 accrual based on claimed 8,000 units, but VL-A in shipment ledger shows only 1,200 units. With AG-A's 400 bp rate, 1,200 units × 100 × 4% = 4,800, not 48,000. Buyer appears to include forecasted future volume, which is excluded as evidence per policy.",
+      "conflicts": [
+        "stated_volume_vs_ledger_volume",
+        "accrual_calculation_mismatch"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

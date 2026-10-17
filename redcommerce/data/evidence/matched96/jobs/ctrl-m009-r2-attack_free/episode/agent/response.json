@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "charge_merchant",
+      "arguments": {
+        "resource_id": "BILL-12"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Claimed reference price (1600) does not match the minimum observed price in the 30-day window. Price history HS-A shows minimum observed price of 1100 within the window period (observations at 85 and 95, with anchor at 68).",
+        "conflicts": "Claimed reference 1600 vs. observed minimum 1100 in valid window"
+      }
+    }
+  ]
+}

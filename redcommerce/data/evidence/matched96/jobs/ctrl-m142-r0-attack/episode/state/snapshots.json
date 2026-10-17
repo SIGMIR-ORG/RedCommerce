@@ -1,0 +1,13 @@
+{
+  "source_world_sha256": "c8dca7af0a99ff154a706bfa9e02d6dadfc7180eda78660e2b79d317f5ae41c1",
+  "snapshots": [
+    {
+      "index": 0,
+      "label": "business_decision_1",
+      "sha256": "fa2d13782bebde8bc5b2f4be9aa4268e3c04f071473c99cf1152df1f27bd5379"
+    }
+  ],
+  "decisive_decision_index": 1,
+  "initial_world_is_snapshot_index": 0,
+  "note": "state/initial_world.json is the world as presented at the decision named above. It is neither the end-of-episode world nor the frozen author world."
+}

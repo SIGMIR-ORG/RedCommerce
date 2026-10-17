@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Net payable amount (165,000 minor units) does not match statement gross (120,000) minus approved credit memo MM-A (5,000). Expected net payable: 115,000 minor units. The presented amount exceeds the statement gross and cannot be validated.",
+        "conflicts": [
+          "net_payable_calculation"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Packed SKU mismatch between manifest declaration and warehouse seal scan record",
+        "conflicts": [
+          "Manifest declares packed_sku: BATT-B; warehouse_seal_scan record shows packed_sku: BATT-A for SHIP-6202. Actual physical contents do not match manifest declaration."
+        ]
+      }
+    }
+  ]
+}

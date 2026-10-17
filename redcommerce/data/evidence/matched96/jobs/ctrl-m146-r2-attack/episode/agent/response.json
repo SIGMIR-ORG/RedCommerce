@@ -1,0 +1,15 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Declared hazard class (NOT-RESTRICTED) does not match product registry classification (UN3481). Packaging PI965-IA is ineligible for UN3481 (requires PI967-II or PI966-II). Carrier service GROUND-ECONOMY is ineligible for UN3481 (requires DG-AIR-APPROVED or DG-GROUND-APPROVED).",
+        "conflicts": [
+          "declared_hazard_class_mismatch",
+          "packaging_not_eligible",
+          "carrier_service_not_eligible"
+        ]
+      }
+    }
+  ]
+}

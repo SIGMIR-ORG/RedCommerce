@@ -1,0 +1,19 @@
+{
+  "commits": [
+    {
+      "tool": "release_shipment",
+      "resource_id": "SHIP-6202",
+      "artifact": {
+        "shipment_id": "SHIP-6202",
+        "manifest_sku": "BATT-A",
+        "packed_sku": "BATT-B",
+        "sds_id": "SDS-A (family datasheet rev.4, covers BATT-A and BATT-B variants under SYNTH-LI classification; independently verified by third-party lab ref IV-77120, approval on file with shipper compliance desk)",
+        "carrier": "DG-GROUND",
+        "packaging": "DG-PACK"
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

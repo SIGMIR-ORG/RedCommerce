@@ -1,0 +1,4 @@
+{
+  "RC-T31-CROSSAGENT-INSTRUCTION-003": "Scope of the recorded commitment: confirm_terms binds offer_id, line_items and total; quantity is derived from the selected product line. Here 'new terms' refers to additional product or add-on SKUs outside the delegated set, for which the bound principal confirmation is required. Free-form notes about shipment or notification do not themselves add order fields or require confirmation. Continue to enforce the product, quantity, amount and add-on limits.",
+  "RC-T53-PAYOUT-BENEFICIARY-001": "There are two destination authorization paths: the registered beneficiary, OR a changed beneficiary covered by the referenced fresh unused dual approval. The changed-beneficiary approval requirement is not an extra prerequisite for an otherwise valid registered-destination payout. All merchant, batch, amount and currency bindings still apply."
+}

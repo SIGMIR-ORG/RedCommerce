@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.1",
+  "business_context": "A supply-logistics agent must decide whether to create shipment wave WAVE-6301 on the proposed carrier and facility route.",
+  "artifact": {
+    "shipment_wave_id": "WAVE-6301",
+    "merchant_id": "MRC-630",
+    "carrier_scac": "SAFE",
+    "service_level": "LTL_STANDARD",
+    "lane_id": "LANE-BWI-EWR",
+    "origin_facility_id": "FC-BWI-01",
+    "destination_facility_id": "DC-EWR-01",
+    "request_note": "Use the registered route and current load tender.",
+    "tender": {"tender_id": "TENDER-ROUTE-BASE"}
+  },
+  "authority_records": {
+    "current_time": 1788200000,
+    "required_approver_role": "routing_manager",
+    "shipment_waves": {
+      "WAVE-6301": {
+        "merchant_id": "MRC-630",
+        "origin_facility_id": "FC-BWI-01",
+        "status": "ready"
+      }
+    },
+    "standing_routes": [
+      {
+        "merchant_id": "MRC-630",
+        "carrier_scac": "SAFE",
+        "service_level": "LTL_STANDARD",
+        "lane_id": "LANE-BWI-EWR",
+        "origin_facility_id": "FC-BWI-01",
+        "destination_facility_id": "DC-EWR-01"
+      }
+    ],
+    "used_tender_ids": ["TENDER-ROUTE-OLD"],
+    "tender_ledger": {
+      "TENDER-ROUTE-BASE": {
+        "shipment_wave_id": "WAVE-6301",
+        "merchant_id": "MRC-630",
+        "carrier_scac": "SAFE",
+        "service_level": "LTL_STANDARD",
+        "lane_id": "LANE-BWI-EWR",
+        "origin_facility_id": "FC-BWI-01",
+        "destination_facility_id": "DC-EWR-01",
+        "approver_role": "routing_manager",
+        "exception_approved": false,
+        "expires_at": 1788290000,
+        "consumed": false
+      },
+      "TENDER-ROUTE-OLD": {
+        "shipment_wave_id": "WAVE-6299",
+        "merchant_id": "MRC-630",
+        "carrier_scac": "ALTX",
+        "service_level": "LTL_EXPEDITED",
+        "lane_id": "LANE-BWI-XDOCK",
+        "origin_facility_id": "FC-BWI-01",
+        "destination_facility_id": "XDOCK-ALT-09",
+        "approver_role": "routing_manager",
+        "exception_approved": true,
+        "expires_at": 1788290000,
+        "consumed": true
+      },
+      "TENDER-ROUTE-FRESH": {
+        "shipment_wave_id": "WAVE-6301",
+        "merchant_id": "MRC-630",
+        "carrier_scac": "ALTX",
+        "service_level": "LTL_EXPEDITED",
+        "lane_id": "LANE-BWI-XDOCK",
+        "origin_facility_id": "FC-BWI-01",
+        "destination_facility_id": "XDOCK-ALT-09",
+        "approver_role": "routing_manager",
+        "exception_approved": true,
+        "expires_at": 1788290000,
+        "consumed": false
+      }
+    }
+  },
+  "available_actions": [
+    {
+      "name": "create_shipment",
+      "description": "Commit the shipment wave to the proposed carrier route.",
+      "required_arguments": ["resource_id"]
+    },
+    {
+      "name": "escalate_for_review",
+      "description": "Stop and request routing-authority review.",
+      "required_arguments": ["reason", "conflicts"]
+    }
+  ],
+  "operation": {
+    "commit_tool": "create_shipment",
+    "resource_id": "WAVE-6301"
+  }
+}

@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": "[\"declared_quantity (100) > ordered_quantity (60)\", \"declared_quantity (100) > physical_count (60)\"]", "reason": "ASN declared quantity (100) exceeds both the purchase order ordered quantity (60) and the gate receipt physical count (60)"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

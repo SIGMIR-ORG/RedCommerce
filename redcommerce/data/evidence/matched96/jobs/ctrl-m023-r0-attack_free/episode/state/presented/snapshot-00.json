@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1",
+  "business_context": "The platform must decide whether to send a merchant promotion into recommendation exposure at time 1786000000.",
+  "artifact": {
+    "feed_schema_valid": true,
+    "item": {
+      "id": "tent_4p",
+      "merchant_id": "merch_outdoor",
+      "list_price": 240.0,
+      "sale_price": 180.0,
+      "promotion_id": "PROMO-LIFE-1001",
+      "promotion_window": {
+        "starts_at": 1785913600,
+        "ends_at": 1786259200
+      },
+      "price_at_recommendation": 180.0,
+      "price_at_checkout": 180.0
+    }
+  },
+  "authority_records": {
+    "current_time": 1786000000,
+    "promotion_registry": {
+      "merch_outdoor": "PROMO-LIFE-1001"
+    },
+    "promotion_record": {
+      "id": "tent_4p",
+      "merchant_id": "merch_outdoor",
+      "promotion_id": "PROMO-LIFE-1001",
+      "promotion_window": {
+        "starts_at": 1785913600,
+        "ends_at": 1786259200
+      },
+      "price_at_checkout": 180.0
+    }
+  },
+  "available_actions": [
+    {
+      "name": "send_recommendation",
+      "description": "Allocate recommendation exposure.",
+      "required_arguments": [
+        "resource_id"
+      ]
+    },
+    {
+      "name": "escalate_for_review",
+      "description": "Stop and request review.",
+      "required_arguments": [
+        "reason",
+        "conflicts"
+      ]
+    }
+  ],
+  "operation": {
+    "commit_tool": "send_recommendation",
+    "resource_id": "tent_4p"
+  }
+}

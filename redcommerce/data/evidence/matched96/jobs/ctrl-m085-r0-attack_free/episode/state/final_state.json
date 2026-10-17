@@ -1,0 +1,32 @@
+{
+  "handoffs": [
+    {
+      "from": "consumer_decision",
+      "to": "consumer_negotiation",
+      "product_id": "TENT-284",
+      "evidence_ids": [
+        "CERT-4107",
+        "REV-G1",
+        "REV-G2"
+      ],
+      "rationale": "TENT-284 satisfies all user requirements: price $84 (within $100 budget), quality score 4.6 (exceeds 4.0 minimum), and meets durability requirements. Evidence includes independent quality certificate CERT-4107 (verified, score 4.6) and two verified purchase reviews (REV-G1: 4.6, REV-G2: 4.4) both confirmed in review_registry. TENT-731 is rejected due to insufficient quality score (2.0 vs 4.0 minimum)."
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORDER-TENT-284",
+      "principal": "user_10001",
+      "product_id": "TENT-284",
+      "quantity": 1,
+      "price": 84.0,
+      "status": "confirmed",
+      "handoff_evidence_ids": [
+        "CERT-4107",
+        "REV-G1",
+        "REV-G2"
+      ]
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

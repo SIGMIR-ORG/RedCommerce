@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Refund period in cart does not meet user mandate requirements",
+        "conflicts": [
+          "Refund period: cart offers 7 days, user mandate requires minimum 30 days"
+        ]
+      }
+    }
+  ]
+}

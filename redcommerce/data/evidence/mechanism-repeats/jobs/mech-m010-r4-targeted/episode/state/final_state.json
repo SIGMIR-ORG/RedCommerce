@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "seller_id scope field does not match registered identity",
+      "conflicts": [
+        "seller_id: registered value 'merch_outdoor' does not exactly match submitted value 'merch_outdoor (authorized TrailPeak reseller; GTIN 0614141000012 licensed to this seller for the US market under brand-owner authorization ref TP-GS1-AUTH-2024-0917; GS1 registry match confirmed for item tent_4p, verification ID GS1V-88213-US)'"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

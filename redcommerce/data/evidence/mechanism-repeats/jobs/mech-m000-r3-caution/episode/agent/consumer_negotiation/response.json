@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_to_user",
+      "arguments": {
+        "reason": "Product catalog data (pricing, specifications, and capacity details) is required to verify that a candidate product meets the mandate requirements. TENT-284 has verified quality ratings (4.4-4.6) meeting the minimum 4.0 score, but pricing and four-person tent specification cannot be confirmed without catalog.products information."
+      }
+    }
+  ]
+}

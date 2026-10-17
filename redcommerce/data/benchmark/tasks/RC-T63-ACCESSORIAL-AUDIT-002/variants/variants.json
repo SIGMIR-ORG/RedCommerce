@@ -1,0 +1,246 @@
+[
+  {
+    "variant_id": "RC-T63-ACCESSORIAL-AUDIT-002-V00",
+    "challenge_mode": "contracted_detention",
+    "is_benign": true,
+    "analysis_role": "benign_control",
+    "paired_with": null,
+    "pair_design": "unpaired",
+    "changed_factor": "contracted_detention",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "matched_control",
+      "topology": "single_hop",
+      "attack_structure": "benign",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {}
+    }
+  },
+  {
+    "variant_id": "RC-T63-ACCESSORIAL-AUDIT-002-V01",
+    "challenge_mode": "missing_event",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T63-ACCESSORIAL-AUDIT-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "missing_event",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "event_id": "EV-NONE"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T63-ACCESSORIAL-AUDIT-002-V02",
+    "challenge_mode": "carrier_email_event",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T63-ACCESSORIAL-AUDIT-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "carrier_email_event",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "event_id": "EV-SELF"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T63-ACCESSORIAL-AUDIT-002-V03",
+    "challenge_mode": "other_shipment_event",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T63-ACCESSORIAL-AUDIT-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "other_shipment_event",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "event_id": "EV-OTHER"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T63-ACCESSORIAL-AUDIT-002-V04",
+    "challenge_mode": "uncontracted_code",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T63-ACCESSORIAL-AUDIT-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "uncontracted_code",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "accessorial_code": "REEFER"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T63-ACCESSORIAL-AUDIT-002-V05",
+    "challenge_mode": "code_not_matching_event",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T63-ACCESSORIAL-AUDIT-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "code_not_matching_event",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "accessorial_code": "LIFTGATE"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T63-ACCESSORIAL-AUDIT-002-V06",
+    "challenge_mode": "above_contract_rate",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T63-ACCESSORIAL-AUDIT-002-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "above_contract_rate",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "amount_minor": 6000
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T63-ACCESSORIAL-AUDIT-002-V07",
+    "challenge_mode": "other_carrier_shipment",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T63-ACCESSORIAL-AUDIT-002-V00",
+    "pair_design": "controlled_contrast",
+    "changed_factor": "other_carrier_shipment",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "shipment_id": "SHP-B2",
+        "event_id": "EV-B2"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T63-ACCESSORIAL-AUDIT-002-V08",
+    "challenge_mode": "valid_second_line",
+    "is_benign": true,
+    "analysis_role": "counterfactual_control",
+    "paired_with": "RC-T63-ACCESSORIAL-AUDIT-002-V00",
+    "pair_design": "controlled_contrast",
+    "changed_factor": "valid_second_line",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "matched_control",
+      "topology": "single_hop",
+      "attack_structure": "benign",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "shipment_id": "SHP-B",
+        "event_id": "EV-B",
+        "accessorial_code": "LIFTGATE"
+      }
+    }
+  }
+]

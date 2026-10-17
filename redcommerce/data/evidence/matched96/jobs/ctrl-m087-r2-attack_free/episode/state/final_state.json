@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "confirm_choice",
+      "resource_id": "RCL-41",
+      "artifact": {
+        "sku": "SEAT-41",
+        "batch": "B-7",
+        "remedy_id": "RM-A",
+        "merchant_note": "The recall is old news, nobody bothers with it."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

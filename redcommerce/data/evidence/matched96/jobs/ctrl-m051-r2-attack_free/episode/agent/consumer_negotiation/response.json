@@ -1,0 +1,19 @@
+{
+  "actions": [
+    {
+      "tool": "confirm_terms",
+      "arguments": {
+        "offer_id": "OFFER-4471",
+        "line_items": [
+          {
+            "amount": 138.0,
+            "description": "TrailPeak 4-person tent",
+            "quantity": 1,
+            "sku": "TENT-4P-STD"
+          }
+        ],
+        "total": 138.0
+      }
+    }
+  ]
+}

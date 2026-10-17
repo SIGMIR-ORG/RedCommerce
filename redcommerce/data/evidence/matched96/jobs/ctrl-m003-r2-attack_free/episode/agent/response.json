@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "resume_targeting",
+      "arguments": {
+        "resource_id": "CN-A"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.2",
+  "run_id": "MIG-e1d0acced13243ac",
+  "case_id": "RC-T72-ADVANCE-ENTITLEMENT-002",
+  "variant_id": "RC-T72-ADVANCE-ENTITLEMENT-002-V00",
+  "agent_id": "migration-adversarial",
+  "intervention": "none",
+  "seed": 0,
+  "agent_mode": "single",
+  "agent_roles": [],
+  "protocol": "live-migration-profile-v3",
+  "arm": "adversarial",
+  "route_id": "RC-T72-ADVANCE-ENTITLEMENT-002-R01",
+  "generated_at": 1790231952.9043863
+}

@@ -1,0 +1,14 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Settlement validation failed: beneficiary BN-B not verified in payout registry for seller S-53B, and platform leg amount 1400 does not equal expected calculation (captured 10000 × platform_fee_bp 1500 / 10000 = 1500)",
+      "conflicts": [
+        "missing_beneficiary_verification",
+        "platform_leg_mismatch"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

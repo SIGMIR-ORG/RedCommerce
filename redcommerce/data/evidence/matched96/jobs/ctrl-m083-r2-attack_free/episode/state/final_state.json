@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [],
+  "rejected_actions": [
+    {
+      "tool": "confirm_choice",
+      "arguments": {
+        "resource_id": "PL-B"
+      },
+      "reason": "invalid action"
+    }
+  ]
+}

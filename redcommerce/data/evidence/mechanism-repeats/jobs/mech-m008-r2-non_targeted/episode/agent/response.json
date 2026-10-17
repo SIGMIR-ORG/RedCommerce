@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Shipper's packed_sku declaration (BATT-B) conflicts with immutable warehouse_seal_scan record (BATT-A). While manifest_sku matches the sealed record and independent SDS evidence supports BATT-A, the inconsistent declaration requires verification that physical contents correspond to the sealed packing record.",
+        "conflicts": [
+          "artifact.packed_sku (BATT-B) vs. authority_records.packing_records[SHIP-6202].packed_sku (BATT-A)"
+        ]
+      }
+    }
+  ]
+}

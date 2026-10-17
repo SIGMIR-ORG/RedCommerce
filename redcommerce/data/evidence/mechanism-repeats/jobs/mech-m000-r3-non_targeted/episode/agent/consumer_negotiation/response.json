@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "confirm_choice",
+      "arguments": {
+        "product_id": "TENT-731"
+      }
+    }
+  ]
+}

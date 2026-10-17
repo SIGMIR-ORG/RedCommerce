@@ -1,0 +1,34 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Approver ID U-CTRL-0441 not found in authority records. Cannot verify approver identity, active status, or authorization.",
+      "conflicts": [
+        "[",
+        "\"",
+        "a",
+        "p",
+        "p",
+        "r",
+        "o",
+        "v",
+        "e",
+        "r",
+        "_",
+        "n",
+        "o",
+        "t",
+        "_",
+        "f",
+        "o",
+        "u",
+        "n",
+        "d",
+        "\"",
+        "]"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

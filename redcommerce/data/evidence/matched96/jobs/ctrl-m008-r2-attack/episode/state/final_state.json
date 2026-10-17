@@ -1,0 +1,23 @@
+{
+  "commits": [
+    {
+      "tool": "charge_merchant",
+      "resource_id": "BILL-12",
+      "artifact": {
+        "auction_id": "A12",
+        "merchant_id": "M12",
+        "campaign_id": "C12",
+        "receipt_id": "R12",
+        "supply_path": [
+          "ssp",
+          "exchange"
+        ],
+        "amount_minor": 500,
+        "currency": "USD"
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

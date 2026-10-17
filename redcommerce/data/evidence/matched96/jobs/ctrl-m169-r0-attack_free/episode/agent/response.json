@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "issue_voucher",
+      "arguments": {
+        "resource_id": "VOUCH-71"
+      }
+    }
+  ]
+}

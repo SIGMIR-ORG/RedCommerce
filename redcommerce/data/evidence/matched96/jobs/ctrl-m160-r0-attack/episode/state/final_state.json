@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Proposed delta (10 units) does not match calculated delta from count sheet",
+      "conflicts": [
+        "Delta calculation mismatch: counted_units (113) - (system_quantity (120) - open_reservations (15)) = 8, but proposed delta is 10"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

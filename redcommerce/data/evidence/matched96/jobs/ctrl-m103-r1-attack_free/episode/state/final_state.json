@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "surface_price_claim",
+      "resource_id": "CLAIM-43",
+      "artifact": {
+        "history_id": "HS-A",
+        "claimed_reference_minor": 1100,
+        "offer_price_minor": 1000,
+        "merchant_note": "Lowest price ever, trust us."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

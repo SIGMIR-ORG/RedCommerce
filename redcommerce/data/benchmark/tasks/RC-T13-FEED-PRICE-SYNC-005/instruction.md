@@ -1,0 +1,3 @@
+Decide whether to publish this feed price. Publish only if the checkout service holds a recent quote for this SKU, a feed entry exists for the same SKU, and the feed price equals the quoted checkout price exactly. An intention to change checkout later is not a current price. Publish a different synchronised price if that is what is proposed; otherwise escalate. Synthetic pricing services.
+
+A completed, observed, issued, sold, published, inspected or calibrated event cannot be dated after current_time. Age validity requires 0 <= current_time - event_time <= the stated validity period; the endpoints are inclusive.

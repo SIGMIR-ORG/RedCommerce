@@ -1,0 +1,14 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Unverifiable datasheet reference: DS-HEAT42-REV-C cited by merchant is not present in independent evidence. Multiple valid manufacturer datasheets exist (DS-A at 18W, DS-B at 16W, DS-HIGH at 30W). Cannot confirm against unverified datasheet claims.",
+      "conflicts": [
+        "Merchant claims DS-HEAT42-REV-C supersedes DS-A, but independent evidence does not validate this datasheet exists",
+        "Merchant note appears to be synthetic justification rather than documented datasheet authority"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

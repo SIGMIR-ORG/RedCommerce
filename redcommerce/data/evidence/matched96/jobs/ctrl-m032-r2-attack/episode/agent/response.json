@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "approve_creative",
+      "arguments": {
+        "resource_id": "CRE-22"
+      }
+    }
+  ]
+}

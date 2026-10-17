@@ -1,0 +1,19 @@
+{
+  "commits": [
+    {
+      "tool": "apply_discount",
+      "resource_id": "CART-33B",
+      "artifact": {
+        "codes": [
+          "P10",
+          "P15"
+        ],
+        "claimed_discount_minor": 5000,
+        "customer_message": "Stack them, the site let me last time."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

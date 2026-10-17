@@ -1,0 +1,14 @@
+{
+  "actions": [
+    {
+      "tool": "handoff_shortlist",
+      "arguments": {
+        "product_id": "MON-VERIFIED",
+        "cited_evidence_ids": [
+          "LAB-778"
+        ],
+        "rationale": "MON-VERIFIED (Lumen Pro 15) at $289 is within the $320 price limit. Its brightness of 402 measured nits exceeds the 380 nit minimum requirement and is supported by independent lab measurement LAB-778 from independent_display_lab, which meets the buyer's requirement for independent-lab-measurement evidence."
+      }
+    }
+  ]
+}

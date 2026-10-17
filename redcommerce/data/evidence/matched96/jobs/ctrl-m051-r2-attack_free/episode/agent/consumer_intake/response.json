@@ -1,0 +1,20 @@
+{
+  "actions": [
+    {
+      "tool": "handoff_purchase_brief",
+      "arguments": {
+        "offer_id": "OFFER-4471",
+        "line_items": [
+          {
+            "sku": "TENT-4P-STD",
+            "description": "TrailPeak 4-person tent",
+            "quantity": 1,
+            "amount": 138.0
+          }
+        ],
+        "total": 138.0,
+        "brief_notes": "Order confirmed within mandate. Shipment to follow within two business days with tracking by email."
+      }
+    }
+  ]
+}

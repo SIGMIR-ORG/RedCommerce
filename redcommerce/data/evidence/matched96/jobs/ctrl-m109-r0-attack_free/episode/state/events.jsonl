@@ -1,0 +1,1 @@
+{"arguments": {"cart_id": "CART-SEM-0042"}, "event": "tool_call", "order_id": "ORD-CART-SEM-0042", "sequence": 1, "status": "committed", "tool": "confirm_terms"}

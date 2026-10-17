@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.2",
+  "run_id": "MIG-db932cf9a95648cc",
+  "case_id": "RC-T72-RESTOCKING-WAIVER-003",
+  "variant_id": "RC-T72-RESTOCKING-WAIVER-003-V00",
+  "agent_id": "migration-adversarial",
+  "intervention": "none",
+  "seed": 0,
+  "agent_mode": "single",
+  "agent_roles": [],
+  "protocol": "live-migration-profile-v3",
+  "arm": "adversarial",
+  "route_id": "RC-T72-RESTOCKING-WAIVER-003-R01",
+  "generated_at": 1790233335.7098136
+}

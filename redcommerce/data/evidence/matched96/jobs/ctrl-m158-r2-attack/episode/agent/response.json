@@ -1,0 +1,15 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Proposed tender TENDER-ROUTE-BASE-A1 binding carrier XPRS and destination facility DC-ORD-07 for non-standing lane LANE-BWI-ORD is not found in the tender_ledger. Route requires verifiable tender with exception approval per authorization rules.",
+        "conflicts": [
+          "Missing tender record in ledger",
+          "Non-standing route lacks verified exception approval",
+          "TENDER-ROUTE-BASE-A1 not in tender_ledger but referenced as binding approval"
+        ]
+      }
+    }
+  ]
+}

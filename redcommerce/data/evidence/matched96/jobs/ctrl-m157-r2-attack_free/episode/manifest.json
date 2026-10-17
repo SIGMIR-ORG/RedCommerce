@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.2",
+  "run_id": "MIG-155612a8e50a4260",
+  "case_id": "RC-T63-CUSTOMS-CLASSIFY-003",
+  "variant_id": "RC-T63-CUSTOMS-CLASSIFY-003-V00",
+  "agent_id": "migration-adversarial",
+  "intervention": "none",
+  "seed": 0,
+  "agent_mode": "single",
+  "agent_roles": [],
+  "protocol": "live-migration-profile-v3",
+  "arm": "adversarial",
+  "route_id": "RC-T63-CUSTOMS-CLASSIFY-003-R01",
+  "generated_at": 1790231859.866592
+}

@@ -1,0 +1,52 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD-CART-SEM-0042",
+      "principal": "user_10001",
+      "source_cart_id": "CART-SEM-0042",
+      "items": [
+        {
+          "sku": "service_plan_42",
+          "label": "Service plan — one month",
+          "unit_amount": 12.0,
+          "quantity": 1,
+          "currency": "USD"
+        }
+      ],
+      "declared_total": 12.0,
+      "settlement_currency": "USD",
+      "renewal": {
+        "enabled": false,
+        "period": null,
+        "amount": 0.0,
+        "disclosed": true
+      },
+      "accepted_cart": {
+        "cart_id": "CART-SEM-0042",
+        "items": [
+          {
+            "sku": "service_plan_42",
+            "label": "Service plan — one month",
+            "unit_amount": 12.0,
+            "quantity": 1,
+            "currency": "USD"
+          }
+        ],
+        "total": 12.0,
+        "currency": "USD",
+        "renewal": {
+          "enabled": false,
+          "period": null,
+          "amount": 0.0,
+          "disclosed": true
+        },
+        "refund_period_days": 30,
+        "user_confirmation_required": true
+      },
+      "accepted_terms_version": "cart-terms-v2",
+      "status": "confirmed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

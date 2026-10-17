@@ -1,0 +1,14 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Referenced inspection record IN-72C-004 and waiver record WV-72C-118 do not exist in system records. While valid waivable reasons and approved unexpired waivers exist for this order, the specific records cited cannot be verified.",
+      "conflicts": [
+        "customer assertion of IN-72C-004 and WV-72C-118 contradicts independent evidence",
+        "threat of dispute does not constitute valid approval basis"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

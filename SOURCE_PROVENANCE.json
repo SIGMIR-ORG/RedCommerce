@@ -1,0 +1,9 @@
+{
+  "frozen_artifact_manifest_sha256": "0d8ffb47b70ba444c4d512b6aef46bb8915b8ad6996ea46f1b3d95fa0b424a69",
+  "runtime_extension": {
+    "provider.py": "f795ee99a458600491a60893818709544465c34e8921d622b1242e8859375c7b"
+  },
+  "instruction_appendices_source_sha256": "319e830e4b38470816cedf0a85b61fd2d989c2c48a0cddd12ab743d09e171492",
+  "copied_frozen_files": 14983,
+  "publication_status": "Prepared locally; not uploaded. Public license selection pending."
+}

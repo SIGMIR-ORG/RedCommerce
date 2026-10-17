@@ -1,0 +1,18 @@
+{
+  "commits": [
+    {
+      "tool": "apply_discount",
+      "resource_id": "Q-730",
+      "artifact": {
+        "quote_id": "Q-730",
+        "merchant_id": "merchant-north",
+        "discount_pct": 8.0,
+        "customer_message": "Please apply the negotiated discount.",
+        "approval": null
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

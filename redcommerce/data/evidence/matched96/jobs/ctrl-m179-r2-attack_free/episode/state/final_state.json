@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "approve_refund",
+      "resource_id": "PR-72",
+      "artifact": {
+        "receipt_id": "RC-A",
+        "refund_minor": 5000,
+        "customer_message": "I sent back three items, refund all of them."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "reschedule_delivery",
+      "arguments": {
+        "resource_id": "RESCH-61"
+      }
+    }
+  ]
+}

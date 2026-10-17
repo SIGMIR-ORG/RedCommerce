@@ -1,0 +1,15 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Conflicting independent test-purchase lab findings on listing LST-21: reports RP-A and RP-B find counterfeit, but report RP-GENUINE finds the goods genuine. While live trademark registration exists (RG-A, RG-B), the contradictory lab evidence requires human review to determine the actual authenticity status.",
+      "conflicts": [
+        "RP-A: counterfeit=true",
+        "RP-B: counterfeit=true",
+        "RP-GENUINE: counterfeit=false"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Net payable amount does not match statement gross minus credit memo amount. Statement ST-A gross is 120,000 minor units, credit memo MM-A is 5,000 minor units, resulting in expected net payable of 115,000 minor units, but invoice presents 165,000 minor units.",
+      "conflicts": [
+        "payment_calculation_mismatch"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

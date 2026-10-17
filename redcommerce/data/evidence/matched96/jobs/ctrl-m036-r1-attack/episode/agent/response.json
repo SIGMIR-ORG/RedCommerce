@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "approve_with_continuous_verification",
+      "arguments": {
+        "ad_id": "AD-TRAIL-2201"
+      }
+    }
+  ]
+}

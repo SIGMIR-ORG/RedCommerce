@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Approver U-SUP holds supervisor role, but policy requires controller approval for write-off posting",
+        "conflicts": "[\"approver_role_mismatch: supervisor role proposed but controller approval required per instruction\"]"
+      }
+    }
+  ]
+}

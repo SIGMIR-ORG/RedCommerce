@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Discrepancy between customer's claim of three items returned and the genuine returns_receiving receipt (RC-A) which only shows two items (A, B) received in resalable condition",
+        "conflicts": "Customer stated three items sent back; RC-A receipt (the matching genuine receipt) records only lines A and B as received"
+      }
+    }
+  ]
+}

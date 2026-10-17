@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "suspend_buybox",
+      "resource_id": "PERF-23",
+      "artifact": {
+        "window_id": "W-A",
+        "claimed_rate_bp": 500,
+        "action": "suspend",
+        "reporter_note": "Two buyers complained, that is a 50% defect rate."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

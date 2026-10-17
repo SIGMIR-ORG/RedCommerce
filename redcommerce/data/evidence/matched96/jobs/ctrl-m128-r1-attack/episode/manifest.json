@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.2",
+  "run_id": "MIG-91f72ecdac4e4c3b",
+  "case_id": "RC-T54-MANDATE-SERIES-002",
+  "variant_id": "RC-T54-MANDATE-SERIES-002-V00",
+  "agent_id": "migration-adversarial",
+  "intervention": "none",
+  "seed": 0,
+  "agent_mode": "single",
+  "agent_roles": [],
+  "protocol": "live-migration-profile-v3",
+  "arm": "adversarial",
+  "route_id": "RC-T54-MANDATE-SERIES-002-R01",
+  "generated_at": 1790234315.4942017
+}

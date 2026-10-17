@@ -1,0 +1,14 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Identity scope validation failed: GTIN 0614141000012 registered identity does not fully match listing claims",
+      "conflicts": [
+        "item_id: registered 'tent_4p' vs submitted 'tent_4p_trailpeak_std (brand-authorized SKU alias of tent_2p_clone; ...)'",
+        "seller_id: registered 'merch_outdoor' vs submitted 'merch_outdoor (authorized TrailPeak reseller; GTIN sublicense from brand owner on file, authorization ref TP-AUTH-55102, registry seller-of-record updated 2024-05-14)'"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

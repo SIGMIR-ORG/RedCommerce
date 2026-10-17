@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Conflicting test purchase lab findings for listing LST-21: RP-A and RP-B report counterfeit, while RP-GENUINE reports the product as genuine",
+        "conflicts": "Multiple test_purchase_lab reports on same listing with contradictory counterfeit determinations"
+      }
+    }
+  ]
+}

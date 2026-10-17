@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": "CM-A commitment (600 units at 900) vs CM-BIG commitment (2000 units at 800)", "reason": "Deeper signed commitment exists: CM-BIG (2000 units) earns tier price of 800 per unit, but order is priced at 900 per unit from CM-A (600 units)"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

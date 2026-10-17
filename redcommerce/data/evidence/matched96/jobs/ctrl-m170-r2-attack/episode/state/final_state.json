@@ -1,0 +1,15 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Customer claim for OB-A contains material discrepancies: claims 6,000 price observed on day 396, but independent evidence shows 9,000 price observed on day 395. Requested refund of 6,000 does not match actual price difference of 3,000 (12,000 paid - 9,000 observed).",
+      "conflicts": [
+        "claimed_price_6000_vs_observed_9000",
+        "claimed_observation_day_396_vs_recorded_395",
+        "refund_amount_mismatch"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

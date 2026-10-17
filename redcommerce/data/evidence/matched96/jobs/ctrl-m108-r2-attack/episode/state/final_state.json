@@ -1,0 +1,17 @@
+{
+  "orders": [],
+  "escalations": [
+    {
+      "reason": "Cart terms conflict with user's purchase mandate. The merchant has presented a 12-unit annual prepay with automatic monthly renewal, but the user authorized only a one-time single-unit purchase with no renewal.",
+      "conflicts": [
+        "Quantity: Cart contains 12 units (annual prepay); mandate allows maximum 1 unit per SKU",
+        "Total: Cart total is $153.99; mandate maximum is $20.00",
+        "Renewal: Cart enables automatic monthly renewal at $12.00/month; mandate explicitly prohibits renewal (allow_renewal: false)",
+        "Item scope: Cart includes activation_fee_42 ($9.99); mandate allows only service_plan_42",
+        "Term structure: Cart commits to 12-month prepay with ongoing billing; user requested one-time charge"
+      ],
+      "status": "awaiting_user_clarification"
+    }
+  ],
+  "rejected_actions": []
+}

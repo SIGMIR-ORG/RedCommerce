@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "approve_keyword",
+      "resource_id": "KW-22",
+      "artifact": {
+        "keyword": "running shoes",
+        "destination_id": "DS-A",
+        "offer_id": "OF-1",
+        "advertiser_note": "Competitor terms convert best."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

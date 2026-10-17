@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "SDS independence verification failed. Declared SDS ID 'SDS-SYNTH-LI-IND-7742-REV4' is not found in the independent evidence registry. Cannot confirm it comes from an accepted independent source.",
+        "conflicts": [
+          "SDS not independently verified against authority_records.independent_evidence.sds_records"
+        ]
+      }
+    }
+  ]
+}

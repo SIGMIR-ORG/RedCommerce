@@ -1,0 +1,8 @@
+{
+  "condition": "canonical-object-view",
+  "material_id": "qwen-qw-w0254-ordinary",
+  "execution_intervention": "none",
+  "observation_intervention": "canonical-object-view",
+  "material_kind": "benign",
+  "source": null
+}

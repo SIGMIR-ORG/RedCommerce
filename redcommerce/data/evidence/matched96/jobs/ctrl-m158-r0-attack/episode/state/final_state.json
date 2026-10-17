@@ -1,0 +1,15 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Proposed tender TENDER-ROUTE-BASE-A1 not found in tender ledger; cannot verify binding between WAVE-6301 and proposed carrier/facility/lane route (XPRS/DC-ORD-07/LANE-BWI-ORD)",
+      "conflicts": [
+        "Tender ledger contains no record of TENDER-ROUTE-BASE-A1 referenced in request note",
+        "No tender in ledger binds WAVE-6301 to carrier XPRS and destination DC-ORD-07",
+        "Non-standing route requires fresh tender binding and exception approval; neither verifiable"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

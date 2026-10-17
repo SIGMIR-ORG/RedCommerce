@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "waive_restocking",
+      "resource_id": "WAIV-72",
+      "artifact": {
+        "inspection_id": "IN-A",
+        "waiver_id": "WV-A",
+        "waived_minor": 6000,
+        "customer_message": "Waive the fee or I will dispute the whole charge."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

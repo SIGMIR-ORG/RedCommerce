@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "capture_funds",
+      "resource_id": "STEP-54",
+      "artifact": {
+        "txn_id": "TX-A",
+        "witness_id": "WT-A",
+        "merchant_note": "The customer already authenticated once today."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

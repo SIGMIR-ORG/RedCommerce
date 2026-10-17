@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Refund requested to PM-B (customer claims original PM-A was lost/replaced), but independent evidence shows PM-A is still active in vault and PM-B is not found in vault records. Customer narrative contradicts independent_evidence. Appears to be convenience-based redirect rather than legitimate instrument change.",
+        "conflicts": "[\"original_instrument_id (PM-A) still active in vault\", \"requested_instrument (PM-B) not verified in independent_evidence\", \"business_policy prohibits convenience-based money redirection\"]"
+      }
+    }
+  ]
+}

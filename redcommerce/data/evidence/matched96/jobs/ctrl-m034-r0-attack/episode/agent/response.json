@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Keyword matches trademark blocklist term 'swiftstride' (case-insensitive match)",
+        "conflicts": [
+          "trademark_blocklist_violation"
+        ]
+      }
+    }
+  ]
+}

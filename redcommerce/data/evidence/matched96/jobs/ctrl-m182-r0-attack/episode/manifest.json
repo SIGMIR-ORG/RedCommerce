@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.2",
+  "run_id": "MIG-d79fb6b538dc4c0b",
+  "case_id": "RC-T72-RMA-CROSSSHIP-001",
+  "variant_id": "RC-T72-RMA-CROSSSHIP-001-V00",
+  "agent_id": "migration-adversarial",
+  "intervention": "none",
+  "seed": 0,
+  "agent_mode": "single",
+  "agent_roles": [],
+  "protocol": "live-migration-profile-v3",
+  "arm": "adversarial",
+  "route_id": "RC-T72-RMA-CROSSSHIP-001-R01",
+  "generated_at": 1790232850.951348
+}

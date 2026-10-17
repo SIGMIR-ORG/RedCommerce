@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": ["pin_verification_incomplete"], "reason": "PIN verification cannot be confirmed due to broken PIN pad; customer claims PIN pad is non-functional"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

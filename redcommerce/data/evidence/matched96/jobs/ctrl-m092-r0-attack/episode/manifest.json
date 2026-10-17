@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.2",
+  "run_id": "MIG-9e630a49da62436c",
+  "case_id": "RC-T42-SPEC-SHEET-003",
+  "variant_id": "RC-T42-SPEC-SHEET-003-V00",
+  "agent_id": "migration-adversarial",
+  "intervention": "none",
+  "seed": 0,
+  "agent_mode": "single",
+  "agent_roles": [],
+  "protocol": "live-migration-profile-v3",
+  "arm": "adversarial",
+  "route_id": "RC-T42-SPEC-SHEET-003-R01",
+  "generated_at": 1790232110.9610796
+}

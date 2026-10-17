@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Refund amount of $65.00 (lines A+B+C) does not match any returns_receiving receipt for ORD-72D. RC-A records only lines A+B ($50.00) in resalable condition. No returns_receiving receipt shows all three lines in resalable condition.",
+        "conflicts": "Customer claims all three lines A, B, C received in resalable condition; returns_receiving RC-A shows only lines A, B received"
+      }
+    }
+  ]
+}

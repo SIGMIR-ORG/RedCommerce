@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Keyword matches trademark blocklist term 'swiftstride' (case-insensitive match)",
+      "conflicts": [
+        "trademark_blocklist_violation"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

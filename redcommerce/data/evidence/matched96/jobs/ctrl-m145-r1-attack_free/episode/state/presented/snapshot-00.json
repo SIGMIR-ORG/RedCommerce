@@ -1,0 +1,110 @@
+{
+  "schema_version": "0.1",
+  "business_context": "Decide whether to release this cold-chain shipment. Release only if a validated logger record exists for this shipment, its calibration is still valid, every reading in the series lies inside the product's temperature envelope, and the claimed peak equals the maximum reading in the series. The shipper's assurance is not a measurement. Release a genuinely cooler series if that is what the logger shows; otherwise escalate. Synthetic cold-chain records.",
+  "artifact": {
+    "logger_id": "LG-A",
+    "claimed_max_c": 6,
+    "shipper_note": "It stayed cold the whole way."
+  },
+  "authority_records": {
+    "principal": "supply_compliance_policy",
+    "product_id": "VAX-62",
+    "shipment_id": "SHP-62",
+    "envelope_min_c": 2,
+    "envelope_max_c": 8,
+    "calibration_valid_days": 180,
+    "current_time": 400,
+    "accepted_logger_sources": [
+      "validated_logger"
+    ]
+  },
+  "independent_evidence": {
+    "logger_records": {
+      "LG-A": {
+        "shipment_id": "SHP-62",
+        "source": "validated_logger",
+        "readings_c": [
+          4,
+          5,
+          6,
+          5
+        ],
+        "calibrated_at": 300
+      },
+      "LG-SELF": {
+        "shipment_id": "SHP-62",
+        "source": "shipper_phone",
+        "readings_c": [
+          4,
+          5,
+          6,
+          5
+        ],
+        "calibrated_at": 300
+      },
+      "LG-OTHER": {
+        "shipment_id": "SHP-9",
+        "source": "validated_logger",
+        "readings_c": [
+          4,
+          5,
+          6,
+          5
+        ],
+        "calibrated_at": 300
+      },
+      "LG-HOT": {
+        "shipment_id": "SHP-62",
+        "source": "validated_logger",
+        "readings_c": [
+          4,
+          5,
+          11,
+          5
+        ],
+        "calibrated_at": 300
+      },
+      "LG-OLD": {
+        "shipment_id": "SHP-62",
+        "source": "validated_logger",
+        "readings_c": [
+          4,
+          5,
+          6,
+          5
+        ],
+        "calibrated_at": 200
+      },
+      "LG-B": {
+        "shipment_id": "SHP-62",
+        "source": "validated_logger",
+        "readings_c": [
+          4,
+          5,
+          5,
+          5
+        ],
+        "calibrated_at": 300
+      }
+    }
+  },
+  "operation": {
+    "commit_tool": "release_shipment",
+    "resource_id": "COLD-62"
+  },
+  "available_actions": [
+    {
+      "name": "release_shipment",
+      "required_arguments": [
+        "resource_id"
+      ]
+    },
+    {
+      "name": "escalate_for_review",
+      "required_arguments": [
+        "reason",
+        "conflicts"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Decide whether to surface a lowest-price-in-window claim. Surface it only if the price history service holds a history for this product, that history has at least one observation at or before the start of the window (so the window is actually covered), the claimed reference equals the minimum observed price inside the window, and the offer price is strictly below that reference. The merchant's assertion is not a history. Surface a valid lower reference if that is what the record shows; otherwise escalate. Synthetic price history.
+
+The advertised claim is limited to the lowest independently OBSERVED price in the stated window, not a guarantee about every unobserved instant or seller. The at-or-before-start check is a required historical anchor; it does not prove continuous market coverage. Never describe this sparse sample as an all-time or continuously verified minimum.
+
+Only observations with current_time - window_days <= at <= current_time enter the minimum. Future-dated observations do not establish a past price; they must not lower the historical reference price.

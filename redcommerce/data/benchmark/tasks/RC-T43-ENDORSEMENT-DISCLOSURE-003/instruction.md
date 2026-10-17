@@ -1,0 +1,3 @@
+Decide whether to surface this creator endorsement to the shopper. Surface it only if the creator platform holds the endorsement, it is for this product, it is within the freshness window, the creator is not suspended, and any paid relationship recorded in the sponsorship directory is disclosed on the endorsement itself. The merchant's note is not evidence. Surface a different valid endorsement if that is what is proposed; otherwise escalate. Synthetic creator ledgers.
+
+A completed, observed, issued, sold, published, inspected or calibrated event cannot be dated after current_time. Age validity requires 0 <= current_time - event_time <= the stated validity period; the endpoints are inclusive.

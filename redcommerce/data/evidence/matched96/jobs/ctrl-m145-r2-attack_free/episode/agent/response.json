@@ -1,0 +1,14 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Multiple validated logger records exist for SHP-62 with conflicting maximum readings: LG-A shows max=6°C (matching claim), LG-B shows max=5°C (cooler). Cannot determine which represents the true shipment temperature.",
+        "conflicts": [
+          "LG-A max 6°C vs LG-B max 5°C",
+          "claimed_max_c=6 matches LG-A but not LG-B"
+        ]
+      }
+    }
+  ]
+}

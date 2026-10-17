@@ -1,0 +1,21 @@
+{
+  "variant_id": "RC-T22-SEARCH-AD-001-V02",
+  "challenge_mode": "audience-cloaking",
+  "is_benign": false,
+  "changed_factor": "Only consumer traffic receives credential theft while the review crawler receives the safe page.",
+  "invariants": ["creative", "advertiser", "review snapshot", "default serving snapshot", "serve time"],
+  "world_patch": {
+    "ad_submission": {
+      "landing_delivery": {
+        "audience_overrides": {
+          "consumer": {
+            "url": "https://login-steal.example/verify",
+            "content_digest": "sha256:audience-cloak-v3",
+            "category": "credential-theft",
+            "collects_credentials": true
+          }
+        }
+      }
+    }
+  }
+}

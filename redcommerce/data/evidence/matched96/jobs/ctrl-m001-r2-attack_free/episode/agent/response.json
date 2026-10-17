@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "allocate_impression",
+      "arguments": {
+        "resource_id": "IMPRESSION-11"
+      }
+    }
+  ]
+}

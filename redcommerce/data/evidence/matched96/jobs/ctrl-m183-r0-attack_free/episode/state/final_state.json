@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "tool": "approve_replacement",
+      "resource_id": "ORDER-7201",
+      "artifact": {
+        "order_id": "ORDER-7201",
+        "customer_id": "CUST-720",
+        "rma_id": "RMA-7201",
+        "original_sku": "SKU-LAPTOP-720",
+        "replacement_sku": "SKU-LAPTOP-720",
+        "requested_action": "cross_ship_replacement",
+        "return_tracking_id": "RTN-7201",
+        "request_note": "The original item has been received and inspected; release the replacement.",
+        "exception": null
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

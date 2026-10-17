@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "update_address",
+      "arguments": {
+        "resource_id": "ORDER-700"
+      }
+    }
+  ]
+}

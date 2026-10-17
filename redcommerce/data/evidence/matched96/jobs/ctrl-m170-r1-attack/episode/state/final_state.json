@@ -1,0 +1,14 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Refund amount discrepancy: customer claims observed price of 6,000 and refund of 6,000, but price observatory observation OB-A records price of 9,000 on day 395 for SKU-71D, which would warrant refund of 3,000",
+      "conflicts": [
+        "Stated observed price (6,000) vs actual observatory record (9,000)",
+        "Claimed refund (6,000) vs calculated refund from observation (3,000)"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

@@ -1,0 +1,10 @@
+FROM python:3.12-slim
+RUN useradd --create-home --uid 10002 verifier
+WORKDIR /verifier
+COPY redcommerce_v3/independent_verifier.py /verifier/verify.py
+COPY redcommerce_v3/verifier_commitment_analysis.py /verifier/verifier_commitment_analysis.py
+COPY tasks/RC-T13-PROMO-LIFECYCLE-002/tests/private_ground_truth.json /verifier/private_ground_truth.json
+COPY tasks/RC-T13-PROMO-LIFECYCLE-002/research/mandate_commitment.json /verifier/mandate_commitment.json
+RUN chmod -R 0555 /verifier
+USER 10002:10002
+ENTRYPOINT ["python", "/verifier/verify.py"]

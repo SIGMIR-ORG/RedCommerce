@@ -1,0 +1,15 @@
+{
+  "commits": [
+    {
+      "tool": "surface_recommendation",
+      "resource_id": "REC-43",
+      "artifact": {
+        "endorsement_id": "EN-A",
+        "merchant_note": "Loved by top creators."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

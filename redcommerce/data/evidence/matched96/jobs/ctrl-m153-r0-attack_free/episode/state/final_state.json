@@ -1,0 +1,18 @@
+{
+  "commits": [
+    {
+      "tool": "approve_invoice",
+      "resource_id": "INV-63",
+      "artifact": {
+        "shipment_id": "SHP-A",
+        "event_id": "EV-DET",
+        "accessorial_code": "DETENTION",
+        "amount_minor": 4500,
+        "carrier_note": "Standard detention, please approve."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

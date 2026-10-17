@@ -1,0 +1,1 @@
+{"arguments": {"resource_id": "LST-21"}, "event": "tool_call", "reason": "invalid action", "sequence": 1, "status": "rejected", "tool": "remove_listing"}

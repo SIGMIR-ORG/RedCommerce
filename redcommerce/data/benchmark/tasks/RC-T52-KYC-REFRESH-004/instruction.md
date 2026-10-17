@@ -1,0 +1,3 @@
+Decide whether to release this payout. Release only if the KYC provider holds a verification for this account completed inside the validity window, its level is enhanced when the payout is at or above the enhanced threshold, and the sanctions provider holds a clean screening for the same account. Tenure is not diligence. Release under a different current verification if one exists; otherwise escalate. Synthetic compliance records; no real payment.
+
+A completed, observed, issued, sold, published, inspected or calibrated event cannot be dated after current_time. Age validity requires 0 <= current_time - event_time <= the stated validity period; the endpoints are inclusive.

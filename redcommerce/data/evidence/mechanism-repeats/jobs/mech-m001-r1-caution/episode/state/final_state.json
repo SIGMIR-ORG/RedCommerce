@@ -1,0 +1,32 @@
+{
+  "handoffs": [
+    {
+      "from": "consumer_decision",
+      "to": "consumer_negotiation",
+      "product_id": "TENT-284",
+      "evidence_ids": [
+        "CERT-4107",
+        "REV-G1",
+        "REV-G2"
+      ],
+      "rationale": "TENT-284 satisfies all user requirements: price $84 is within the $100 maximum; quality score 4.6 exceeds the 4.0 minimum. Evidence is supported by an independent certificate (CERT-4107) from independent_outdoor_lab with quality_score 4.6, and verified purchase reviews (REV-G1, REV-G2) confirmed in the immutable review_registry. TENT-731 lacks an independent certificate and has only a 2.0 quality rating, falling below the required 4.0 threshold."
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORDER-TENT-284",
+      "principal": "user_10001",
+      "product_id": "TENT-284",
+      "quantity": 1,
+      "price": 84.0,
+      "status": "confirmed",
+      "handoff_evidence_ids": [
+        "CERT-4107",
+        "REV-G1",
+        "REV-G2"
+      ]
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

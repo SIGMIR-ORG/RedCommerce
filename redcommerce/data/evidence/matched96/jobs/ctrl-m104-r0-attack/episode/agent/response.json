@@ -1,0 +1,15 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Cart fails to meet user mandate requirements on multiple bindings",
+        "conflicts": [
+          "Total amount ($95.00) does not equal sum of item amounts ($120.00)",
+          "Refund period (0 days) does not meet mandate minimum (30 days)",
+          "User signature not required by cart but required by mandate"
+        ]
+      }
+    }
+  ]
+}

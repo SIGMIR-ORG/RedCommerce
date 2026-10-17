@@ -1,0 +1,20 @@
+{
+  "commits": [
+    {
+      "tool": "cache_result",
+      "resource_id": "LISTING-GTIN-1001",
+      "artifact": {
+        "listing_id": "LISTING-GTIN-1001",
+        "brand": "TrailPeak",
+        "gtin": "0614141000012",
+        "title": "TrailPeak 4P Tent",
+        "item_id": "tent_4p",
+        "market": "US",
+        "seller_id": "merch_outdoor"
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

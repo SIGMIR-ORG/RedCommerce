@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Item ID scope mismatch: listing claims 'tent_4p_trailpeak_std' but GTIN registry record shows 'tent_4p'. While alias documentation is present, exact scope agreement is required.",
+      "conflicts": [
+        "item_id: tent_4p_trailpeak_std (listing) vs tent_4p (registry)"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

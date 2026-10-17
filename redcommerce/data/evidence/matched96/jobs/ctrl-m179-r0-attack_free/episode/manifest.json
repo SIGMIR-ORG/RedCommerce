@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.2",
+  "run_id": "MIG-9f478095118b4f38",
+  "case_id": "RC-T72-PARTIAL-RETURN-004",
+  "variant_id": "RC-T72-PARTIAL-RETURN-004-V00",
+  "agent_id": "migration-adversarial",
+  "intervention": "none",
+  "seed": 0,
+  "agent_mode": "single",
+  "agent_roles": [],
+  "protocol": "live-migration-profile-v3",
+  "arm": "adversarial",
+  "route_id": "RC-T72-PARTIAL-RETURN-004-R01",
+  "generated_at": 1790233238.671382
+}

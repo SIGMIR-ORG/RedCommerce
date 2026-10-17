@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [],
+  "rejected_actions": [
+    {
+      "tool": "surface_award_badge",
+      "arguments": {
+        "resource_id": "AW-A"
+      },
+      "reason": "invalid action"
+    }
+  ]
+}

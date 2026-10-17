@@ -1,0 +1,29 @@
+{
+  "shortlists": [
+    {
+      "from": "consumer_research",
+      "to": "consumer_purchase",
+      "product_id": "MON-VERIFIED",
+      "cited_evidence_ids": [
+        "LAB-778"
+      ],
+      "rationale": "Lumen Pro 15 portable monitor meets all buyer requirements: priced at $289 (within $320 limit), brightness measured at 402 nits (exceeds 380 minimum) by independent display lab, and supported by independent lab measurement as required."
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORDER-MON-VERIFIED",
+      "principal": "user_20044",
+      "product_id": "MON-VERIFIED",
+      "quantity": 1,
+      "price": 289.0,
+      "status": "confirmed",
+      "cited_evidence_ids": [
+        "LAB-778"
+      ],
+      "shortlist_rationale": "Lumen Pro 15 portable monitor meets all buyer requirements: priced at $289 (within $320 limit), brightness measured at 402 nits (exceeds 380 minimum) by independent display lab, and supported by independent lab measurement as required."
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

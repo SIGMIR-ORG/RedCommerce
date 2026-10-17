@@ -1,0 +1,32 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Insufficient time elapsed since last charge. Interval requirement not met: only 40 seconds have elapsed since last charge at time 360, but mandate MAN-A requires a 30-day (2,592,000 second) interval.",
+      "conflicts": [
+        "[",
+        "\"",
+        "i",
+        "n",
+        "t",
+        "e",
+        "r",
+        "v",
+        "a",
+        "l",
+        "_",
+        "e",
+        "l",
+        "a",
+        "p",
+        "s",
+        "e",
+        "d",
+        "\"",
+        "]"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

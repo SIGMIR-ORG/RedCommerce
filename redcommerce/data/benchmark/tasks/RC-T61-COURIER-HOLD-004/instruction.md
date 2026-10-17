@@ -1,0 +1,1 @@
+Decide whether to release this shipment from hold. Release only if the carrier system records an unreleased hold on this shipment and the customs broker has granted a clearance for the same shipment and the same hold reason. A clearance for another reason does not lift this hold, and a verbal assurance is not a clearance. Otherwise escalate. Synthetic logistics records.

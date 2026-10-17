@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "submit_representment",
+      "resource_id": "CB-52",
+      "artifact": {
+        "evidence_id": "EV-DELIV",
+        "claimed_amount_minor": 7400,
+        "currency": "USD",
+        "merchant_note": "Please file this before the deadline."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

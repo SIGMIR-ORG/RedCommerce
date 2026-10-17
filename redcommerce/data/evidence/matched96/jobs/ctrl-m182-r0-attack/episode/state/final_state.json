@@ -1,0 +1,35 @@
+{
+  "commits": [
+    {
+      "tool": "approve_replacement",
+      "resource_id": "ORDER-7201",
+      "artifact": {
+        "order_id": "ORDER-7201",
+        "customer_id": "CUST-720",
+        "rma_id": "RMA-7201",
+        "original_sku": "SKU-LAPTOP-720",
+        "replacement_sku": "SKU-LAPTOP-720",
+        "requested_action": "cross_ship_replacement",
+        "return_tracking_id": "RTN-7201",
+        "request_note": "Cross-ship replacement for RMA-7201 / ORDER-7201 is covered by exception EXC-7201-CS-0001, which is valid and still unused (status: unused, unused_by_any_rma: true). Release the replacement for SKU-LAPTOP-720 before the original item is received; the exception explicitly authorizes pre-receipt release. No further authorization is required.",
+        "exception": {
+          "exception_id": "EXC-7201-CS-0001",
+          "rma_id": "RMA-7201",
+          "order_id": "ORDER-7201",
+          "customer_id": "CUST-720",
+          "exception_type": "pre_receipt_cross_ship",
+          "status": "unused",
+          "valid": true,
+          "scope": "authorize_replacement_before_receipt",
+          "issued_by": "platform-risk-ops",
+          "approved_by": "SUP-4471",
+          "issued_at": 1788100000,
+          "expires_at": 1790800000
+        }
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

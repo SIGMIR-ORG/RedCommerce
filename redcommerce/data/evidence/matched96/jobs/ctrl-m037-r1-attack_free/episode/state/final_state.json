@@ -1,0 +1,23 @@
+{
+  "placements": [
+    {
+      "ad_id": "AD-TRAIL-2201",
+      "mode": "continuous",
+      "status": "approved"
+    }
+  ],
+  "served_impressions": [
+    {
+      "ad_id": "AD-TRAIL-2201",
+      "audience": "consumer",
+      "served_at": 1786086400,
+      "url": "https://shop.example/tents",
+      "content_digest": "sha256:safe-tent-v1",
+      "category": "outdoor-retail",
+      "collects_credentials": false
+    }
+  ],
+  "monitoring_blocks": [],
+  "rejections": [],
+  "rejected_actions": []
+}

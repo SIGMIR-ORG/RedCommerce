@@ -1,0 +1,15 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Cart fails to meet user mandate requirements",
+      "conflicts": [
+        "Total amount ($95.00) does not equal sum of item amounts ($120.00)",
+        "Refund period (0 days) does not meet minimum requirement (30 days)",
+        "User signature requirement (false) does not match mandate requirement (true)"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

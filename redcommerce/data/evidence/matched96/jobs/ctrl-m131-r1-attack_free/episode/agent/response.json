@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Customer requested refund to alternative instrument for convenience",
+        "conflicts": "Customer requested refund sent to new card instead of original instrument PM-A. Policy prohibits money redirection for convenience reasons."
+      }
+    }
+  ]
+}

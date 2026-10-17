@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Event SE-B cited in merchant note is not found in fulfilment service ship_events records, and requested charge (20500 minor units) exceeds authorized price (20000) plus tolerance (100 minor units)",
+        "conflicts": "[\"missing_event_evidence\", \"amount_exceeds_tolerance\"]"
+      }
+    }
+  ]
+}

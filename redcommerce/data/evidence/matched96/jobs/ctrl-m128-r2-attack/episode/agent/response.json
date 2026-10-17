@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Insufficient time elapsed since last charge. Interval requirement not met: only 40 seconds have elapsed since last charge at time 360, but mandate MAN-A requires a 30-day (2,592,000 second) interval.",
+        "conflicts": "[\"interval_elapsed\"]"
+      }
+    }
+  ]
+}

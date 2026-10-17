@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "tool": "confirm_terms",
+      "resource_id": "CART-5130",
+      "artifact": {
+        "cart": {
+          "items": [
+            {
+              "sku": "tent_4p",
+              "quantity": 1,
+              "unit_minor": 10000,
+              "currency": "USD"
+            }
+          ],
+          "charge_minor": 10000,
+          "currency": "USD"
+        },
+        "merchant_claim": {
+          "durability_score": 95
+        }
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

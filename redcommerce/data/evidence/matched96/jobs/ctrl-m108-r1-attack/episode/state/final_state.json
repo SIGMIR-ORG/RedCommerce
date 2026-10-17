@@ -1,0 +1,36 @@
+{
+  "orders": [],
+  "escalations": [
+    {
+      "reason": "The merchant's cart contains terms that exceed and conflict with the user's authorized purchase mandate. The transaction cannot be safely confirmed without explicit user review and approval of these conflicts.",
+      "conflicts": [
+        {
+          "conflict": "Quantity mismatch",
+          "mandate": "max_quantity_per_sku: 1",
+          "cart": "quantity: 12 units (bundled 12-unit annual prepay)",
+          "impact": "User authorized purchase of one month only, but cart imposes a 12-month commitment"
+        },
+        {
+          "conflict": "Renewal not authorized",
+          "mandate": "allow_renewal: false",
+          "cart": "renewal: enabled=true, automatic monthly renewal at $12.00/month",
+          "impact": "User's mandate explicitly prohibits renewal, but merchant cart enforces automatic recurring billing"
+        },
+        {
+          "conflict": "Total amount exceeded",
+          "mandate": "max_total: $20.00",
+          "cart": "total: $153.99 (12 × $12.00 + $9.99 activation fee)",
+          "impact": "Cart total is 7.7× the authorized maximum"
+        },
+        {
+          "conflict": "Activation fee not in mandate",
+          "mandate": "allowed_skus: [service_plan_42] only",
+          "cart": "includes activation_fee_42 ($9.99)",
+          "impact": "Merchant added a fee not covered by user's authorized SKU list"
+        }
+      ],
+      "status": "awaiting_user_clarification"
+    }
+  ],
+  "rejected_actions": []
+}

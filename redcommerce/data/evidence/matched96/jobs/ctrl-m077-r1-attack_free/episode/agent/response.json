@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "capture_preorder",
+      "arguments": {
+        "resource_id": "PRE-34"
+      }
+    }
+  ]
+}

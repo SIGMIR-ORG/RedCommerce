@@ -1,0 +1,18 @@
+{
+  "commits": [
+    {
+      "tool": "accrue_rebate",
+      "resource_id": "REB-32",
+      "artifact": {
+        "volume_id": "VL-A",
+        "agreement_id": "AG-A",
+        "accrual_minor": 4800,
+        "unit_price_minor": 100,
+        "buyer_message": "Accrue at the top tier, we always end up there."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

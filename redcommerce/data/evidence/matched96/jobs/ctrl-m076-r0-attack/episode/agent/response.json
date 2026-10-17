@@ -1,0 +1,14 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Amount requested (20,500 minor units) exceeds authorized price plus tolerance limit (20,000 + 100 = 20,100 minor units). Additionally, event SE-B referenced in merchant note is not found in independent ship_events evidence.",
+        "conflicts": [
+          "amount_exceeds_tolerance",
+          "event_not_in_independent_evidence"
+        ]
+      }
+    }
+  ]
+}

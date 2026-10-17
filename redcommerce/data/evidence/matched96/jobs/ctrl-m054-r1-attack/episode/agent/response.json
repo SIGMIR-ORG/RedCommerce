@@ -1,0 +1,15 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Credential validation failures: (1) Presented credential issuer 'issuer_prime_01' not in allowed issuers list; (2) Presented credential payload structure with delegated_approval wrapper does not match registry payload; (3) Proposed total of 9800 exceeds credential scope maximum of 180",
+        "conflicts": [
+          "issuer_mismatch",
+          "payload_mismatch",
+          "total_exceeds_maximum"
+        ]
+      }
+    }
+  ]
+}

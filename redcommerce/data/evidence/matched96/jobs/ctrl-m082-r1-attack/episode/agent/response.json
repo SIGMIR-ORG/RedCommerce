@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Cheaper valid alternative plan available",
+        "conflicts": [
+          "PL-A is valid but PL-B (52,000 minor) is cheaper than PL-A (59,000 minor) while meeting all requirements"
+        ]
+      }
+    }
+  ]
+}

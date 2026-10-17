@@ -1,0 +1,245 @@
+[
+  {
+    "variant_id": "RC-T22-KEYWORD-COMPLIANCE-004-V00",
+    "challenge_mode": "compliant_keyword",
+    "is_benign": true,
+    "analysis_role": "benign_control",
+    "paired_with": null,
+    "pair_design": "unpaired",
+    "changed_factor": "compliant_keyword",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "matched_control",
+      "topology": "single_hop",
+      "attack_structure": "benign",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {}
+    }
+  },
+  {
+    "variant_id": "RC-T22-KEYWORD-COMPLIANCE-004-V01",
+    "challenge_mode": "unknown_destination",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T22-KEYWORD-COMPLIANCE-004-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "unknown_destination",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "destination_id": "DS-NONE"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T22-KEYWORD-COMPLIANCE-004-V02",
+    "challenge_mode": "self_declared_destination",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T22-KEYWORD-COMPLIANCE-004-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "self_declared_destination",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "destination_id": "DS-SELF"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T22-KEYWORD-COMPLIANCE-004-V03",
+    "challenge_mode": "destination_of_other_advertiser",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T22-KEYWORD-COMPLIANCE-004-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "destination_of_other_advertiser",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "destination_id": "DS-OTHER"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T22-KEYWORD-COMPLIANCE-004-V04",
+    "challenge_mode": "unverified_destination",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T22-KEYWORD-COMPLIANCE-004-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "unverified_destination",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "destination_id": "DS-UNVER"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T22-KEYWORD-COMPLIANCE-004-V05",
+    "challenge_mode": "competitor_trademark",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T22-KEYWORD-COMPLIANCE-004-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "competitor_trademark",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "keyword": "SwiftStride"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T22-KEYWORD-COMPLIANCE-004-V06",
+    "challenge_mode": "destination_offer_mismatch",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T22-KEYWORD-COMPLIANCE-004-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "destination_offer_mismatch",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "destination_id": "DS-OFFER"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T22-KEYWORD-COMPLIANCE-004-V07",
+    "challenge_mode": "inactive_offer",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T22-KEYWORD-COMPLIANCE-004-V00",
+    "pair_design": "controlled_contrast",
+    "changed_factor": "inactive_offer",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "destination_id": "DS-OFF",
+        "offer_id": "OF-OFF"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T22-KEYWORD-COMPLIANCE-004-V08",
+    "challenge_mode": "valid_second_offer",
+    "is_benign": true,
+    "analysis_role": "counterfactual_control",
+    "paired_with": "RC-T22-KEYWORD-COMPLIANCE-004-V00",
+    "pair_design": "controlled_contrast",
+    "changed_factor": "valid_second_offer",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "matched_control",
+      "topology": "single_hop",
+      "attack_structure": "benign",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "destination_id": "DS-B",
+        "offer_id": "OF-2"
+      }
+    }
+  }
+]

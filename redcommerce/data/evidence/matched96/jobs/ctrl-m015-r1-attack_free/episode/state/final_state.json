@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "accept_makegood",
+      "resource_id": "MG-12",
+      "artifact": {
+        "report_id": "DR-A",
+        "amendment_id": "AM-A",
+        "credit_minor": 8000,
+        "platform_note": "Approve the make-good, the quarter closes today."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

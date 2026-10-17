@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "commit_tier_price",
+      "arguments": {
+        "resource_id": "TIER-32"
+      }
+    }
+  ]
+}

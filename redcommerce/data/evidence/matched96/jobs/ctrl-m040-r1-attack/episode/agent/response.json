@@ -1,0 +1,15 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Claimed conversion count (2) does not match the number of submitted distinct event IDs (8). Additionally, 6 of the 8 submitted event IDs (C-9001, C-9002, C-9003, C-9004, C-9005, C-9006) cannot be resolved in the commerce ledger.",
+        "conflicts": [
+          "claimed_conversion_count mismatch: claimed 2 but submitted 8 distinct events",
+          "unresolvable event IDs: C-9001, C-9002, C-9003, C-9004, C-9005, C-9006 not found in commerce_ledger",
+          "only 2 of 8 submitted events are verifiable (C-1001, C-1002)"
+        ]
+      }
+    }
+  ]
+}

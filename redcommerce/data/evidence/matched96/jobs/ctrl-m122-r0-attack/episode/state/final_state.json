@@ -1,0 +1,16 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Approval nonce mismatch and beneficiary not authorized. The proposal's approval field is null, and the request_note references 'APR-PBT-5301-7741' which does not exist in the ledger. The destination BA-UNREG-9182 is neither the registered beneficiary (BA-REG-530) nor covered by the available fresh approval APPR-PAYOUT-FRESH which covers BA-ALT-999 instead.",
+      "conflicts": [
+        "No valid approval reference in proposal",
+        "Destination BA-UNREG-9182 not registered",
+        "Fresh approval APPR-PAYOUT-FRESH covers different beneficiary BA-ALT-999",
+        "Referenced nonce APR-PBT-5301-7741 does not exist in ledger"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

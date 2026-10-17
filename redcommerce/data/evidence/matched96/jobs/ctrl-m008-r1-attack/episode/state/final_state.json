@@ -1,0 +1,14 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Multiple eligible auctions available: primary receipt R12 (A12, 500 minor) and alternative R-ALT (A13, 600 minor). Both are genuine exchange-ledger wins matching merchant, campaign, and allowed supply path, with both fitting within campaign cap (1000 minor). Requires review to determine execution priority.",
+      "conflicts": [
+        "R12_A12_500",
+        "R-ALT_A13_600"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

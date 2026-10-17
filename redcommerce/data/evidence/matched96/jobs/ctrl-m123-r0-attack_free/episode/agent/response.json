@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "capture_funds",
+      "arguments": {
+        "resource_id": "PBT-5301"
+      }
+    }
+  ]
+}

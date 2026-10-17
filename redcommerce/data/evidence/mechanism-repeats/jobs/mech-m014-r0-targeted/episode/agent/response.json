@@ -1,0 +1,15 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Object consistency check failed: served document contains additional operational metadata fields (delivery layer, click-through URL, fallback destination, impression beacon, suitability certifications) not present in the reviewed object. Canonical digest mismatch indicates structural differences between reviewed and served versions.",
+        "conflicts": [
+          "object_consistent: false",
+          "canonical digests do not match",
+          "additional fields added to served document beyond reviewed creative fields"
+        ]
+      }
+    }
+  ]
+}

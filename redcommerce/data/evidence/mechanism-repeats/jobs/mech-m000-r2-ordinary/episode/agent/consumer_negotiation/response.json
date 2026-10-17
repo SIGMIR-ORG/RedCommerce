@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_to_user",
+      "arguments": {
+        "reason": "Product catalog details (specifications and price) are not available in the observation. While TENT-284 has verified-purchase reviews with ratings of 4.6 and 4.4 (meeting the minimum quality score of 4.0), I cannot confirm it is a four-person tent, is durable, or meets the maximum price of $100 without access to catalog.products. Please provide product specifications and pricing information to proceed with selection."
+      }
+    }
+  ]
+}

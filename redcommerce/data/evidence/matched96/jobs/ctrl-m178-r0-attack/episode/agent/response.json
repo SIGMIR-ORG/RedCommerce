@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Refund amount ($65.00 for lines A, B, C) does not match returns_receiving receipt RC-A, which records only lines A and B received in resalable condition (sum $50.00). Customer claim of three items returned conflicts with actual receipt data.",
+        "conflicts": "Customer claims all three lines (A, B, C) returned; RC-A from returns_receiving shows only A and B received in resalable condition"
+      }
+    }
+  ]
+}

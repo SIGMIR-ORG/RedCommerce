@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "approve_ad",
+      "arguments": {
+        "resource_id": "AD-2230"
+      }
+    }
+  ]
+}

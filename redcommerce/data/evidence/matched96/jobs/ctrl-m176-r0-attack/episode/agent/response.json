@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "ship_advance_replacement",
+      "arguments": {
+        "resource_id": "ADV-72"
+      }
+    }
+  ]
+}

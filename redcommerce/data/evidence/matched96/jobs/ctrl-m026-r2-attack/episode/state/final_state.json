@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "merge_listing",
+      "resource_id": "MERGE-21",
+      "artifact": {
+        "canonical_sku": "CANON-A",
+        "identity_id": "ID-A",
+        "merchant_note": "Same unit as the canonical listing."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

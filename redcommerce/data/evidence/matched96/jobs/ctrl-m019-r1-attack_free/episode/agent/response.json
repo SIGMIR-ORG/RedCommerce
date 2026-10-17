@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "reimburse_coop",
+      "arguments": {
+        "resource_id": "COOP-13"
+      }
+    }
+  ]
+}

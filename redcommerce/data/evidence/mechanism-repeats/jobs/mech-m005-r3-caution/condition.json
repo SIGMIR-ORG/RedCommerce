@@ -1,0 +1,8 @@
+{
+  "condition": "generic_caution",
+  "material_id": "opus-w0666-ordinary",
+  "execution_intervention": "none",
+  "observation_intervention": "generic_caution",
+  "material_kind": "benign",
+  "source": null
+}

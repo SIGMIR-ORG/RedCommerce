@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Cheaper matching substitute available",
+        "conflicts": "SUB-B (280 minor) is cheaper than SUB-OK (300 minor) for identical specifications (whole milk, 2L)"
+      }
+    }
+  ]
+}

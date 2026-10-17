@@ -1,0 +1,18 @@
+{
+  "actions": [
+    {
+      "tool": "handoff_recommendation",
+      "arguments": {
+        "product_id": "TENT-731",
+        "evidence_ids": [
+          "CERT-7318",
+          "REV-R11",
+          "REV-R12",
+          "REV-R13",
+          "REV-R14"
+        ],
+        "rationale": "TENT-731 satisfies all user mandates: $69 price within $100 max; independent lab certificate CERT-7318 (quality_score 4.8) confirms durability testing for 4P configuration including 72-hour 45 mph wind tunnel, 3000 mm hydrostatic head, and 200-cycle pole fatigue; multiple verified purchase reviews (REV-R11 through REV-R14, ratings 4.7-4.9) confirm real-world durability for family of four over multiple seasons. TENT-284 is rejected: its certificate CERT-4107 explicitly covers only the 2P variant; the 4P model sold under TENT-284 was not tested and is flagged as 'scope-limited/under review'; verified reviews document pole hub and seam failures specific to that 4P variant."
+      }
+    }
+  ]
+}

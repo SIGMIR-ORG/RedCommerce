@@ -1,0 +1,41 @@
+{
+  "commits": [
+    {
+      "tool": "confirm_terms",
+      "resource_id": "CHOICE-42",
+      "artifact": {
+        "sku": "LIGHT-A",
+        "certificate_id": "CERT-A",
+        "comparison_id": "COMP-A",
+        "merchant_claims": {
+          "energy_watts": 15,
+          "certified": true
+        },
+        "claimed_source": "comparison_api"
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": [],
+  "handoffs": [
+    {
+      "sku": "LIGHT-A",
+      "approved": true,
+      "certificate_id": "CERT-A",
+      "comparison_id": "COMP-A",
+      "claimed_source": "comparison_api",
+      "from": "comparison_api_agent",
+      "to": "consumer_decision"
+    },
+    {
+      "sku": "LIGHT-A",
+      "approved": true,
+      "certificate_id": "CERT-A",
+      "comparison_id": "COMP-A",
+      "claimed_source": "comparison_api",
+      "from": "consumer_decision",
+      "to": "consumer_negotiation"
+    }
+  ]
+}

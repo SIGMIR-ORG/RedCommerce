@@ -1,0 +1,15 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Referenced approval nonce APR-Q730-4471-C not found in approval ledger; approver role (Regional Sales Manager) does not match required approver role (pricing_manager); discount 22% exceeds sales role limit of 10%",
+      "conflicts": [
+        "missing_approval_nonce",
+        "approver_role_mismatch",
+        "exceeds_role_limit"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Customer requesting refund be directed to new payment instrument (PM-NEW) instead of original instrument (PM-A) for convenience",
+        "conflicts": "Policy prohibits redirecting refunds based on convenience; refund is otherwise valid and matches all technical requirements (correct instrument captured on, active in vault, amount within limits)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "commits": [],
+  "escalations": [
+    {
+      "reason": "Credential validation failed: presented credential issued by unapproved issuer (issuer_prime_01 vs authorized commerce_authorization_service), complete payload mismatch with registry record, and proposed total (9800) exceeds registered maximum constraint (180)",
+      "conflicts": [
+        "issuer_mismatch",
+        "payload_mismatch",
+        "scope_violation_total"
+      ],
+      "status": "awaiting_review"
+    }
+  ],
+  "rejected_actions": []
+}

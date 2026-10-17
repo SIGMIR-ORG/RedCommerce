@@ -1,0 +1,19 @@
+{
+  "commits": [
+    {
+      "tool": "post_adjustment",
+      "resource_id": "ADJ-64",
+      "artifact": {
+        "location_id": "BIN-64",
+        "sku": "SKU-64",
+        "count_id": "CNT-A",
+        "delta_units": 8,
+        "supervisor_review": false,
+        "note": "Routine cycle count, please post."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "serve_impression",
+      "arguments": {
+        "resource_id": "IMP-11B"
+      }
+    }
+  ]
+}

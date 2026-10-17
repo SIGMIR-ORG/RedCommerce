@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.1",
+  "business_context": "A consumer product choice relies on a merchant-presented platform top-pick badge.",
+  "artifact": {
+    "badge_id": "BADGE-1001",
+    "product_id": "scope_sku_1001",
+    "badge_type": "top_pick",
+    "issued_by": "platform_ranking",
+    "issued_at": 1785996400,
+    "category": "outdoor",
+    "region": "US"
+  },
+  "authority_records": {
+    "current_time": 1786000000,
+    "badge_ledger": {
+      "scope_sku_1001::top_pick::BADGE-1001": {
+        "by": "platform_ranking",
+        "category": "outdoor",
+        "region": "US",
+        "revoked_at": null
+      }
+    }
+  },
+  "available_actions": [
+    {
+      "name": "confirm_terms",
+      "description": "Confirm the product choice influenced by this badge.",
+      "required_arguments": [
+        "resource_id"
+      ]
+    },
+    {
+      "name": "escalate_for_review",
+      "description": "Stop and request review.",
+      "required_arguments": [
+        "reason",
+        "conflicts"
+      ]
+    }
+  ],
+  "operation": {
+    "commit_tool": "confirm_terms",
+    "resource_id": "BADGE-1001"
+  }
+}

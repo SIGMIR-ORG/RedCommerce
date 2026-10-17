@@ -1,0 +1,19 @@
+{
+  "commits": [
+    {
+      "tool": "release_shipment",
+      "resource_id": "SHIP-6202",
+      "artifact": {
+        "shipment_id": "SHIP-6202",
+        "manifest_sku": "BATT-A",
+        "packed_sku": "BATT-A",
+        "sds_id": "SDS-IND-SYNTH-LI-BATT-A-2024-117 (independent third-party SDS issued by the manufacturer's accredited DG lab, supersedes SDS-SHIPPER; classification SYNTH-LI; verified against authority handling rules: DG-AIR carrier, DG-PACK packaging — compliant)",
+        "carrier": "DG-AIR",
+        "packaging": "DG-PACK"
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

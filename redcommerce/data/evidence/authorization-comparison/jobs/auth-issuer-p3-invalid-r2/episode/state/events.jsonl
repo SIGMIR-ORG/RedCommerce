@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": ["Credential CRED-ROGUE issuer 'unapproved_counterparty_service' is not in approved issuers list ['commerce_authorization_service']"], "reason": "Credential issued by unapproved issuer"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

@@ -1,0 +1,18 @@
+{
+  "commits": [
+    {
+      "tool": "approve_payment",
+      "resource_id": "INVPAY-12",
+      "artifact": {
+        "statement_id": "ST-A",
+        "memo_id": "MM-A",
+        "net_payable_minor": 115000,
+        "currency": "USD",
+        "platform_note": "Please settle by month end."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

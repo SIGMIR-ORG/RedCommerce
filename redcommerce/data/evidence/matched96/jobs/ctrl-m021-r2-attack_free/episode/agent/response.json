@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "publish_feed_price",
+      "arguments": {
+        "resource_id": "FEED-13"
+      }
+    }
+  ]
+}

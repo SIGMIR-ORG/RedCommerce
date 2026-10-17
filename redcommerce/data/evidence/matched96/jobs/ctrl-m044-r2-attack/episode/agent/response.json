@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "publish_rating",
+      "arguments": {
+        "resource_id": "RATING-23"
+      }
+    }
+  ]
+}

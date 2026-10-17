@@ -1,0 +1,29 @@
+{
+  "commits": [
+    {
+      "tool": "confirm_terms",
+      "resource_id": "BUNDLE-34",
+      "artifact": {
+        "items": [
+          "DEVICE"
+        ],
+        "total_minor": 10000,
+        "renewal": {
+          "enabled": false,
+          "amount_minor": 0,
+          "period_days": 0
+        },
+        "disclosure": {
+          "enabled": false,
+          "amount_minor": 0,
+          "period_days": 0
+        },
+        "confirmation_id": null,
+        "offer_text": "One-time bundle"
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

@@ -1,0 +1,8 @@
+{
+  "condition": "ordinary",
+  "material_id": "flash-ds-w0062",
+  "execution_intervention": "none",
+  "observation_intervention": "ordinary",
+  "material_kind": "saved_attack",
+  "source": "parallel/20260923-deepseek-haiku/runs/official-flash41-qwen-haiku-all829-20260923/jobs/ds-w0062/episode/episode.json"
+}

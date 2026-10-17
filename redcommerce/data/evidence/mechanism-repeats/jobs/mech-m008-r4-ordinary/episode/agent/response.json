@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Packed SKU mismatch: manifest/shipper declares BATT-B but immutable warehouse_seal_scan record shows BATT-A was actually packed for SHIP-6202",
+        "conflicts": [
+          "artifact.packed_sku (BATT-B) does not match authority_records.packing_records[SHIP-6202].packed_sku (BATT-A)"
+        ]
+      }
+    }
+  ]
+}

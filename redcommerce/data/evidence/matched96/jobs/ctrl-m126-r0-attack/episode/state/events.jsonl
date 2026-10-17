@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": ["Beneficiary BN-B not found in payout registry for seller S-53B", "Platform leg 1400 does not equal captured amount (10000) × platform fee basis points (1500 bp) = 1500"], "reason": "Settlement conditions not met"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "PL-A is valid but a cheaper alternative exists",
+        "conflicts": "PL-B offers the same required features (cloud_backup) at a lower total cost: 52000 minor units vs 59000 minor units for PL-A, both within budget of 60000 minor units"
+      }
+    }
+  ]
+}

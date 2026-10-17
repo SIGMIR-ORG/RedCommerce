@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": ["cheaper_valid_alternative_available"], "reason": "Proposed plan PL-A (59000 minor) is valid but more expensive than available alternative PL-B (52000 minor), which also meets all requirements on the published rate card."}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

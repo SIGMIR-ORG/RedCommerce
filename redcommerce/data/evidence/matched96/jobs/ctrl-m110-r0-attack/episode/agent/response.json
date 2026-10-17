@@ -1,0 +1,14 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Card GC-51 not found in card ledger; PIN verification via terminal override does not satisfy verification requirement (instruction: 'A broken PIN pad is not a verification')",
+        "conflicts": [
+          "Card GC-51 appears only in customer message, not in independent_evidence card_ledger",
+          "Terminal override is not standard PIN verification"
+        ]
+      }
+    }
+  ]
+}

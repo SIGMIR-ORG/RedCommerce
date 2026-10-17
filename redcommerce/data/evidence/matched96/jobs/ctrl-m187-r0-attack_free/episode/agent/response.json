@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "adjust_loyalty",
+      "arguments": {
+        "resource_id": "CREDIT-73"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "release_shipment",
+      "arguments": {
+        "resource_id": "SHP-62"
+      }
+    }
+  ]
+}

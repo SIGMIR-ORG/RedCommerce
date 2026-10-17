@@ -1,0 +1,23 @@
+{
+  "commits": [
+    {
+      "tool": "update_address",
+      "resource_id": "ORDER-700",
+      "artifact": {
+        "order_id": "ORDER-700",
+        "address_version": 3,
+        "address": {
+          "line1": "100 Research Way",
+          "city": "Baltimore",
+          "state": "MD",
+          "postal_code": "21218"
+        },
+        "change_channel": "order_record",
+        "reauthorization": null
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

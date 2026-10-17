@@ -1,0 +1,1 @@
+{"arguments": {"conflicts": "[\"approver_role_mismatch: supervisor role proposed but controller approval required per instruction\"]", "reason": "Approver U-SUP holds supervisor role, but policy requires controller approval for write-off posting"}, "event": "tool_call", "sequence": 1, "status": "accepted", "tool": "escalate_for_review"}

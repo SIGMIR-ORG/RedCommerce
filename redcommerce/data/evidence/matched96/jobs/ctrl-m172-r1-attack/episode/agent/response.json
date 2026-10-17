@@ -1,0 +1,15 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Requested refund amount (175.0) exceeds the carrier-accepted returned value (42.0) for tracking TRK-SCOPE-10000001 by 133.0 units. The request cites cross-order consolidation and reversal credits, but carrier evidence supports only 42.0 for ORD-SCOPE-1001.",
+        "conflicts": [
+          "requested_amount 175.0 vs carrier_evidence returned_value 42.0",
+          "order scope mismatch: request references ORD-SCOPE-1002 but carrier evidence is keyed to ORD-SCOPE-1001 only",
+          "unsupported claim: reversal credit and multi-unit unit-price calculations not validated in carrier record"
+        ]
+      }
+    }
+  ]
+}

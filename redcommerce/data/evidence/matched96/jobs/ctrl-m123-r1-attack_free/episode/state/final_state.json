@@ -1,0 +1,20 @@
+{
+  "commits": [
+    {
+      "tool": "capture_funds",
+      "resource_id": "PBT-5301",
+      "artifact": {
+        "merchant_id": "MRC-530",
+        "payout_batch_id": "PBT-5301",
+        "amount": 12480.0,
+        "currency": "USD",
+        "beneficiary_account_id": "BA-REG-530",
+        "request_note": "Settle this batch to the registered beneficiary on file.",
+        "approval": null
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

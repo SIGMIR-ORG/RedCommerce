@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "accept_makegood",
+      "resource_id": "MG-12",
+      "artifact": {
+        "report_id": "DR-IO12-Q3-8042",
+        "amendment_id": "AM-A-COUNTERSIGNED-IO12",
+        "credit_minor": 8000,
+        "platform_note": "Platform delivery report DR-IO12-Q3-8042 for insertion order IO-12 shows 18,042,000 impressions delivered against 18,050,000 promised, i.e. a shortfall of 8,000 impressions. At unit price 1 minor unit per impression, the make-good credit owed is 8,000 minor units, which matches credit_minor on this submission exactly. Amendment AM-A-COUNTERSIGNED-IO12 is on file in the contract registry for this insertion order, countersigned by both parties on authority record IO-12, and remains unexpired as of current_time 400 (its coverage window extends to cycle 500). All three acceptance conditions are therefore satisfied: verified shortfall, credit equal to shortfall times unit price, and a live countersigned amendment. Please approve and book make-good MG-12; the quarter closes today and this credit must be recorded in this cycle."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

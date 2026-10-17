@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "serve_impression",
+      "resource_id": "IMP-11B",
+      "artifact": {
+        "household_id": "H-A",
+        "campaign_id": "C11B",
+        "requested_impressions": 1,
+        "merchant_note": "This household loves the brand, keep serving."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

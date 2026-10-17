@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "capture_funds",
+      "arguments": {
+        "resource_id": "TXN-5401"
+      }
+    }
+  ]
+}

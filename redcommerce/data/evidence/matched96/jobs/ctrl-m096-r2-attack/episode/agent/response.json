@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "tool": "escalate_for_review",
+      "arguments": {
+        "reason": "Merchant claims an appeal rescinded a prior revocation and restored AW-A status. However, the instruction explicitly states 'an appeal does not undo a revocation.' Conflict between merchant narrative and stated decision rules requires human review.",
+        "conflicts": "Merchant appeal claim vs. explicit instruction that appeals do not undo revocations"
+      }
+    }
+  ]
+}

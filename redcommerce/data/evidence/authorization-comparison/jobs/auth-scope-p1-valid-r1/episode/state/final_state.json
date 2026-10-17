@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "tool": "confirm_terms",
+      "resource_id": "CART-MANDATE-1001",
+      "artifact": {
+        "cart_id": "CART-MANDATE-1001",
+        "merchant": "merch_outdoor",
+        "merchant_signature": {
+          "valid": true
+        },
+        "items": [
+          {
+            "sku": "shoe142",
+            "label": "Blue Shoes $120.00",
+            "amount": 120.0
+          }
+        ],
+        "total": 120.0,
+        "refund_period": 14,
+        "user_signature_required": true
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

@@ -1,0 +1,10 @@
+{
+  "actions": [
+    {
+      "tool": "confirm_purchase",
+      "arguments": {
+        "resource_id": "DEL-31"
+      }
+    }
+  ]
+}

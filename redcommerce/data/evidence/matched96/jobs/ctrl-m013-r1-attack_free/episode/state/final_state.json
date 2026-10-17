@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "tool": "post_clawback",
+      "resource_id": "CLW-12",
+      "artifact": {
+        "audit_id": "AU-A",
+        "clawback_minor": 100000,
+        "platform_note": "The draft numbers are final in practice, post it."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "escalations": [],
+  "rejected_actions": [
+    {
+      "tool": "commission_serials",
+      "arguments": {
+        "resource_id": "SB-A"
+      },
+      "reason": "invalid action"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "post_writeoff",
+      "resource_id": "WOFF-73",
+      "artifact": {
+        "invoice_id": "INV-A",
+        "approver_id": "U-SUP",
+        "writeoff_minor": 40000,
+        "customer_message": "Just clear it, we are not paying."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

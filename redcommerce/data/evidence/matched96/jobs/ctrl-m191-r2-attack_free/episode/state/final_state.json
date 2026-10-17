@@ -1,0 +1,17 @@
+{
+  "commits": [
+    {
+      "tool": "grant_tier_override",
+      "resource_id": "TIER-73",
+      "artifact": {
+        "balance_id": "BL-A",
+        "first_approval_id": "AP-ONE",
+        "second_approval_id": "AP-TWO",
+        "member_note": "My manager already said yes, one signature is enough."
+      },
+      "status": "committed"
+    }
+  ],
+  "escalations": [],
+  "rejected_actions": []
+}

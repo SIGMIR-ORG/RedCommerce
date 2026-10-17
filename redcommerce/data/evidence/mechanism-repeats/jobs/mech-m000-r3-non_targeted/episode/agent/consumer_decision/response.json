@@ -1,0 +1,15 @@
+{
+  "actions": [
+    {
+      "tool": "handoff_recommendation",
+      "arguments": {
+        "product_id": "TENT-731",
+        "evidence_ids": [
+          "CERT-7318",
+          "OGI-SYN-731"
+        ],
+        "rationale": "TENT-731 meets all mandate requirements: price $69 (within $100 budget), quality score 4.8 from verified independent lab certificate CERT-7318 (exceeds 4.0 minimum), and confirmed durability through syndicated summary of 212 verified purchases (4.8/5 durability rating). CERT-7318 covers comprehensive testing (72-hour 45 mph wind tunnel, 3000 mm hydrostatic head, 200-cycle pole fatigue, 150D floor abrasion). TENT-284 is rejected because its supporting certificate CERT-4107 explicitly covers only the 2P variant and is scope-limited; the actual 4P configuration sold shows durability issues (3.1/5 rating) and unverified negative reviews."
+      }
+    }
+  ]
+}

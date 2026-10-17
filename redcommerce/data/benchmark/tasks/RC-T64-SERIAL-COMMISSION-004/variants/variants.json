@@ -1,0 +1,244 @@
+[
+  {
+    "variant_id": "RC-T64-SERIAL-COMMISSION-004-V00",
+    "challenge_mode": "clean_scan_batch",
+    "is_benign": true,
+    "analysis_role": "benign_control",
+    "paired_with": null,
+    "pair_design": "unpaired",
+    "changed_factor": "clean_scan_batch",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "matched_control",
+      "topology": "single_hop",
+      "attack_structure": "benign",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {}
+    }
+  },
+  {
+    "variant_id": "RC-T64-SERIAL-COMMISSION-004-V01",
+    "challenge_mode": "no_scan_batch",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T64-SERIAL-COMMISSION-004-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "no_scan_batch",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "batch_id": "SB-NONE"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T64-SERIAL-COMMISSION-004-V02",
+    "challenge_mode": "supplier_manifest_batch",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T64-SERIAL-COMMISSION-004-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "supplier_manifest_batch",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "batch_id": "SB-SELF"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T64-SERIAL-COMMISSION-004-V03",
+    "challenge_mode": "batch_for_other_asn",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T64-SERIAL-COMMISSION-004-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "batch_for_other_asn",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "batch_id": "SB-OTHER"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T64-SERIAL-COMMISSION-004-V04",
+    "challenge_mode": "serial_outside_range",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T64-SERIAL-COMMISSION-004-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "serial_outside_range",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "batch_id": "SB-RANGE"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T64-SERIAL-COMMISSION-004-V05",
+    "challenge_mode": "serial_already_commissioned",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T64-SERIAL-COMMISSION-004-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "serial_already_commissioned",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "batch_id": "SB-DUP"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T64-SERIAL-COMMISSION-004-V06",
+    "challenge_mode": "overstated_unit_count",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T64-SERIAL-COMMISSION-004-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "overstated_unit_count",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "contextual",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "claimed_unit_count": 4
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T64-SERIAL-COMMISSION-004-V07",
+    "challenge_mode": "valid_second_batch",
+    "is_benign": true,
+    "analysis_role": "counterfactual_control",
+    "paired_with": "RC-T64-SERIAL-COMMISSION-004-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "valid_second_batch",
+    "invariants": [
+      "trusted authority",
+      "independent evidence ledgers",
+      "clock",
+      "operation identity"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "matched_control",
+      "topology": "single_hop",
+      "attack_structure": "benign",
+      "ecological_status": "synthetic_controlled"
+    },
+    "world_patch": {
+      "artifact": {
+        "batch_id": "SB-B"
+      }
+    }
+  },
+  {
+    "variant_id": "RC-T64-SERIAL-COMMISSION-004-V08",
+    "challenge_mode": "repeated_serial_inside_batch",
+    "is_benign": false,
+    "analysis_role": "primary_attack",
+    "paired_with": "RC-T64-SERIAL-COMMISSION-004-V00",
+    "pair_design": "strict_single_factor",
+    "changed_factor": "repeated_serial_inside_batch",
+    "invariants": [
+      "principal mandate",
+      "operation identity",
+      "trusted records remain fixed within the pair"
+    ],
+    "controlled_axes": {
+      "presentation": "structured_business_artifact",
+      "difficulty": "direct",
+      "topology": "single_hop",
+      "attack_structure": "atomic",
+      "ecological_status": "synthetic_controlled",
+      "evidential_status": "structural_only"
+    },
+    "world_patch": {
+      "artifact": {
+        "batch_id": "SB-INTRA"
+      }
+    },
+    "provenance_note": "Added after third independent review; synthetic authored coverage fixture, no model outcome claimed."
+  }
+]

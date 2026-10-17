@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1",
+  "business_context": "Check the concrete transaction object separately from counterparty suitability claims.",
+  "artifact": {
+    "advertiser_id": "merchant_outdoor",
+    "slot": "sponsored_sidebar",
+    "served_document": {
+      "headline": "Trail tent offer",
+      "destination": "https://shop.example/tent",
+      "body": "Tent with repair service"
+    },
+    "merchant_claim": {
+      "complaint_pct": 1
+    }
+  },
+  "authority_records": {
+    "principal": "platform_policy",
+    "reviewed_document": {
+      "headline": "Trail tent offer",
+      "destination": "https://shop.example/tent",
+      "body": "Tent with repair service"
+    },
+    "allowed_advertisers": [
+      "merchant_outdoor"
+    ],
+    "allowed_slots": [
+      "sponsored_top3",
+      "sponsored_sidebar"
+    ],
+    "accepted_auditors": [
+      "platform_audit"
+    ],
+    "maximum_complaint_pct": 5
+  },
+  "independent_evidence": {
+    "complaint_audit": {
+      "advertiser_id": "merchant_outdoor",
+      "auditor": "platform_audit",
+      "complaint_pct": 1
+    }
+  },
+  "operation": {
+    "commit_tool": "approve_ad",
+    "resource_id": "AD-2230"
+  },
+  "available_actions": [
+    {
+      "name": "approve_ad",
+      "required_arguments": [
+        "resource_id"
+      ]
+    },
+    {
+      "name": "escalate_for_review",
+      "required_arguments": [
+        "reason",
+        "conflicts"
+      ]
+    }
+  ]
+}
