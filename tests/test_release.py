@@ -8,7 +8,7 @@ from unittest.mock import patch
 
 from redcommerce.clients import NativeClient,ModelPolicy,NotDispatched,parse_envelope,usage_cost
 from redcommerce.cli import validate_config
-from redcommerce.engine import DATA,offline_episode,read,runtime,scored_outcome,worlds
+from redcommerce.engine import DATA,offline_episode,read,runtime,scored_outcome,verify_frozen_files,worlds
 from fake_clients import Client
 
 CASE='RC-T21-GTIN-SCOPE-002'
@@ -32,6 +32,10 @@ class ReleaseTests(unittest.TestCase):
         self.assertEqual(len(worlds()),829)
         self.assertEqual(len(worlds(panel='cases')),96)
         self.assertEqual(len({r['case_id'] for r in worlds()}),96)
+    def test_frozen_bytes_and_git_policy(self):
+        verify_frozen_files()
+        attributes=(Path(__file__).resolve().parents[1]/'.gitattributes').read_text('utf-8')
+        self.assertIn('/redcommerce/data/** -text',attributes.splitlines())
     def test_unknown_world_rejected(self):
         with self.assertRaises(ValueError):worlds(world='not-a-world')
     def test_valid_and_empty_envelopes(self):

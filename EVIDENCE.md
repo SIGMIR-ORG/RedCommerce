@@ -12,3 +12,7 @@ The original predicates are distributed as evaluated, including known specificat
 Main-table reproduction aggregates saved records. Companion-study replay reconstructs observations, world snapshots, actions, state and full deterministic scores. Remote resampling cannot guarantee identical model outputs. Offline reference/vulnerable policies and simulated clients are software checks, not empirical model performance.
 
 Future task corrections should receive a dataset version and revised source manifest. They should be reported separately from the frozen paper results.
+
+## Git checkout and line endings
+
+Frozen records are hashed as bytes, including their original line endings. The root `.gitattributes` sets `/redcommerce/data/** -text` so Git preserves those bytes on Windows and Linux. Do not apply text normalization to this directory or regenerate hashes merely to make a changed checkout pass. For a repository initially committed without this rule, restore the original release files first if needed, then run `git add --renormalize redcommerce/data` with the rule in place and commit the restored bytes. `python -B scripts/check_release.py` verifies the files against the original manifest.

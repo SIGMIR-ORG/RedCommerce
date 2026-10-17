@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
+# Ordinary source files may use Git's text handling.
 * text=auto
+# Frozen files have byte-level SHA256 locks, including their original line endings.
+/redcommerce/data/** -text
