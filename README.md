@@ -11,11 +11,12 @@ The corpus contains **96 executable task packages and 829 variant worlds**, cove
 Python **3.11 or later**. No third-party Python packages are needed for direct execution. From this repository:
 
 ```sh
+python -B scripts/install_ci_data.py
 python -B -m redcommerce list
 python -B -m redcommerce run --case RC-T21-GTIN-SCOPE-002 --out runs/listing-demo
 ```
 
-The demo runs a frozen counterparty submission against a deterministic reference policy. It saves an episode, final state, and score. It makes **zero model calls** and does not measure model ability.
+The installer downloads and verifies the pinned Hugging Face data release only when no embedded dataset is present. The demo runs a frozen counterparty submission against a deterministic reference policy. It saves an episode, final state, and score. It makes **zero model calls** and does not measure model ability.
 
 The listing demo escalates the frozen invalid listing. To compare the original lawful world without applying that submission:
 
@@ -38,6 +39,11 @@ redcommerce --help
 
 ## Reproduce the paper
 
+For the separate Hugging Face dataset layout and `REDCOMMERCE_DATA_DIR`, see
+[DATA_HOSTING.md](DATA_HOSTING.md). The embedded paper dataset remains supported
+until the remote release is published and verified. Saved-run format bridges and
+the native-framework integration assessment are in [integrations/](integrations/README.md).
+
 ```sh
 python -B -m redcommerce reproduce
 python -B -m redcommerce replay
@@ -52,7 +58,7 @@ The first command validates the frozen files and recomputes main results, stage 
 | Qwen 3.8 Max | 208 / 826 | 25.18% |
 | Gemini 3.8 Flash | 188 / 800 | 23.50% |
 
-Each configuration is scheduled over 829 worlds, with **Haiku 4.5 fixed as the business agent**. The exported main records retain service exclusions and unresolved outcomes. Full main-panel HTTP transcripts are not part of this distribution; main aggregation and companion-trajectory replay have different reproduction scopes.
+Each configuration is scheduled over 829 worlds, with **Haiku 4.5 fixed as the business agent**. The exported main records retain service exclusions and unresolved outcomes. Publication derivatives of the saved main and companion interactions are available in the [Hugging Face dataset](https://huggingface.co/datasets/Fentz/RedCommerce) and the [trajectory explorer](https://sigmir-org.github.io/RedCommerce/trajectories.html). These are sanitized records, not unredacted HTTP transcripts; main aggregation and companion-trajectory replay have different reproduction scopes.
 
 The matched study compares ordinary inputs with saved attacks on 96 Cases, three fresh business runs per condition. Adverse outcomes are **1/288 versus 63/288**, a **21.53-point increase** (95% Case-bootstrap interval 13.89–29.51). A post hoc exclusion of seven specification-sensitive Cases gives an 18.35-point increase. The repeated study covers eight successful saved attacks across four Cases; all 160 lawful counterparts complete without scored deviation or escalation. The 80-run authorization comparison probes issuer validity and refund scope.
 
@@ -97,4 +103,4 @@ The website uses relative URLs and can be published from `main:/docs` in GitHub 
 
 ## Release status
 
-This repository is prepared locally for author review. The public repository URL, arXiv identifier, final author list, and open-source license are awaiting confirmation. Licensing is described in [NOTICE.md](NOTICE.md); no public license is silently assigned.
+Code and the website are hosted at [SIGMIR-ORG/RedCommerce](https://github.com/SIGMIR-ORG/RedCommerce); data and saved trajectories are hosted at [Fentz/RedCommerce](https://huggingface.co/datasets/Fentz/RedCommerce). The arXiv identifier, final citation, and code/data licenses remain to be confirmed. Licensing is described in [NOTICE.md](NOTICE.md); public availability is not a grant of an unspecified open-source license.

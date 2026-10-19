@@ -42,9 +42,11 @@ def validate_config(config):
 
 def code_fingerprint():
     here=Path(__file__).resolve().parent
-    files=sorted(here.glob('*.py'))+[here/'instruction_appendices.json', DATA/'FILES.json',
-        DATA/'benchmark/parallel/20260913-live-migration/provider.py']
-    return {str(p.relative_to(here)).replace('\\','/'):hashlib.sha256(p.read_bytes()).hexdigest() for p in files}
+    files=[(p.name,p) for p in sorted(here.glob('*.py'))]+[
+        ('instruction_appendices.json',here/'instruction_appendices.json'),
+        ('data/FILES.json',DATA/'FILES.json'),
+        ('data/benchmark/parallel/20260913-live-migration/provider.py',DATA/'benchmark/parallel/20260913-live-migration/provider.py')]
+    return {name:hashlib.sha256(p.read_bytes()).hexdigest() for name,p in files}
 
 def prepare(args):
     from .engine import verify_frozen_files

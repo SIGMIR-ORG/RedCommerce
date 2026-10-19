@@ -10,13 +10,18 @@ from pathlib import Path
 import subprocess
 import sys
 
-DATA = Path(__file__).resolve().parent/'data'
+DATA = Path(os.environ.get('REDCOMMERCE_DATA_DIR', str(Path(__file__).resolve().parent/'data'))).expanduser().resolve()
+FROZEN_MANIFEST_SHA256 = '0d8ffb47b70ba444c4d512b6aef46bb8915b8ad6996ea46f1b3d95fa0b424a69'
 _verified=False
 
 def verify_frozen_files():
     global _verified
     if _verified:
         return
+    if not (DATA/'FILES.json').is_file():
+        raise ValueError('Dataset not installed. Download the pinned benchmark-data.zip and set REDCOMMERCE_DATA_DIR to its extracted directory; see DATA_HOSTING.md.')
+    if hashlib.sha256((DATA/'FILES.json').read_bytes()).hexdigest()!=FROZEN_MANIFEST_SHA256:
+        raise ValueError('Dataset manifest does not match the frozen paper release')
     manifest=read(DATA/'FILES.json')
     for name,expected in manifest.items():
         if hashlib.sha256((DATA/name).read_bytes()).hexdigest()!=expected:
@@ -34,6 +39,7 @@ def write(path,value):
     temporary.replace(path)
 
 def runtime():
+    verify_frozen_files()
     sys.dont_write_bytecode = True
     base = DATA/'benchmark'
     migration = base/'parallel/20260913-live-migration'
@@ -44,6 +50,7 @@ def runtime():
     return loaded
 
 def worlds(case=None,world=None,panel='all'):
+    verify_frozen_files()
     rows = read(DATA/'configs/worlds.json')['rows']
     if case:
         rows = [r for r in rows if r['case_id']==case]

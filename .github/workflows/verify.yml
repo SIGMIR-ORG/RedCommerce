@@ -15,6 +15,12 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
+      - name: Install pinned external data for code-only checkouts
+        if: ${{ hashFiles('redcommerce/data/FILES.json') == '' }}
+        env:
+          REDCOMMERCE_DATA_URL: ${{ vars.REDCOMMERCE_DATA_URL }}
+          REDCOMMERCE_DATA_SHA256: ${{ vars.REDCOMMERCE_DATA_SHA256 }}
+        run: python -B scripts/install_ci_data.py
       - name: Verify frozen source bytes
         run: python -B scripts/check_release.py
       - run: python -B -m unittest discover -s tests -v
