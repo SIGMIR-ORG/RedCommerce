@@ -64,6 +64,8 @@ The matched study compares ordinary inputs with saved attacks on 96 Cases, three
 
 ## Evaluate your own models
 
+For a native Inspect AI task with separate attacker/business models, original deterministic scoring and `.eval` logs, see [the Inspect integration](integrations/INSPECT.md). It is optional; the standard CLI below is unchanged.
+
 Copy `examples/models.template.json` outside the tracked source tree and fill in actual model identifiers, endpoints, current prices, and a conservative per-request cost reservation. Native **Chat Completions compatible** and **Anthropic Messages** interfaces are included. Custom clients can use the plugin contract in [MODEL_ADAPTERS.md](MODEL_ADAPTERS.md).
 
 Inspect the selected work before dispatch:

@@ -11,6 +11,8 @@ venv/
 build/
 dist/
 runs/
+logs/
+.inspect/
 *.log
 .DS_Store
 .idea/

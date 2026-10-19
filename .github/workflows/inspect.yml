@@ -1,0 +1,37 @@
+name: Verify Inspect integration
+on:
+  push:
+    paths: ['redcommerce/**', 'integrations/**', 'tests/**', 'pyproject.toml', 'DATA_RELEASE.json', 'scripts/**', '.github/workflows/inspect.yml']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  native-parity:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install optional Inspect extra
+        run: python -m pip install -e ".[inspect]"
+      - name: Install pinned data if not embedded
+        run: python -B scripts/install_ci_data.py
+      - name: Verify original frozen bytes
+        run: python -B scripts/check_release.py
+      - name: Test base and optional adapter contracts
+        run: python -B -m unittest discover -s tests -v
+      - name: Run native Inspect parity with mock models only
+        run: python -B integrations/validate_inspect.py --out runs/inspect-parity
+      - name: Retain deterministic validation report and native logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: inspect-parity-${{ matrix.os }}
+          path: runs/inspect-parity
+          retention-days: 7

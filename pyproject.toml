@@ -9,6 +9,9 @@ description = "Executable agentic commerce tasks and deterministic evaluation"
 requires-python = ">=3.11"
 dependencies = []
 
+[project.optional-dependencies]
+inspect = ["inspect-ai==0.3.281"]
+
 [project.scripts]
 redcommerce = "redcommerce.cli:main"
 

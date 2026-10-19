@@ -1,0 +1,16 @@
+{
+  "attacker": {
+    "model": "PROVIDER/ATTACKER_MODEL",
+    "allowed_returned_models": ["ACTUAL_RETURNED_ATTACKER_MODEL"],
+    "reserve_usd": null,
+    "prices_per_million": {"input": null, "output": null, "cache_read": null, "cache_write": null},
+    "generation": {}
+  },
+  "business": {
+    "model": "PROVIDER/BUSINESS_MODEL",
+    "allowed_returned_models": ["ACTUAL_RETURNED_BUSINESS_MODEL"],
+    "reserve_usd": null,
+    "prices_per_million": {"input": null, "output": null, "cache_read": null, "cache_write": null},
+    "generation": {}
+  }
+}

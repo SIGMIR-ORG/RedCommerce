@@ -6,7 +6,7 @@ parity claim is introduced by the public-release preparation.
 
 | Framework | Fit | Integration route | Current status |
 | --- | --- | --- | --- |
-| Inspect AI | Best first runtime integration | Custom Solver/Agent calls the existing episode scheduler; role policies use Inspect model handles; original deterministic scorer is wrapped as a custom scorer | API/design assessment complete; saved-sample JSONL exporter supplied; native multi-agent runtime not implemented |
+| Inspect AI | Native runtime implemented | Custom solver calls the original episode scheduler; role policies use Inspect model handles; original deterministic scorer is wrapped as a custom scorer | Runnable task/model transport, named model roles and native logs; deterministic native-runtime parity tested; no paid provider smoke claimed. See [INSPECT.md](INSPECT.md) |
 | Harbor | Strong for sandboxed distribution and trajectory interoperability | Custom installed/external agent wraps the existing loop; declare task environments and separate verifier; emit ATIF logs | ATIF-v1.7 saved-message exporter supplied; Harbor runtime/package validation not yet claimed |
 | garak | Useful as an auxiliary prompt/probe layer, less direct for full commerce episodes | Custom Generator calls an entire episode; a Probe defines a declared surface; Detector reads the original task scorer | Feasible but lowest priority; no garak plugin supplied |
 
@@ -41,6 +41,8 @@ The Inspect JSONL follows Sample fields (`id`, `input`, `target`, `metadata`); i
 an import fixture, not a runnable native evaluation with a custom scorer.
 
 ## Recommended native pilot
+
+The Inspect pilot is now implemented in `redcommerce/inspect_tasks.py` and `redcommerce/inspect_bridge.py`. Installation, offline/model commands, costs, resume behavior and the actual validation scope are documented in [INSPECT.md](INSPECT.md). The sections below describe the rationale and the remaining live-provider / Harbor work, not a claim that all three integrations are complete.
 
 Start with Inspect because custom solvers can wrap the existing Python scheduling
 loop directly and Inspect supports named multi-agent model roles. Prove parity on
